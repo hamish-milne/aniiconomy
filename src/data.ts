@@ -2,7 +2,7 @@ import type { AniiconomyReport, ChooseBlock, Item, Trade, TradeEntry } from "./r
 import rawReport from "./report.json";
 
 export const report = rawReport as unknown as AniiconomyReport;
-export type { Item, Trade, TradeEntry };
+export type { Item, Trade, TradeEntry, ChooseBlock };
 
 export function getItem(id: string): Item | undefined {
   return report.items[id];

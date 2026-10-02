@@ -1,13 +1,21 @@
 import {
   tradeIds,
   getTrade,
-  formatTradeOut,
   formatLimit,
   exchangeValueById,
   valueIndexTone,
   valueIndexLabel,
 } from "../data";
-import { hoverTrade, clearHover } from "../state";
+import { MapChips, TradeOutChips } from "./Shared";
+
+const sortedTradeIds = [...tradeIds].sort((a, b) => {
+  const av = exchangeValueById[a];
+  const bv = exchangeValueById[b];
+  if (av == null && bv == null) return 0;
+  if (av == null) return 1;
+  if (bv == null) return -1;
+  return bv - av;
+});
 
 export function TradesTab() {
   return (
@@ -16,7 +24,7 @@ export function TradesTab() {
         Trades ({tradeIds.length})
       </h2>
       <div className="space-y-2">
-        {tradeIds.map((id) => {
+        {sortedTradeIds.map((id) => {
           const trade = getTrade(id)!;
           const limit = formatLimit({
             per_day: trade.per_day,
@@ -27,11 +35,7 @@ export function TradesTab() {
           const tone = valueIndexTone(exchangeValueById[id]);
           const label = valueIndexLabel(exchangeValueById[id]);
           return (
-            <div
-              onmouseenter={() => hoverTrade(id)}
-              onmouseleave={clearHover}
-              className="cursor-default rounded-xl bg-white/3 p-3 ring-1 ring-white/5 transition hover:bg-white/7 hover:ring-indigo-400/30"
-            >
+            <div className="rounded-xl bg-white/3 p-3 ring-1 ring-white/5 transition hover:bg-white/7 hover:ring-indigo-400/30">
               <div className="flex items-center justify-between gap-2">
                 <p className="text-sm font-medium text-slate-100">{trade.name}</p>
                 <span
@@ -41,11 +45,18 @@ export function TradesTab() {
                   {label}
                 </span>
               </div>
-              {trade.in ? (
-                <p className="mt-1 text-xs text-slate-400">In: {formatTradeOut(trade.in)}</p>
-              ) : null}
-              <p className="mt-1 text-xs text-slate-400">Out: {formatTradeOut(trade.out)}</p>
-              {limit ? <p className="mt-1 text-[11px] text-slate-500">Limit: {limit}</p> : null}
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                {trade.in ? (
+                  <>
+                    <MapChips map={trade.in} />
+                    <span className="text-xs text-slate-500">→</span>
+                  </>
+                ) : (
+                  <span className="text-xs text-slate-500">Free →</span>
+                )}
+                <TradeOutChips out={trade.out} />
+              </div>
+              {limit ? <p className="mt-2 text-[11px] text-slate-500">Limit: {limit}</p> : null}
             </div>
           );
         })}

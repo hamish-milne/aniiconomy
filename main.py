@@ -753,7 +753,7 @@ def generate_markdown_report(report_data: dict) -> str:
 game_economy_yaml = yaml.safe_load(open("data.yaml"))
 report_data = generate_report_data(game_economy_yaml, time_horizon="month")
 
-with open("report.json", "w", encoding="utf-8") as f:
+with open("src/report.json", "w", encoding="utf-8") as f:
     json.dump(report_data, f, indent=2, ensure_ascii=False)
 print("Data written to report.json")
 

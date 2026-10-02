@@ -157,8 +157,8 @@ export function ShoppingListsTab() {
                 </span>
               </div>
               <ul className="space-y-1.5">
-                <List items={trades} itemKey={(entry, i) => `${entry.id}:${i}`}>
-                  {(entry) => <TradeEntryRow entry={entry} />}
+                <List items={trades} itemKey={(_entry, i) => i}>
+                  {(_entry, i) => <TradeEntryRow trades={trades} index={i} />}
                 </List>
               </ul>
             </div>

@@ -156,23 +156,23 @@
   },
   "trades": {
     "aniimo_catching": {
-      "name": "Aniimo Catching (x400)",
+      "name": "Aniimo Catching (x100)",
       "in": {
-        "time": 1
+        "time": 0.25
       },
       "out": {
-        "credits": 1000000,
+        "credits": 250000,
         "voxel_coin": 100
       },
       "per_week": 10
     },
     "aniimo_catching_repeat": {
-      "name": "Aniimo Catching (x400) (no Voxel Coin)",
+      "name": "Aniimo Catching (x100) (no Voxel Coin)",
       "in": {
-        "time": 1
+        "time": 0.25
       },
       "out": {
-        "credits": 1000000
+        "credits": 250000
       }
     },
     "primegy_restore": {
@@ -1267,7 +1267,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 1,
+                        "index": 2,
                         "count": 1
                       }
                     ]
@@ -1319,7 +1319,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -1496,7 +1496,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 1,
+                        "index": 2,
                         "count": 2
                       }
                     ]
@@ -1737,7 +1737,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       },
                       {
@@ -1938,7 +1938,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       },
                       {
@@ -4697,7 +4697,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 1,
+                        "index": 2,
                         "count": 1
                       }
                     ]
@@ -6813,7 +6813,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 1,
+                        "index": 2,
                         "count": 3
                       }
                     ]
@@ -8909,7 +8909,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 6
                       }
                     ]
@@ -9212,7 +9212,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 12
                       }
                     ]
@@ -11160,7 +11160,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       }
                     ]
@@ -11360,7 +11360,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 1,
+                      "index": 2,
                       "count": 1
                     }
                   ]

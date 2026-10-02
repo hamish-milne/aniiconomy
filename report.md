@@ -86,8 +86,8 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 | Aniipod Ultra Purchase (Lumins) | — | 9.9% | 🔴 |
 | Sparkling Cube Purchase | — | 8.0% | 🔴 |
 | Credits (Stamps) | — | 0.0% | 🔴 |
-| Aniimo Catching (x400) | 10/week | N/A | ⚪ |
-| Aniimo Catching (x400) (no Voxel Coin) | — | N/A | ⚪ |
+| Aniimo Catching (x100) | 10/week | N/A | ⚪ |
+| Aniimo Catching (x100) (no Voxel Coin) | — | N/A | ⚪ |
 | Primegy Restore (AFK) | 1/day | N/A | ⚪ |
 | Tumbler Purchase | — | N/A | ⚪ |
 
@@ -115,7 +115,7 @@ Yields **3x Sparkling Cube**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Starcryst Essence x2 (x1)
+  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
 - Sparkling Crystal Exchange (x2)
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -127,7 +127,7 @@ Yields **5x Sparkling Cube**:
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Sparkling Crystal Exchange (x4)
 
 **Budget: 20 money (spent 20.00) — day horizon**
@@ -166,7 +166,7 @@ Yields **5x Sparkling Cube**:
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
-  - Block 3: Starcryst Essence x2 (x2)
+  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
 - Sparkling Crystal Purchase (x76)
 - Sparkling Crystal Exchange (x3)
 
@@ -217,7 +217,7 @@ Yields **11x Sparkling Cube**:
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x3), Capaseed x10 (x3)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2), Sparkling Crystal x300 (x4)
+  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x4)
 - Sparkling Crystal Purchase (x180)
 - Sparkling Crystal Exchange (x5)
 
@@ -259,7 +259,7 @@ Yields **16x Sparkling Cube**:
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x5), Capaseed x10 (x7)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2), Sparkling Crystal x300 (x10)
+  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x10)
 - Sparkling Crystal Purchase (x100)
 - Sparkling Crystal Exchange (x4)
 
@@ -974,7 +974,7 @@ Yields **4x Capafruit**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Starcryst Essence x2 (x1)
+  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
 - Capaseed Exchange
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -1477,7 +1477,7 @@ Yields **35x Vein Essence**:
 - Premium Custom Pack (x3)
   - Block 1: Capaseed x10 (x3)
   - Block 2: Vein Essence x3 (x3)
-  - Block 3: Starcryst Essence x2 (x3)
+  - Block 3: Mark of the Strong - Breezy Plains x2 (x3)
 - Primegy Purchase (x2)
 - Daily Supply Pack (x3)
 - Vein Essence (Stamps) (x4)
@@ -2053,7 +2053,7 @@ Yields **294x Star Sand**:
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x6)
+  - Block 3: Starcryst Essence x2 (x6)
 - Primegy Purchase (x34)
 - Alpha Challenge (Capability Awakening) (x28)
 - Omega Challenge (Capability Awakening) (x3)
@@ -2125,7 +2125,7 @@ Yields **294x Star Sand**:
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x6), Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x12)
+  - Block 3: Starcryst Essence x2 (x12)
 - Primegy Purchase (x34)
 - Alpha Challenge (Capability Awakening) (x28)
 - Omega Challenge (Capability Awakening) (x3)
@@ -2629,7 +2629,7 @@ Yields **60x Flux Crystal**:
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Starcryst Essence x2 (x2)
 - Flux Crystal (Stamps) (x60)
 
 ## Overall Best Trades
@@ -2678,7 +2678,7 @@ Total basket value: **34.61 money**
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Starcryst Essence x2 (x1)
+  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
