@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aniiconomy/report.schema.json",
+  "title": "Aniiconomy Report",
+  "description": "Schema for Aniiconomy report output",
+  "type": "object",
+  "required": ["items", "trades", "time_horizon", "fair_prices", "exchange_value_index", "shopping_lists", "overall_best_trades"],
+  "additionalProperties": false,
+  "definitions": {
+    "item": {
+      "type": "object",
+      "required": ["name", "icon"],
+      "properties": {
+        "name": { "type": "string" },
+        "icon": { "type": "string" },
+        "type": { "type": "string", "enum": ["valuable", "currency", "material"] },
+        "acquisition_limit": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "per_day": { "type": "number" },
+            "per_week": { "type": "number" },
+            "per_month": { "type": "number" },
+            "per_season": { "type": "number" }
+          }
+        }
+      }
+    },
+    "choose_block": {
+      "type": "object",
+      "required": ["CHOOSE"],
+      "additionalProperties": false,
+      "properties": {
+        "CHOOSE": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": { "type": "number" }
+          }
+        }
+      }
+    },
+    "trade": {
+      "type": "object",
+      "required": ["name", "out"],
+      "properties": {
+        "name": { "type": "string" },
+        "in": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "out": {
+          "oneOf": [
+            { "type": "object", "additionalProperties": { "type": "number" } },
+            {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  { "type": "object", "additionalProperties": { "type": "number" } },
+                  { "$ref": "#/definitions/choose_block" }
+                ]
+              }
+            }
+          ]
+        },
+        "per_day": { "type": "number" },
+        "per_week": { "type": "number" },
+        "per_month": { "type": "number" },
+        "per_season": { "type": "number" }
+      }
+    },
+    "trade_branch_pick": {
+      "type": "object",
+      "required": ["index", "count"],
+      "additionalProperties": false,
+      "properties": {
+        "index": { "type": "integer", "minimum": 0 },
+        "count": { "type": "number" }
+      }
+    },
+    "trade_branch": {
+      "type": "object",
+      "required": ["block", "picks"],
+      "additionalProperties": false,
+      "properties": {
+        "block": { "type": "integer", "minimum": 0 },
+        "picks": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/trade_branch_pick" }
+        }
+      }
+    },
+    "trade_entry": {
+      "type": "object",
+      "required": ["id", "count"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "description": "Key into top-level trades" },
+        "count": { "type": "number" },
+        "branches": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/trade_branch" }
+        }
+      }
+    },
+    "shopping_plan": {
+      "type": "object",
+      "required": ["horizon", "money_spent", "quantity", "trades"],
+      "additionalProperties": false,
+      "properties": {
+        "horizon": { "type": "string", "enum": ["day", "week", "month", "season"] },
+        "money_spent": { "type": "number" },
+        "quantity": { "type": "number" },
+        "trades": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/trade_entry" }
+        }
+      }
+    },
+    "best_value_plan": {
+      "type": "object",
+      "required": ["horizon", "money_spent", "value", "trades"],
+      "additionalProperties": false,
+      "properties": {
+        "horizon": { "type": "string", "enum": ["day", "week", "month", "season"] },
+        "money_spent": { "type": "number" },
+        "value": { "type": "number" },
+        "trades": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/trade_entry" }
+        }
+      }
+    },
+    "budget_plans": {
+      "type": "object",
+      "required": ["budget", "plans"],
+      "additionalProperties": false,
+      "properties": {
+        "budget": { "type": "number" },
+        "plans": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/shopping_plan" }
+        }
+      }
+    },
+    "budget_best_value_plans": {
+      "type": "object",
+      "required": ["budget", "plans"],
+      "additionalProperties": false,
+      "properties": {
+        "budget": { "type": "number" },
+        "plans": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/best_value_plan" }
+        }
+      }
+    }
+  },
+  "properties": {
+    "items": {
+      "type": "object",
+      "description": "List of items keyed by item id",
+      "additionalProperties": { "$ref": "#/definitions/item" }
+    },
+    "trades": {
+      "type": "object",
+      "description": "List of trades keyed by trade id",
+      "additionalProperties": { "$ref": "#/definitions/trade" }
+    },
+    "time_horizon": {
+      "type": "string",
+      "enum": ["day", "week", "month", "season"],
+      "description": "Horizon used for exchange_value_index and fair_prices"
+    },
+    "fair_prices": {
+      "type": "object",
+      "description": "item id -> fair price in money",
+      "additionalProperties": { "type": "number" }
+    },
+    "exchange_value_index": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "limits", "value_index"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "description": "Key into top-level trades" },
+          "limits": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "per_day": { "type": "number" },
+              "per_week": { "type": "number" },
+              "per_month": { "type": "number" },
+              "per_season": { "type": "number" }
+            }
+          },
+          "value_index": { "type": ["number", "null"] }
+        }
+      }
+    },
+    "shopping_lists": {
+      "type": "object",
+      "description": "valuable item id -> list of per-budget plan sets",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/budget_plans" }
+      }
+    },
+    "overall_best_trades": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/budget_best_value_plans" }
+    }
+  }
+}
