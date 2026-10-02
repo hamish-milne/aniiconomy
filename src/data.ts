@@ -32,6 +32,10 @@ export function formatLimit(limit: Record<string, number | undefined>): string {
     .join(", ");
 }
 
+export function fairPrice(id: string): number | undefined {
+  return report.fair_prices[id];
+}
+
 /** Renders a trade's `out` field (a flat map, or a list of maps/CHOOSE blocks) as plain text. */
 export function formatMap(map: Record<string, number>): string {
   return Object.entries(map)

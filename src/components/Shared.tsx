@@ -1,4 +1,4 @@
-import { Effect, OneOf, select, subscribe, type Reactive } from "pipis";
+import { Effect, If, OneOf, select, subscribe, type Reactive } from "pipis";
 import {
   getItem,
   getTrade,
@@ -9,10 +9,24 @@ import {
   exchangeValueById,
   valueIndexTone,
   valueIndexLabel,
+  fairPrice,
 } from "../data";
-import { report } from "../data";
 import { hoverTarget, hoverItem, hoverTrade, clearHover } from "../state";
-import type { ChooseBlock, Trade, TradeEntry } from "../data";
+import type { ChooseBlock, Item, Trade, TradeEntry } from "../data";
+
+/** Formats a fair price, showing the inverse rate on a separate muted line when the price is below 1. */
+export function FairPriceValue({ price }: { price: Reactive<number> }) {
+  const priceText = select(price, (p) => formatNumber(p));
+  const inverseText = select(price, (p) =>
+    p > 0 && p < 1 ? `1 money ≈ ${formatNumber(1 / p)}` : "",
+  );
+  return (
+    <>
+      <span className="font-medium text-amber-300">{priceText}</span>
+      <span className="ml-1.5 text-slate-500 empty:hidden">{inverseText}</span>
+    </>
+  );
+}
 
 /** A compact, hoverable item pill; `onLeave` lets a containing row restore its own preview instead of clearing it. */
 export function ItemChip({
@@ -137,43 +151,74 @@ function tradeLimitText(trade: {
   );
 }
 
+/** Item half of the hover preview; scoped to its own narrowed `id` so all selects live here. */
+const EMPTY_ITEM: Item = { name: "", icon: "" };
+
+function ItemPreview({ id }: { id: Reactive<string> }) {
+  const item = select(id, (i) => getItem(i) ?? EMPTY_ITEM);
+  const icon = select(item, "icon");
+  const name = select(item, "name");
+  const type = select(item, "type");
+  const hasPrice = select(id, (i) => fairPrice(i) !== undefined);
+  const price = select(id, (i) => fairPrice(i) ?? 0);
+  const limitText = select(item, (i) => (i.acquisition_limit ? `Limit: ${formatLimit(i.acquisition_limit)}` : ""));
+
+  return (
+    <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
+      <div className="flex items-center gap-2 text-lg">
+        <span>{icon}</span>
+        <span className="font-semibold text-white">{name}</span>
+      </div>
+      <p className="mt-1 text-xs uppercase tracking-wide text-indigo-300/70 empty:hidden">{type}</p>
+      <If condition={hasPrice}>
+        <p className="mt-2 text-sm">
+          <span className="text-slate-400">Fair price: </span>
+          <FairPriceValue price={price} />
+        </p>
+      </If>
+      <p className="mt-1 text-xs text-slate-500 empty:hidden">{limitText}</p>
+    </div>
+  );
+}
+
+/** Trade half of the hover preview; scoped to its own narrowed `id` so all selects live here. */
+const EMPTY_TRADE: Trade = { name: "", out: {} };
+
+function TradePreview({ id }: { id: Reactive<string> }) {
+  const trade = select(id, (i) => getTrade(i) ?? EMPTY_TRADE);
+  const name = select(trade, "name");
+  const inText = select(trade, (t) => (t.in ? `In: ${formatTradeOut(t.in)}` : ""));
+  const outText = select(trade, (t) => `Out: ${formatTradeOut(t.out)}`);
+  const limitText = select(trade, tradeLimitText);
+  const tone = select(id, (i) => valueIndexTone(exchangeValueById[i]));
+  const label = select(id, (i) => valueIndexLabel(exchangeValueById[i]));
+
+  return (
+    <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
+      <div className="flex items-center justify-between gap-2">
+        <p className="font-semibold text-white">{name}</p>
+        <span
+          data-tone={tone}
+          className="shrink-0 rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset data-[tone=good]:bg-emerald-500/10 data-[tone=good]:text-emerald-300 data-[tone=good]:ring-emerald-400/30 data-[tone=average]:bg-amber-500/10 data-[tone=average]:text-amber-300 data-[tone=average]:ring-amber-400/30 data-[tone=poor]:bg-rose-500/10 data-[tone=poor]:text-rose-300 data-[tone=poor]:ring-rose-400/30 data-[tone=unknown]:bg-white/5 data-[tone=unknown]:text-slate-400 data-[tone=unknown]:ring-white/10"
+        >
+          {label}
+        </span>
+      </div>
+      <p className="mt-2 text-xs text-slate-400 empty:hidden">{inText}</p>
+      <p className="mt-1 text-xs text-slate-400">{outText}</p>
+      <p className="mt-1 text-[11px] text-slate-500">{limitText}</p>
+    </div>
+  );
+}
+
 export function PreviewPanel() {
   const visible = select(hoverTarget, (t) => t !== null);
   const kind = select(hoverTarget, (t) => t?.kind ?? "none");
 
-  // Kept stable while the hover kind is unchanged, so hovering between items/trades of the same
-  // kind updates text in place instead of remounting the preview card.
+  // Kept stable (dummy "" value) while the hover kind doesn't match, so hovering between
+  // items/trades of the same kind updates the scoped preview in place instead of remounting it.
   const itemId = select(hoverTarget, (t) => (t?.kind === "item" ? t.id : ""));
-  const itemIcon = select(itemId, (id) => getItem(id)?.icon ?? "");
-  const itemName = select(itemId, (id) => getItem(id)?.name ?? "");
-  const itemType = select(itemId, (id) => getItem(id)?.type ?? "");
-  // Label folded into the text itself (rather than a nested span) so `empty:hidden` can hide the
-  // whole line based on the <p>'s own text-node content.
-  const itemPriceText = select(itemId, (id) => {
-    const price = report.fair_prices[id];
-    return price !== undefined ? `Fair price: ${formatNumber(price)}` : "";
-  });
-  const itemLimitText = select(itemId, (id) => {
-    const limit = getItem(id)?.acquisition_limit;
-    return limit ? `Limit: ${formatLimit(limit)}` : "";
-  });
-
   const tradeId = select(hoverTarget, (t) => (t?.kind === "trade" ? t.id : ""));
-  const tradeName = select(tradeId, (id) => getTrade(id)?.name ?? "");
-  const tradeInText = select(tradeId, (id) => {
-    const trade = getTrade(id);
-    return trade?.in ? `In: ${formatTradeOut(trade.in)}` : "";
-  });
-  const tradeOutText = select(tradeId, (id) => {
-    const trade = getTrade(id);
-    return trade ? `Out: ${formatTradeOut(trade.out)}` : "";
-  });
-  const tradeLimit = select(tradeId, (id) => {
-    const trade = getTrade(id);
-    return trade ? tradeLimitText(trade) : "";
-  });
-  const tradeValueTone = select(tradeId, (id) => valueIndexTone(exchangeValueById[id]));
-  const tradeValueLabel = select(tradeId, (id) => valueIndexLabel(exchangeValueById[id]));
 
   return (
     <div
@@ -182,40 +227,12 @@ export function PreviewPanel() {
     >
       <OneOf selector={kind}>
         {{
-          item: (
-            <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
-              <div className="flex items-center gap-2 text-lg">
-                <span>{itemIcon}</span>
-                <span className="font-semibold text-white">{itemName}</span>
-              </div>
-              <p className="mt-1 text-xs uppercase tracking-wide text-indigo-300/70 empty:hidden">
-                {itemType}
-              </p>
-              <p className="mt-2 text-sm font-medium text-amber-300 empty:hidden">
-                {itemPriceText}
-              </p>
-              <p className="mt-1 text-xs text-slate-500 empty:hidden">{itemLimitText}</p>
-            </div>
-          ),
-          trade: (
-            <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
-              <div className="flex items-center justify-between gap-2">
-                <p className="font-semibold text-white">{tradeName}</p>
-                <span
-                  data-tone={tradeValueTone}
-                  className="shrink-0 rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset data-[tone=good]:bg-emerald-500/10 data-[tone=good]:text-emerald-300 data-[tone=good]:ring-emerald-400/30 data-[tone=average]:bg-amber-500/10 data-[tone=average]:text-amber-300 data-[tone=average]:ring-amber-400/30 data-[tone=poor]:bg-rose-500/10 data-[tone=poor]:text-rose-300 data-[tone=poor]:ring-rose-400/30 data-[tone=unknown]:bg-white/5 data-[tone=unknown]:text-slate-400 data-[tone=unknown]:ring-white/10"
-                >
-                  {tradeValueLabel}
-                </span>
-              </div>
-              <p className="mt-2 text-xs text-slate-400 empty:hidden">{tradeInText}</p>
-              <p className="mt-1 text-xs text-slate-400">{tradeOutText}</p>
-              <p className="mt-1 text-[11px] text-slate-500">{tradeLimit}</p>
-            </div>
-          ),
+          item: <ItemPreview id={itemId} />,
+          trade: <TradePreview id={tradeId} />,
           none: <span />,
         }}
       </OneOf>
     </div>
   );
 }
+

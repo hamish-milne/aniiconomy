@@ -1,4 +1,4 @@
-import { reactive, select, List, OneOf } from "pipis";
+import { reactive, select, List, OneOf, type Reactive } from "pipis";
 import { report, getItem, formatMoney, formatNumber, horizonLabel, valuableIds } from "../data";
 import { TradeEntryRow } from "./Shared";
 import { hoverItem, clearHover } from "../state";
@@ -19,6 +19,47 @@ function pickHorizon(plans: ShoppingPlan[], preferred?: string): string {
   const byPreferred = plans.find((p) => p.horizon === preferred);
   if (byPreferred && !isEmptyPlan(byPreferred)) return byPreferred.horizon;
   return (plans.find((p) => !isEmptyPlan(p)) ?? plans[0])?.horizon ?? preferred ?? "day";
+}
+
+/** Scoped to the narrowed current plan so its selects aren't mixed into the tab's top-level state. */
+function ReadyShoppingPlan({ plan }: { plan: Reactive<ShoppingPlan> }) {
+  const moneySpent = select(plan, (p) => formatMoney(p.money_spent));
+  const quantity = select(plan, (p) => formatNumber(p.quantity));
+  const trades = select(plan, (p) => p.trades);
+  return (
+    <div className="space-y-3 rounded-xl bg-white/2 p-4 ring-1 ring-white/5">
+      <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
+        <span>
+          Spent: <strong className="text-white">{moneySpent}</strong>
+        </span>
+        <span>
+          Yields: <strong className="text-white">{quantity}×</strong>
+        </span>
+      </div>
+      <ul className="space-y-1.5">
+        <List items={trades} itemKey={(_entry, i) => i}>
+          {(_entry, i) => <TradeEntryRow trades={trades} index={i} />}
+        </List>
+      </ul>
+    </div>
+  );
+}
+
+/** Shown only while `status` is "empty" - never read for real data, just keeps the prop type non-optional. */
+const EMPTY_SHOPPING_PLAN: ShoppingPlan = { horizon: "day", money_spent: 0, quantity: 0, trades: [] };
+
+/** Shows the current plan, or a fallback message when the budget/horizon combination yields nothing. */
+function ShoppingPlanPanel({ plan }: { plan: Reactive<ShoppingPlan | undefined> }) {
+  const status = select(plan, (p) => (p ? "ready" : "empty") as "ready" | "empty");
+  const readyPlan = select(plan, (p) => p ?? EMPTY_SHOPPING_PLAN);
+  return (
+    <OneOf selector={status}>
+      {{
+        ready: <ReadyShoppingPlan plan={readyPlan} />,
+        empty: <p className="text-sm text-slate-500">No plan available for this combination.</p>,
+      }}
+    </OneOf>
+  );
 }
 
 export function ShoppingListsTab() {
@@ -62,11 +103,6 @@ export function ShoppingListsTab() {
     const plans = firstPlans(s.valuable).find((bp) => bp.budget === s.budget)?.plans ?? [];
     return plans.find((p) => p.horizon === s.horizon) ?? plans[0];
   });
-
-  const planStatus = select(currentPlan, (p) => (p ? "ready" : "empty") as "ready" | "empty");
-  const moneySpent = select(currentPlan, (p) => (p ? formatMoney(p.money_spent) : ""));
-  const quantity = select(currentPlan, (p) => (p ? formatNumber(p.quantity) : ""));
-  const trades = select(currentPlan, (p) => p?.trades ?? []);
 
   return (
     <div className="space-y-6">
@@ -144,28 +180,7 @@ export function ShoppingListsTab() {
         </div>
       </section>
 
-      <OneOf selector={planStatus}>
-        {{
-          ready: (
-            <div className="space-y-3 rounded-xl bg-white/2 p-4 ring-1 ring-white/5">
-              <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
-                <span>
-                  Spent: <strong className="text-white">{moneySpent}</strong>
-                </span>
-                <span>
-                  Yields: <strong className="text-white">{quantity}×</strong>
-                </span>
-              </div>
-              <ul className="space-y-1.5">
-                <List items={trades} itemKey={(_entry, i) => i}>
-                  {(_entry, i) => <TradeEntryRow trades={trades} index={i} />}
-                </List>
-              </ul>
-            </div>
-          ),
-          empty: <p className="text-sm text-slate-500">No plan available for this combination.</p>,
-        }}
-      </OneOf>
+      <ShoppingPlanPanel plan={currentPlan} />
     </div>
   );
 }

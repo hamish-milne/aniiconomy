@@ -1,4 +1,4 @@
-import { reactive, select, List, OneOf } from "pipis";
+import { reactive, select, List, OneOf, type Reactive } from "pipis";
 import { report, formatMoney, formatNumber, horizonLabel } from "../data";
 import { TradeEntryRow } from "./Shared";
 import type { BestValuePlan } from "../report";
@@ -13,6 +13,47 @@ function pickHorizon(plans: BestValuePlan[], preferred?: string): string {
   const byPreferred = plans.find((p) => p.horizon === preferred);
   if (byPreferred && !isEmptyPlan(byPreferred)) return byPreferred.horizon;
   return (plans.find((p) => !isEmptyPlan(p)) ?? plans[0])?.horizon ?? preferred ?? "day";
+}
+
+/** Shown only while `status` is "empty" - never read for real data, just keeps the prop type non-optional. */
+const EMPTY_BEST_VALUE_PLAN: BestValuePlan = { horizon: "day", money_spent: 0, value: 0, trades: [] };
+
+/** Scoped to the narrowed current plan so its selects aren't mixed into the tab's top-level state. */
+function ReadyBestTradesPlan({ plan }: { plan: Reactive<BestValuePlan> }) {
+  const moneySpent = select(plan, (p) => formatMoney(p.money_spent));
+  const value = select(plan, (p) => formatNumber(p.value));
+  const trades = select(plan, (p) => p.trades);
+  return (
+    <div className="space-y-3 rounded-xl bg-white/2 p-4 ring-1 ring-white/5">
+      <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
+        <span>
+          Spent: <strong className="text-white">{moneySpent}</strong>
+        </span>
+        <span>
+          Value: <strong className="text-amber-300">{value}</strong>
+        </span>
+      </div>
+      <ul className="space-y-1.5">
+        <List items={trades} itemKey={(_entry, i) => i}>
+          {(_entry, i) => <TradeEntryRow trades={trades} index={i} />}
+        </List>
+      </ul>
+    </div>
+  );
+}
+
+/** Shows the current plan, or a fallback message when the budget/horizon combination yields nothing. */
+function BestTradesPlanPanel({ plan }: { plan: Reactive<BestValuePlan | undefined> }) {
+  const status = select(plan, (p) => (p ? "ready" : "empty") as "ready" | "empty");
+  const readyPlan = select(plan, (p) => p ?? EMPTY_BEST_VALUE_PLAN);
+  return (
+    <OneOf selector={status}>
+      {{
+        ready: <ReadyBestTradesPlan plan={readyPlan} />,
+        empty: <p className="text-sm text-slate-500">No plan available for this combination.</p>,
+      }}
+    </OneOf>
+  );
 }
 
 export function BestTradesTab() {
@@ -41,11 +82,6 @@ export function BestTradesTab() {
     const plans = groups.find((g) => g.budget === s.budget)?.plans ?? [];
     return plans.find((p) => p.horizon === s.horizon) ?? plans[0];
   });
-
-  const planStatus = select(currentPlan, (p) => (p ? "ready" : "empty") as "ready" | "empty");
-  const moneySpent = select(currentPlan, (p) => (p ? formatMoney(p.money_spent) : ""));
-  const value = select(currentPlan, (p) => (p ? formatNumber(p.value) : ""));
-  const trades = select(currentPlan, (p) => p?.trades ?? []);
 
   return (
     <div className="space-y-6">
@@ -99,28 +135,7 @@ export function BestTradesTab() {
         </div>
       </section>
 
-      <OneOf selector={planStatus}>
-        {{
-          ready: (
-            <div className="space-y-3 rounded-xl bg-white/2 p-4 ring-1 ring-white/5">
-              <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
-                <span>
-                  Spent: <strong className="text-white">{moneySpent}</strong>
-                </span>
-                <span>
-                  Value: <strong className="text-amber-300">{value}</strong>
-                </span>
-              </div>
-              <ul className="space-y-1.5">
-                <List items={trades} itemKey={(_entry, i) => i}>
-                  {(_entry, i) => <TradeEntryRow trades={trades} index={i} />}
-                </List>
-              </ul>
-            </div>
-          ),
-          empty: <p className="text-sm text-slate-500">No plan available for this combination.</p>,
-        }}
-      </OneOf>
+      <BestTradesPlanPanel plan={currentPlan} />
     </div>
   );
 }

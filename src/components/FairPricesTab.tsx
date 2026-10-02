@@ -1,5 +1,7 @@
-import { report, formatNumber } from "../data";
+import { constant } from "pipis";
+import { report } from "../data";
 import { hoverItem, clearHover } from "../state";
+import { FairPriceValue } from "./Shared";
 
 export function FairPricesTab() {
   const rows = Object.keys(report.fair_prices)
@@ -24,8 +26,8 @@ export function FairPricesTab() {
                 >
                   <td className="w-10 px-3 py-2 text-lg">{item.icon}</td>
                   <td className="px-3 py-2 text-slate-200">{item.name}</td>
-                  <td className="px-3 py-2 text-right font-medium text-amber-300">
-                    {formatNumber(report.fair_prices[id])}
+                  <td className="px-3 py-2 text-right">
+                    <FairPriceValue price={constant(report.fair_prices[id])} />
                   </td>
                 </tr>
               );
