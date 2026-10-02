@@ -37,9 +37,7 @@ export function TradeEntryRow({ entry }: { entry: TradeEntry }) {
             </span>
           ))}
         </div>
-      ) : (
-        null
-      )}
+      ) : null}
     </li>
   );
 }
@@ -103,17 +101,20 @@ export function PreviewPanel() {
       data-visible={visible}
       className="pointer-events-none fixed bottom-6 right-6 z-50 w-80 translate-y-4 scale-95 opacity-0 transition-all duration-300 ease-out data-visible:translate-y-0 data-visible:scale-100 data-visible:opacity-100"
     >
-      {OneOf({
-        selector: kind,
-        children: {
+      <OneOf selector={kind}>
+        {{
           item: (
             <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
               <div className="flex items-center gap-2 text-lg">
                 <span>{itemIcon}</span>
                 <span className="font-semibold text-white">{itemName}</span>
               </div>
-              <p className="mt-1 text-xs uppercase tracking-wide text-indigo-300/70 empty:hidden">{itemType}</p>
-              <p className="mt-2 text-sm font-medium text-amber-300 empty:hidden">{itemPriceText}</p>
+              <p className="mt-1 text-xs uppercase tracking-wide text-indigo-300/70 empty:hidden">
+                {itemType}
+              </p>
+              <p className="mt-2 text-sm font-medium text-amber-300 empty:hidden">
+                {itemPriceText}
+              </p>
               <p className="mt-1 text-xs text-slate-500 empty:hidden">{itemLimitText}</p>
             </div>
           ),
@@ -134,8 +135,8 @@ export function PreviewPanel() {
             </div>
           ),
           none: <span />,
-        },
-      })}
+        }}
+      </OneOf>
     </div>
   );
 }

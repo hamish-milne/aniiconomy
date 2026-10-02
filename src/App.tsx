@@ -45,16 +45,15 @@ export function App() {
         </nav>
 
         <main className="rounded-3xl bg-white/2 p-6 ring-1 ring-white/10 backdrop-blur-sm sm:p-8">
-          {OneOf({
-            selector: activeTab,
-            children: {
-              shopping: ShoppingListsTab(),
-              best: BestTradesTab(),
-              prices: FairPricesTab(),
-              items: ItemsTab(),
-              trades: TradesTab(),
-            },
-          })}
+          <OneOf selector={activeTab}>
+            {{
+              shopping: <ShoppingListsTab />,
+              best: <BestTradesTab />,
+              prices: <FairPricesTab />,
+              items: <ItemsTab />,
+              trades: <TradesTab />,
+            }}
+          </OneOf>
         </main>
       </div>
 

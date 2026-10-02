@@ -43,9 +43,7 @@ export function TradesTab() {
               </div>
               {trade.in ? (
                 <p className="mt-1 text-xs text-slate-400">In: {formatTradeOut(trade.in)}</p>
-              ) : (
-                null
-              )}
+              ) : null}
               <p className="mt-1 text-xs text-slate-400">Out: {formatTradeOut(trade.out)}</p>
               {limit ? <p className="mt-1 text-[11px] text-slate-500">Limit: {limit}</p> : null}
             </div>

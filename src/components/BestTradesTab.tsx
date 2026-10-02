@@ -50,7 +50,9 @@ export function BestTradesTab() {
   return (
     <div className="space-y-6">
       <section className="space-y-2">
-        <h3 className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80">Budget</h3>
+        <h3 className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80">
+          Budget
+        </h3>
         <div className="flex flex-wrap gap-2">
           <List items={budgets} itemKey={(b) => b}>
             {(budget) => {
@@ -70,13 +72,17 @@ export function BestTradesTab() {
       </section>
 
       <section className="space-y-2">
-        <h3 className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80">Horizon</h3>
+        <h3 className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80">
+          Horizon
+        </h3>
         <div className="flex flex-wrap gap-2">
           <List items={horizonsForBudget} itemKey={(h) => h}>
             {(h) => {
               const active = select(sel, (s) => s.horizon === h);
               const disabled = select(sel, (s) =>
-                isEmptyPlan(groups.find((g) => g.budget === s.budget)?.plans.find((p) => p.horizon === h)),
+                isEmptyPlan(
+                  groups.find((g) => g.budget === s.budget)?.plans.find((p) => p.horizon === h),
+                ),
               );
               return (
                 <button
@@ -93,9 +99,8 @@ export function BestTradesTab() {
         </div>
       </section>
 
-      {OneOf({
-        selector: planStatus,
-        children: {
+      <OneOf selector={planStatus}>
+        {{
           ready: (
             <div className="space-y-3 rounded-xl bg-white/2 p-4 ring-1 ring-white/5">
               <div className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
@@ -114,8 +119,8 @@ export function BestTradesTab() {
             </div>
           ),
           empty: <p className="text-sm text-slate-500">No plan available for this combination.</p>,
-        },
-      })}
+        }}
+      </OneOf>
     </div>
   );
 }
