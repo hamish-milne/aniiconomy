@@ -129,30 +129,42 @@ def generate_fair_price_report(item_names: list[str], trades: dict[str, dict], t
     # minimized objective instead. `time` is given a starting supply (rather
     # than just >=0) so grinding-based trades (time -> credits -> ...) are
     # valued against a realistic amount of normal gameplay, not infinite or zero.
-    time_supply = TIME_SUPPLY_HOURS[time_horizon]
+    horizons = ["day", "week", "month", "season"]
+    # Items only obtainable from a longer-horizon trade (e.g. per_season limits)
+    # can't be priced at a shorter horizon - retry at increasingly long horizons.
+    fallback_horizons = horizons[horizons.index(time_horizon):]
     fair_prices = {}
     for target_item in item_names:
         if target_item == 'money':
             continue
-        prob, item_ledgers, _ = build_base_engine(trades, time_horizon=time_horizon, exchange_cat="Continuous",
-                                                   exclude_free_trades=True, items=items)
-        prob.sense = pulp.LpMinimize
-        prob += -item_ledgers['money']  # money is negative when spent; minimize the spend
-        for item, ledger in item_ledgers.items():
-            if item == 'money':
-                continue
-            if item == target_item:
-                prob += ledger == 1, f"Demand_{item}"
-            elif item == 'time':
-                prob += ledger >= -time_supply, f"Supply_{item}"
-            else:
-                prob += ledger >= 0, f"Supply_{item}"
-
-        stats = prob.solve(pulp.COIN_CMD(msg=False))
-        if not stats.has_solution:
-            print(f"Fair price solve failed for {target_item}: {stats.status_str}")
+        # `ephemeral` items (intermediate, unstockpileable - expire if unused)
+        # only have value through the trades that consume them immediately,
+        # never on their own, so their balance is always priced at zero.
+        if items and items.get(target_item, {}).get('type') == 'ephemeral':
             continue
-        fair_prices[target_item] = stats.objective
+        print(f"  Pricing {target_item}...")
+        for horizon in fallback_horizons:
+            time_supply = TIME_SUPPLY_HOURS[horizon]
+            prob, item_ledgers, _ = build_base_engine(trades, time_horizon=horizon, exchange_cat="Continuous",
+                                                       exclude_free_trades=True, items=items)
+            prob.sense = pulp.LpMinimize
+            prob += -item_ledgers['money']  # money is negative when spent; minimize the spend
+            for item, ledger in item_ledgers.items():
+                if item == 'money':
+                    continue
+                if item == target_item:
+                    prob += ledger == 1, f"Demand_{item}"
+                elif item == 'time':
+                    prob += ledger >= -time_supply, f"Supply_{item}"
+                else:
+                    prob += ledger >= 0, f"Supply_{item}"
+
+            stats = prob.solve(pulp.COIN_CMD(msg=False))
+            if stats.has_solution:
+                fair_prices[target_item] = stats.objective
+                break
+        else:
+            print(f"Fair price solve failed for {target_item} at all horizons from {time_horizon}: {stats.status_str}")
     return fair_prices
 
 
@@ -463,7 +475,22 @@ def order_shopping_recipe(recipe: dict[str, float], trades: dict[str, dict]) -> 
             current = min(candidates, key=trade_level)
         execute(current)
 
-    return [(ex_name, len(list(group))) for ex_name, group in itertools.groupby(order)]
+    grouped = [(ex_name, len(list(group))) for ex_name, group in itertools.groupby(order)]
+
+    # An earlier trade's outputs can always be stockpiled and only spent later,
+    # so if the same trade recurs further down the list (just interleaved with
+    # others), fold every occurrence's count into its *last* appearance instead
+    # of listing it multiple times.
+    last_index = {ex_name: i for i, (ex_name, _) in enumerate(grouped)}
+    totals: dict[str, int] = {}
+    for ex_name, count in grouped:
+        totals[ex_name] = totals.get(ex_name, 0) + count
+
+    return [
+        (ex_name, totals[ex_name])
+        for i, (ex_name, _) in enumerate(grouped)
+        if i == last_index[ex_name]
+    ]
 
 
 def describe_chosen_branches(ex_name: str, recipe: dict[str, float], trades: dict[str, dict]) -> list[dict]:
@@ -565,6 +592,7 @@ def generate_report_data(yaml_data: dict, time_horizon="month", budgets=(10, 20,
 
     # Priced against every item (not just the ones displayed), since trades
     # consume/produce plenty of unpriced items too.
+    print("Computing fair prices...")
     fair_prices = generate_fair_price_report([name for name in items if name != 'money'], trades, time_horizon=time_horizon, items=items)
     # `material` items (e.g. capaseed) are only worth what they can be converted
     # into, not what they cost to acquire - revalue them accordingly.
@@ -584,6 +612,7 @@ def generate_report_data(yaml_data: dict, time_horizon="month", budgets=(10, 20,
 
     shopping_lists = {}
     for item in valuable_items:
+        print(f"Computing shopping lists for {item}...")
         budget_plans = []
         for budget in budgets:
             # Collect one result per horizon, then drop duplicates (same money
@@ -611,6 +640,7 @@ def generate_report_data(yaml_data: dict, time_horizon="month", budgets=(10, 20,
 
     overall_best_trades = []
     for budget in budgets:
+        print(f"Computing overall best trades for budget {budget}...")
         seen: set[tuple[float, float]] = set()
         plans = []
         for horizon in horizons:

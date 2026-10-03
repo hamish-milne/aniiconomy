@@ -104,13 +104,14 @@
       "type": "valuable"
     },
     "mark_of_the_strong": {
-      "name": "Mark of the Strong - Breezy Plains",
+      "name": "Mark of the Strong",
       "icon": "♦️",
       "type": "valuable"
     },
     "companion_exp": {
       "name": "Companion Handbook EXP",
-      "icon": "📒"
+      "icon": "📒",
+      "type": "material"
     },
     "season_stamp": {
       "name": "Season Stamp",
@@ -152,6 +153,11 @@
       "name": "Flux Crystal",
       "icon": "💠",
       "type": "valuable"
+    },
+    "alpha_catch_chance": {
+      "name": "Alpha Catch Chance",
+      "icon": "🎯",
+      "type": "ephemeral"
     }
   },
   "trades": {
@@ -191,7 +197,8 @@
         "season_stamp": 10,
         "star_dust": 4,
         "star_sand": 2,
-        "credits": 10000
+        "credits": 10000,
+        "alpha_catch_chance": 1
       }
     },
     "omega_challenge_capability": {
@@ -215,7 +222,8 @@
       "out": {
         "season_stamp": 10,
         "dewdrop_crystal": 35,
-        "credits": 10000
+        "credits": 10000,
+        "alpha_catch_chance": 1
       }
     },
     "omega_challenge_resonance": {
@@ -229,6 +237,17 @@
         "credits": 50000
       },
       "per_week": 3
+    },
+    "alpha_report": {
+      "name": "Alpha Catch Report",
+      "in": {
+        "alpha_catch_chance": 1,
+        "aniipod_ultra": 1
+      },
+      "out": {
+        "mark_of_the_strong": 1,
+        "credits": 5000
+      }
     },
     "sparkling_cube_purchase": {
       "name": "Sparkling Cube Purchase",
@@ -819,8 +838,9 @@
     "tumbler": 0.0,
     "voxel_coin": 0.0,
     "sparkling_pigment": 5.2341597796143295,
-    "mark_of_the_strong": 4.04958677685951,
-    "companion_exp": 0.000833333333333335,
+    "phenomena_crystal": 9.999999999989,
+    "mark_of_the_strong": 0.307377049180328,
+    "companion_exp": 0.00013813683665042195,
     "season_stamp": 0.002430960715674835,
     "starcryst_essence": 4.04958677685951,
     "dewdrop_crystal": 0.0004923585946116275,
@@ -850,14 +870,7 @@
       "limits": {
         "per_season": 1
       },
-      "value_index": 9.298953036667752
-    },
-    {
-      "id": "champions_gift",
-      "limits": {
-        "per_season": 1
-      },
-      "value_index": 3.2005204216646694
+      "value_index": 8.427848172827062
     },
     {
       "id": "butterfly_dream_first_encounter",
@@ -867,25 +880,25 @@
       "value_index": 3.1666666666666727
     },
     {
+      "id": "first_encounter_in_light",
+      "limits": {
+        "per_season": 1
+      },
+      "value_index": 2.4156266516631737
+    },
+    {
       "id": "weekly_nurturing",
       "limits": {
         "per_season": 2
       },
-      "value_index": 3.1414141414141445
+      "value_index": 2.135937241264707
     },
     {
       "id": "monthly_pass",
       "limits": {
         "per_month": 1
       },
-      "value_index": 2.728763040238451
-    },
-    {
-      "id": "first_encounter_in_light",
-      "limits": {
-        "per_season": 1
-      },
-      "value_index": 2.4156266516631737
+      "value_index": 1.8945272442189556
     },
     {
       "id": "omega_challenge_resonance",
@@ -938,18 +951,16 @@
       "value_index": 1.2163543853066214
     },
     {
+      "id": "alpha_report",
+      "limits": {},
+      "value_index": 1.1250000000000007
+    },
+    {
       "id": "weekly_sparkling",
       "limits": {
         "per_week": 1
       },
       "value_index": 1.0633866812063693
-    },
-    {
-      "id": "companion_handbook_keepsakes",
-      "limits": {
-        "per_season": 1
-      },
-      "value_index": 1.0606967518362296
     },
     {
       "id": "primegy_purchase",
@@ -980,6 +991,11 @@
     },
     {
       "id": "star_dust_exchange",
+      "limits": {},
+      "value_index": 1.0
+    },
+    {
+      "id": "companion_handbook_level",
       "limits": {},
       "value_index": 1.0
     },
@@ -1091,6 +1107,20 @@
       "value_index": 0.43044597106684407
     },
     {
+      "id": "champions_gift",
+      "limits": {
+        "per_season": 1
+      },
+      "value_index": 0.4282303580982531
+    },
+    {
+      "id": "companion_handbook_keepsakes",
+      "limits": {
+        "per_season": 1
+      },
+      "value_index": 0.3655002551533167
+    },
+    {
       "id": "depature_gift",
       "limits": {
         "per_season": 1
@@ -1110,11 +1140,6 @@
         "per_week": 10
       },
       "value_index": 0.17291473306161945
-    },
-    {
-      "id": "companion_handbook_level",
-      "limits": {},
-      "value_index": 0.165764203980506
     },
     {
       "id": "dewdrop_crystal_stamps",
@@ -1215,7 +1240,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -1239,7 +1264,11 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 200
+                "count": 195
+              },
+              {
+                "id": "companion_handbook_level",
+                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -1267,7 +1296,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -1291,7 +1320,11 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 400
+                "count": 390
+              },
+              {
+                "id": "companion_handbook_level",
+                "count": 2
               },
               {
                 "id": "premium_custom_pack",
@@ -1424,7 +1457,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       },
                       {
@@ -1459,16 +1492,12 @@
                 "count": 1
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 200
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 3
+                "count": 2
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 24
+                "id": "companion_handbook_level",
+                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -1496,7 +1525,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       }
                     ]
@@ -1505,7 +1534,7 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 76
+                "count": 295
               },
               {
                 "id": "sparkling_crystal_exchange",
@@ -1528,7 +1557,11 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 440
+                "count": 430
+              },
+              {
+                "id": "companion_handbook_level",
+                "count": 2
               },
               {
                 "id": "sparkling_crystal_exchange",
@@ -1560,7 +1593,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -1665,7 +1698,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       },
                       {
@@ -1704,8 +1737,8 @@
                 "count": 1
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 200
+                "id": "companion_handbook_level",
+                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -1750,7 +1783,7 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 180
+                "count": 375
               },
               {
                 "id": "sparkling_crystal_exchange",
@@ -1780,20 +1813,12 @@
                 "count": 1
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 645
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 6
+                "count": 5
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 48
-              },
-              {
-                "id": "sparkling_crystal_exchange",
-                "count": 8
+                "id": "companion_handbook_level",
+                "count": 3
               },
               {
                 "id": "premium_custom_pack",
@@ -1821,7 +1846,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       },
                       {
@@ -1834,11 +1859,11 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 157
+                "count": 835
               },
               {
                 "id": "sparkling_crystal_exchange",
-                "count": 3
+                "count": 11
               }
             ]
           }
@@ -1965,20 +1990,24 @@
             "quantity": 19.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_980",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
-                "count": 3
+                "count": 1
+              },
+              {
+                "id": "lumins_3280",
+                "count": 1
               },
               {
                 "id": "monthly_pass",
                 "count": 1
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 200
+                "id": "companion_handbook_level",
+                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -2023,7 +2052,7 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 200
+                "count": 395
               },
               {
                 "id": "sparkling_crystal_exchange",
@@ -2053,20 +2082,12 @@
                 "count": 1
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 645
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 8
+                "count": 9
               },
               {
-                "id": "sparkling_crystal_purchase",
-                "count": 64
-              },
-              {
-                "id": "sparkling_crystal_exchange",
-                "count": 8
+                "id": "companion_handbook_level",
+                "count": 3
               },
               {
                 "id": "premium_custom_pack",
@@ -2095,11 +2116,11 @@
                     "picks": [
                       {
                         "index": 1,
-                        "count": 2
+                        "count": 3
                       },
                       {
                         "index": 3,
-                        "count": 8
+                        "count": 7
                       }
                     ]
                   }
@@ -2107,11 +2128,11 @@
               },
               {
                 "id": "sparkling_crystal_purchase",
-                "count": 391
+                "count": 1115
               },
               {
                 "id": "sparkling_crystal_exchange",
-                "count": 7
+                "count": 15
               }
             ]
           }
@@ -2528,10 +2549,6 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 15
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 1,
                 "branches": [
@@ -2566,7 +2583,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 3
+                "count": 18
               }
             ]
           },
@@ -2580,16 +2597,12 @@
                 "count": 2
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 30
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 10
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 6
+                "count": 36
               }
             ]
           }
@@ -2668,16 +2681,8 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 15
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 2
-              },
-              {
-                "id": "aniipod_ultra_glimmer",
-                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -2714,7 +2719,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 6
+                "count": 22
               }
             ]
           },
@@ -2732,16 +2737,8 @@
                 "count": 3
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 45
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 12
-              },
-              {
-                "id": "aniipod_ultra_glimmer",
-                "count": 7
               },
               {
                 "id": "premium_custom_pack",
@@ -2778,7 +2775,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 3
+                "count": 55
               }
             ]
           }
@@ -2853,10 +2850,6 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 15
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -2891,7 +2884,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 18
+                "count": 33
               }
             ]
           },
@@ -2917,16 +2910,8 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 48
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 6
-              },
-              {
-                "id": "aniipod_ultra_glimmer",
-                "count": 4
               },
               {
                 "id": "premium_custom_pack",
@@ -2963,7 +2948,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 12
+                "count": 64
               }
             ]
           }
@@ -3038,16 +3023,8 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 15
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 2
-              },
-              {
-                "id": "aniipod_ultra_glimmer",
-                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -3084,7 +3061,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 36
+                "count": 52
               }
             ]
           },
@@ -3110,16 +3087,8 @@
                 "count": 1
               },
               {
-                "id": "aniipod_ultra_glimmer",
-                "count": 48
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 8
-              },
-              {
-                "id": "aniipod_ultra_glimmer",
-                "count": 5
               },
               {
                 "id": "premium_custom_pack",
@@ -3156,7 +3125,7 @@
               },
               {
                 "id": "aniipod_ultra_glimmer",
-                "count": 30
+                "count": 83
               }
             ]
           }
@@ -3325,10 +3294,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 7
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 1,
                 "branches": [
@@ -3363,7 +3328,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 2
+                "count": 9
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -3605,10 +3570,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 7
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 2,
                 "branches": [
@@ -3643,7 +3604,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 5
+                "count": 12
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -3665,8 +3626,8 @@
                 "count": 84
               },
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "monthly_pass",
@@ -3695,10 +3656,6 @@
               {
                 "id": "daily_supply_pack",
                 "count": 252
-              },
-              {
-                "id": "breezy_mission_letter",
-                "count": 23
               },
               {
                 "id": "premium_custom_pack",
@@ -3735,7 +3692,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 3
+                "count": 26
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -3826,10 +3783,6 @@
                 "count": 3
               },
               {
-                "id": "daily_supply_pack",
-                "count": 19
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -3872,7 +3825,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 2
+                "count": 21
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -3934,10 +3887,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 6
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -3972,7 +3921,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 13
+                "count": 19
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -3994,8 +3943,8 @@
                 "count": 84
               },
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -4026,8 +3975,8 @@
                 "count": 252
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 23
+                "id": "companion_handbook_level",
+                "count": 3
               },
               {
                 "id": "premium_custom_pack",
@@ -4064,7 +4013,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 11
+                "count": 34
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -4155,10 +4104,6 @@
                 "count": 3
               },
               {
-                "id": "daily_supply_pack",
-                "count": 19
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 12,
                 "branches": [
@@ -4205,7 +4150,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 2
+                "count": 21
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -4231,16 +4176,12 @@
                 "count": 28
               },
               {
-                "id": "lumins_980",
-                "count": 1
+                "id": "lumins_60",
+                "count": 5
               },
               {
                 "id": "lumins_1980",
-                "count": 1
-              },
-              {
-                "id": "lumins_3280",
-                "count": 1
+                "count": 3
               },
               {
                 "id": "monthly_pass",
@@ -4269,10 +4210,6 @@
               {
                 "id": "daily_supply_pack",
                 "count": 84
-              },
-              {
-                "id": "breezy_mission_letter",
-                "count": 6
               },
               {
                 "id": "premium_custom_pack",
@@ -4309,7 +4246,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 26
+                "count": 32
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -4331,8 +4268,8 @@
                 "count": 84
               },
               {
-                "id": "lumins_300",
-                "count": 1
+                "id": "lumins_60",
+                "count": 5
               },
               {
                 "id": "lumins_1980",
@@ -4371,10 +4308,6 @@
                 "count": 252
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 22
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 11,
                 "branches": [
@@ -4409,7 +4342,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 24
+                "count": 46
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -4641,7 +4574,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -4697,7 +4630,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -4749,7 +4682,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -4862,7 +4795,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       }
                     ]
@@ -4881,8 +4814,8 @@
             "quantity": 11.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "monthly_pass",
@@ -5014,10 +4947,6 @@
                 "count": 1
               },
               {
-                "id": "capafruit_purchase",
-                "count": 3
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -5056,7 +4985,7 @@
               },
               {
                 "id": "capafruit_purchase",
-                "count": 1
+                "count": 4
               },
               {
                 "id": "capaseed_exchange",
@@ -5070,8 +4999,8 @@
             "quantity": 16.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 10
+                "id": "lumins_300",
+                "count": 2
               },
               {
                 "id": "lumins_980",
@@ -5086,16 +5015,8 @@
                 "count": 1
               },
               {
-                "id": "capafruit_purchase",
-                "count": 9
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 6
-              },
-              {
-                "id": "capafruit_purchase",
-                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -5127,7 +5048,7 @@
                         "count": 2
                       },
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       }
                     ]
@@ -5136,7 +5057,7 @@
               },
               {
                 "id": "capafruit_purchase",
-                "count": 1
+                "count": 11
               },
               {
                 "id": "capaseed_exchange",
@@ -5211,8 +5132,8 @@
             "quantity": 18.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -5221,10 +5142,6 @@
               {
                 "id": "monthly_pass",
                 "count": 1
-              },
-              {
-                "id": "capafruit_purchase",
-                "count": 3
               },
               {
                 "id": "premium_custom_pack",
@@ -5265,7 +5182,7 @@
               },
               {
                 "id": "capafruit_purchase",
-                "count": 3
+                "count": 6
               },
               {
                 "id": "capaseed_exchange",
@@ -5295,16 +5212,8 @@
                 "count": 1
               },
               {
-                "id": "capafruit_purchase",
-                "count": 9
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 8
-              },
-              {
-                "id": "capafruit_purchase",
-                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -5345,7 +5254,7 @@
               },
               {
                 "id": "capafruit_purchase",
-                "count": 3
+                "count": 13
               },
               {
                 "id": "capaseed_exchange",
@@ -5474,15 +5383,7 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 30
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 1
-              },
-              {
-                "id": "psyche_fruit_purchase",
                 "count": 1
               },
               {
@@ -5520,7 +5421,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 9
+                "count": 40
               }
             ]
           },
@@ -5534,16 +5435,12 @@
                 "count": 2
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 60
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 11
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 13
+                "count": 73
               }
             ]
           }
@@ -5674,15 +5571,7 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 30
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 3
-              },
-              {
-                "id": "psyche_fruit_purchase",
                 "count": 3
               },
               {
@@ -5720,7 +5609,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 18
+                "count": 51
               }
             ]
           },
@@ -5738,16 +5627,8 @@
                 "count": 3
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 90
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 12
-              },
-              {
-                "id": "psyche_fruit_purchase",
-                "count": 14
               },
               {
                 "id": "premium_custom_pack",
@@ -5784,7 +5665,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 9
+                "count": 113
               }
             ]
           }
@@ -5911,10 +5792,6 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 30
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -5949,7 +5826,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 54
+                "count": 84
               }
             ]
           },
@@ -5975,16 +5852,8 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 96
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 6
-              },
-              {
-                "id": "psyche_fruit_purchase",
-                "count": 8
               },
               {
                 "id": "premium_custom_pack",
@@ -6021,7 +5890,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 36
+                "count": 140
               }
             ]
           }
@@ -6136,8 +6005,8 @@
             "quantity": 140.0,
             "trades": [
               {
-                "id": "lumins_300",
-                "count": 1
+                "id": "lumins_60",
+                "count": 5
               },
               {
                 "id": "lumins_1980",
@@ -6148,15 +6017,7 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 30
-              },
-              {
                 "id": "weekly_value_supplies",
-                "count": 2
-              },
-              {
-                "id": "psyche_fruit_purchase",
                 "count": 2
               },
               {
@@ -6194,7 +6055,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 108
+                "count": 140
               }
             ]
           },
@@ -6220,16 +6081,8 @@
                 "count": 1
               },
               {
-                "id": "psyche_fruit_purchase",
-                "count": 96
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 9
-              },
-              {
-                "id": "psyche_fruit_purchase",
-                "count": 11
               },
               {
                 "id": "premium_custom_pack",
@@ -6266,7 +6119,7 @@
               },
               {
                 "id": "psyche_fruit_purchase",
-                "count": 90
+                "count": 197
               }
             ]
           }
@@ -6351,10 +6204,6 @@
                 "count": 1
               },
               {
-                "id": "daily_supply_pack",
-                "count": 18
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 1,
                 "branches": [
@@ -6380,7 +6229,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -6393,7 +6242,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 3
+                "count": 21
               },
               {
                 "id": "vein_essence_stamps",
@@ -6431,16 +6280,12 @@
                 "count": 12
               },
               {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 4
               },
               {
                 "id": "primegy_purchase",
-                "count": 9
+                "count": 69
               },
               {
                 "id": "daily_supply_pack",
@@ -6478,16 +6323,12 @@
                 "count": 36
               },
               {
-                "id": "primegy_purchase",
-                "count": 120
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 11
               },
               {
                 "id": "primegy_purchase",
-                "count": 8
+                "count": 128
               },
               {
                 "id": "daily_supply_pack",
@@ -6672,16 +6513,12 @@
                 "count": 36
               },
               {
-                "id": "primegy_purchase",
-                "count": 180
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 12
               },
               {
                 "id": "primegy_purchase",
-                "count": 16
+                "count": 196
               },
               {
                 "id": "depature_gift",
@@ -6784,10 +6621,6 @@
                 "count": 1
               },
               {
-                "id": "daily_supply_pack",
-                "count": 18
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 3,
                 "branches": [
@@ -6813,7 +6646,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 3
                       }
                     ]
@@ -6826,7 +6659,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 3
+                "count": 21
               },
               {
                 "id": "vein_essence_stamps",
@@ -6868,10 +6701,6 @@
                 "count": 12
               },
               {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
                 "id": "weekly_nurturing_delivery",
                 "count": 5
               },
@@ -6881,7 +6710,7 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 7
+                "count": 67
               },
               {
                 "id": "daily_supply_pack",
@@ -6931,16 +6760,12 @@
                 "count": 1
               },
               {
-                "id": "daily_supply_pack",
-                "count": 238
-              },
-              {
                 "id": "primegy_purchase",
                 "count": 11
               },
               {
                 "id": "daily_supply_pack",
-                "count": 14
+                "count": 252
               },
               {
                 "id": "vein_essence_stamps",
@@ -7031,10 +6856,6 @@
                 "count": 1
               },
               {
-                "id": "daily_supply_pack",
-                "count": 18
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 9,
                 "branches": [
@@ -7073,7 +6894,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 3
+                "count": 21
               },
               {
                 "id": "vein_essence_stamps",
@@ -7091,8 +6912,8 @@
                 "count": 28
               },
               {
-                "id": "lumins_300",
-                "count": 1
+                "id": "lumins_60",
+                "count": 5
               },
               {
                 "id": "lumins_1980",
@@ -7115,10 +6936,6 @@
                 "count": 12
               },
               {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
                 "id": "weekly_nurturing_delivery",
                 "count": 8
               },
@@ -7128,7 +6945,7 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 9
+                "count": 69
               },
               {
                 "id": "daily_supply_pack",
@@ -7203,10 +7020,6 @@
                 "count": 36
               },
               {
-                "id": "primegy_purchase",
-                "count": 120
-              },
-              {
                 "id": "weekly_nurturing_delivery",
                 "count": 9
               },
@@ -7216,7 +7029,7 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 11
+                "count": 131
               },
               {
                 "id": "depature_gift",
@@ -7368,8 +7181,8 @@
             "quantity": 9.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -7417,16 +7230,12 @@
             "quantity": 4.0,
             "trades": [
               {
-                "id": "lumins_980",
+                "id": "lumins_300",
                 "count": 1
               },
               {
                 "id": "lumins_1980",
-                "count": 1
-              },
-              {
-                "id": "lumins_3280",
-                "count": 1
+                "count": 3
               },
               {
                 "id": "monthly_pass",
@@ -7524,8 +7333,8 @@
             "quantity": 2.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 10
+                "id": "lumins_300",
+                "count": 2
               },
               {
                 "id": "lumins_980",
@@ -7635,13 +7444,165 @@
             ]
           },
           {
-            "horizon": "season",
+            "horizon": "week",
             "money_spent": 10.0,
-            "quantity": 5.0,
+            "quantity": 6.0,
             "trades": [
               {
-                "id": "companion_handbook_advanced",
+                "id": "primegy_restore",
+                "count": 7
+              },
+              {
+                "id": "lumins_60",
+                "count": 10
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 11
+              },
+              {
+                "id": "weekly_value_supplies",
                 "count": 1
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 1,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 2
+              },
+              {
+                "id": "alpha_report",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "horizon": "month",
+            "money_spent": 10.0,
+            "quantity": 21.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 28
+              },
+              {
+                "id": "lumins_60",
+                "count": 5
+              },
+              {
+                "id": "monthly_pass",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 44
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 1
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 1,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 17
+              },
+              {
+                "id": "alpha_report",
+                "count": 19
+              }
+            ]
+          },
+          {
+            "horizon": "season",
+            "money_spent": 10.0,
+            "quantity": 36.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 84
+              },
+              {
+                "id": "monthly_pass",
+                "count": 2
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 132
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 10
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 36
+              },
+              {
+                "id": "alpha_report",
+                "count": 36
               }
             ]
           }
@@ -7699,21 +7660,177 @@
             ]
           },
           {
-            "horizon": "season",
+            "horizon": "week",
             "money_spent": 20.0,
-            "quantity": 10.0,
+            "quantity": 12.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "primegy_restore",
+                "count": 7
+              },
+              {
+                "id": "lumins_300",
+                "count": 1
+              },
+              {
+                "id": "lumins_980",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 11
+              },
+              {
+                "id": "aniipod_ultra_lumins",
+                "count": 1
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 2,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 3
+              },
+              {
+                "id": "alpha_report",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "horizon": "month",
+            "money_spent": 20.0,
+            "quantity": 27.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 28
+              },
+              {
+                "id": "lumins_980",
+                "count": 1
+              },
+              {
+                "id": "monthly_pass",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 44
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 2
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 2,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 19
+              },
+              {
+                "id": "alpha_report",
+                "count": 23
+              }
+            ]
+          },
+          {
+            "horizon": "season",
+            "money_spent": 20.0,
+            "quantity": 58.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 84
+              },
+              {
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "monthly_pass",
                 "count": 3
               },
               {
+                "id": "alpha_challenge_capability",
+                "count": 132
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 5
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 48
+              },
+              {
                 "id": "champions_gift",
                 "count": 1
+              },
+              {
+                "id": "alpha_report",
+                "count": 48
               }
             ]
           }
@@ -7767,10 +7884,74 @@
             ]
           },
           {
-            "horizon": "season",
+            "horizon": "week",
             "money_spent": 50.0,
-            "quantity": 22.0,
+            "quantity": 33.0,
             "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 7
+              },
+              {
+                "id": "lumins_3280",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 21
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 6,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 6
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 6
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 9
+              },
+              {
+                "id": "alpha_report",
+                "count": 21
+              }
+            ]
+          },
+          {
+            "horizon": "month",
+            "money_spent": 50.0,
+            "quantity": 48.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 28
+              },
               {
                 "id": "lumins_980",
                 "count": 1
@@ -7784,23 +7965,19 @@
                 "count": 1
               },
               {
-                "id": "weekly_nurturing",
-                "count": 1
-              },
-              {
-                "id": "champions_gift",
-                "count": 1
+                "id": "alpha_challenge_capability",
+                "count": 44
               },
               {
                 "id": "premium_custom_pack",
-                "count": 1,
+                "count": 6,
                 "branches": [
                   {
                     "block": 1,
                     "picks": [
                       {
-                        "index": 1,
-                        "count": 1
+                        "index": 0,
+                        "count": 6
                       }
                     ]
                   },
@@ -7808,8 +7985,8 @@
                     "block": 2,
                     "picks": [
                       {
-                        "index": 1,
-                        "count": 1
+                        "index": 2,
+                        "count": 6
                       }
                     ]
                   },
@@ -7818,11 +7995,99 @@
                     "picks": [
                       {
                         "index": 2,
-                        "count": 1
+                        "count": 6
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 24
+              },
+              {
+                "id": "alpha_report",
+                "count": 36
+              }
+            ]
+          },
+          {
+            "horizon": "season",
+            "money_spent": 50.0,
+            "quantity": 82.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 84
+              },
+              {
+                "id": "lumins_60",
+                "count": 10
+              },
+              {
+                "id": "lumins_980",
+                "count": 1
+              },
+              {
+                "id": "monthly_pass",
+                "count": 3
+              },
+              {
+                "id": "companion_handbook_advanced",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 132
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 8
+              },
+              {
+                "id": "champions_gift",
+                "count": 1
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 2,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 56
+              },
+              {
+                "id": "alpha_report",
+                "count": 63
               }
             ]
           }
@@ -7876,10 +8141,146 @@
             ]
           },
           {
+            "horizon": "week",
+            "money_spent": 100.0,
+            "quantity": 66.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 7
+              },
+              {
+                "id": "lumins_3280",
+                "count": 2
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 42
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 12,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 12
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 12
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 12
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 18
+              },
+              {
+                "id": "alpha_report",
+                "count": 42
+              }
+            ]
+          },
+          {
+            "horizon": "month",
+            "money_spent": 100.0,
+            "quantity": 82.0,
+            "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 28
+              },
+              {
+                "id": "lumins_300",
+                "count": 1
+              },
+              {
+                "id": "lumins_1980",
+                "count": 3
+              },
+              {
+                "id": "monthly_pass",
+                "count": 1
+              },
+              {
+                "id": "alpha_challenge_capability",
+                "count": 59
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 2
+              },
+              {
+                "id": "premium_custom_pack",
+                "count": 12,
+                "branches": [
+                  {
+                    "block": 1,
+                    "picks": [
+                      {
+                        "index": 0,
+                        "count": 12
+                      }
+                    ]
+                  },
+                  {
+                    "block": 2,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 12
+                      }
+                    ]
+                  },
+                  {
+                    "block": 3,
+                    "picks": [
+                      {
+                        "index": 2,
+                        "count": 12
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 34
+              },
+              {
+                "id": "alpha_report",
+                "count": 58
+              }
+            ]
+          },
+          {
             "horizon": "season",
             "money_spent": 100.0,
-            "quantity": 39.0,
+            "quantity": 117.0,
             "trades": [
+              {
+                "id": "primegy_restore",
+                "count": 84
+              },
               {
                 "id": "lumins_980",
                 "count": 1
@@ -7897,8 +8298,12 @@
                 "count": 1
               },
               {
-                "id": "weekly_nurturing",
-                "count": 2
+                "id": "alpha_challenge_capability",
+                "count": 132
+              },
+              {
+                "id": "weekly_value_supplies",
+                "count": 11
               },
               {
                 "id": "champions_gift",
@@ -7906,14 +8311,14 @@
               },
               {
                 "id": "premium_custom_pack",
-                "count": 2,
+                "count": 8,
                 "branches": [
                   {
                     "block": 1,
                     "picks": [
                       {
-                        "index": 1,
-                        "count": 2
+                        "index": 0,
+                        "count": 8
                       }
                     ]
                   },
@@ -7921,8 +8326,8 @@
                     "block": 2,
                     "picks": [
                       {
-                        "index": 1,
-                        "count": 2
+                        "index": 2,
+                        "count": 8
                       }
                     ]
                   },
@@ -7931,11 +8336,19 @@
                     "picks": [
                       {
                         "index": 2,
-                        "count": 2
+                        "count": 8
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "aniipod_ultra_glimmer",
+                "count": 67
+              },
+              {
+                "id": "alpha_report",
+                "count": 86
               }
             ]
           }
@@ -8157,8 +8570,8 @@
             "quantity": 22.0,
             "trades": [
               {
-                "id": "lumins_60",
-                "count": 10
+                "id": "lumins_300",
+                "count": 2
               },
               {
                 "id": "lumins_980",
@@ -8335,10 +8748,6 @@
                 "count": 10
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 56
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 1
               },
@@ -8381,15 +8790,11 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 35
+                "count": 91
               },
               {
                 "id": "omega_challenge_capability",
                 "count": 3
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 77
               },
               {
                 "id": "star_dust_stamps",
@@ -8397,7 +8802,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 10
+                "count": 87
               }
             ]
           },
@@ -8419,28 +8824,8 @@
                 "count": 1
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 224
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 120
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 1
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 2
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 4
               },
               {
                 "id": "premium_custom_pack",
@@ -8477,19 +8862,15 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 18
+                "count": 80
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 16
+                "count": 364
               },
               {
                 "id": "omega_challenge_capability",
                 "count": 12
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 310
               },
               {
                 "id": "star_dust_stamps",
@@ -8497,7 +8878,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 40
+                "count": 350
               }
             ]
           },
@@ -8516,19 +8897,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 672
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 120
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 232
-              },
-              {
-                "id": "omega_challenge_capability",
-                "count": 4
+                "count": 904
               },
               {
                 "id": "weekly_value_supplies",
@@ -8536,15 +8905,11 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 26
+                "count": 146
               },
               {
                 "id": "omega_challenge_capability",
-                "count": 32
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 780
+                "count": 36
               },
               {
                 "id": "star_dust_stamps",
@@ -8552,7 +8917,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 120
+                "count": 900
               }
             ]
           }
@@ -8585,10 +8950,6 @@
                 "count": 1
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 56
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 2,
                 "branches": [
@@ -8627,7 +8988,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 28
+                "count": 84
               },
               {
                 "id": "omega_challenge_capability",
@@ -8638,16 +8999,12 @@
                 "count": 20
               },
               {
-                "id": "star_dust_exchange",
-                "count": 84
-              },
-              {
                 "id": "star_dust_stamps",
                 "count": 10
               },
               {
                 "id": "star_dust_exchange",
-                "count": 10
+                "count": 94
               }
             ]
           },
@@ -8669,28 +9026,8 @@
                 "count": 1
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 224
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 120
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 3
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 7
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 14
               },
               {
                 "id": "premium_custom_pack",
@@ -8727,11 +9064,11 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 36
+                "count": 103
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 4
+                "count": 362
               },
               {
                 "id": "omega_challenge_capability",
@@ -8742,16 +9079,12 @@
                 "count": 28
               },
               {
-                "id": "star_dust_exchange",
-                "count": 325
-              },
-              {
                 "id": "star_dust_stamps",
                 "count": 40
               },
               {
                 "id": "star_dust_exchange",
-                "count": 40
+                "count": 365
               }
             ]
           },
@@ -8773,32 +9106,12 @@
                 "count": 3
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 672
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 180
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 360
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 12
               },
               {
-                "id": "primegy_purchase",
-                "count": 28
-              },
-              {
                 "id": "alpha_challenge_capability",
-                "count": 32
-              },
-              {
-                "id": "omega_challenge_capability",
-                "count": 14
+                "count": 1064
               },
               {
                 "id": "premium_custom_pack",
@@ -8835,15 +9148,11 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 18
+                "count": 226
               },
               {
                 "id": "omega_challenge_capability",
-                "count": 22
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 908
+                "count": 36
               },
               {
                 "id": "star_dust_stamps",
@@ -8851,7 +9160,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 120
+                "count": 1028
               }
             ]
           }
@@ -8878,10 +9187,6 @@
               {
                 "id": "lumins_3280",
                 "count": 1
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 56
               },
               {
                 "id": "premium_custom_pack",
@@ -8922,7 +9227,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 28
+                "count": 84
               },
               {
                 "id": "omega_challenge_capability",
@@ -8933,16 +9238,12 @@
                 "count": 20
               },
               {
-                "id": "star_dust_exchange",
-                "count": 84
-              },
-              {
                 "id": "star_dust_stamps",
                 "count": 10
               },
               {
                 "id": "star_dust_exchange",
-                "count": 10
+                "count": 94
               }
             ]
           },
@@ -8969,19 +9270,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 224
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 110
-              },
-              {
-                "id": "omega_challenge_capability",
-                "count": 6
+                "count": 334
               },
               {
                 "id": "premium_custom_pack",
@@ -9013,7 +9302,7 @@
                         "count": 1
                       },
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 5
                       }
                     ]
@@ -9022,19 +9311,15 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 75
+                "count": 135
               },
               {
                 "id": "omega_challenge_capability",
-                "count": 6
+                "count": 12
               },
               {
                 "id": "daily_supply_pack",
                 "count": 84
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 336
               },
               {
                 "id": "star_dust_stamps",
@@ -9042,7 +9327,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 40
+                "count": 376
               }
             ]
           },
@@ -9056,8 +9341,8 @@
                 "count": 84
               },
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -9068,28 +9353,8 @@
                 "count": 3
               },
               {
-                "id": "alpha_challenge_capability",
-                "count": 672
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 180
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 360
-              },
-              {
                 "id": "weekly_value_supplies",
                 "count": 9
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 21
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 42
               },
               {
                 "id": "premium_custom_pack",
@@ -9126,11 +9391,11 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 90
+                "count": 291
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 26
+                "count": 1100
               },
               {
                 "id": "omega_challenge_capability",
@@ -9141,16 +9406,12 @@
                 "count": 56
               },
               {
-                "id": "star_dust_exchange",
-                "count": 971
-              },
-              {
                 "id": "star_dust_stamps",
                 "count": 120
               },
               {
                 "id": "star_dust_exchange",
-                "count": 120
+                "count": 1091
               }
             ]
           }
@@ -9177,10 +9438,6 @@
               {
                 "id": "lumins_3280",
                 "count": 2
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 56
               },
               {
                 "id": "premium_custom_pack",
@@ -9225,7 +9482,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 28
+                "count": 84
               },
               {
                 "id": "omega_challenge_capability",
@@ -9236,16 +9493,12 @@
                 "count": 20
               },
               {
-                "id": "star_dust_exchange",
-                "count": 84
-              },
-              {
                 "id": "star_dust_stamps",
                 "count": 10
               },
               {
                 "id": "star_dust_exchange",
-                "count": 10
+                "count": 94
               }
             ]
           },
@@ -9259,8 +9512,8 @@
                 "count": 28
               },
               {
-                "id": "lumins_300",
-                "count": 1
+                "id": "lumins_60",
+                "count": 5
               },
               {
                 "id": "lumins_1980",
@@ -9272,19 +9525,7 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 224
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 60
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 110
-              },
-              {
-                "id": "omega_challenge_capability",
-                "count": 6
+                "count": 334
               },
               {
                 "id": "premium_custom_pack",
@@ -9316,7 +9557,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 12
                       }
                     ]
@@ -9325,19 +9566,15 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 75
+                "count": 135
               },
               {
                 "id": "omega_challenge_capability",
-                "count": 6
+                "count": 12
               },
               {
                 "id": "daily_supply_pack",
                 "count": 84
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 336
               },
               {
                 "id": "star_dust_stamps",
@@ -9345,7 +9582,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 40
+                "count": 376
               }
             ]
           },
@@ -9376,35 +9613,15 @@
               },
               {
                 "id": "alpha_challenge_capability",
-                "count": 672
-              },
-              {
-                "id": "primegy_purchase",
-                "count": 180
-              },
-              {
-                "id": "alpha_challenge_capability",
-                "count": 333
-              },
-              {
-                "id": "omega_challenge_capability",
-                "count": 16
+                "count": 1005
               },
               {
                 "id": "weekly_value_supplies",
                 "count": 10
               },
               {
-                "id": "primegy_purchase",
-                "count": 24
-              },
-              {
                 "id": "omega_challenge_capability",
-                "count": 20
-              },
-              {
-                "id": "daily_supply_pack",
-                "count": 9
+                "count": 36
               },
               {
                 "id": "premium_custom_pack",
@@ -9441,15 +9658,11 @@
               },
               {
                 "id": "primegy_purchase",
-                "count": 198
+                "count": 402
               },
               {
                 "id": "daily_supply_pack",
-                "count": 237
-              },
-              {
-                "id": "star_dust_exchange",
-                "count": 1009
+                "count": 246
               },
               {
                 "id": "star_dust_stamps",
@@ -9457,7 +9670,7 @@
               },
               {
                 "id": "star_dust_exchange",
-                "count": 120
+                "count": 1129
               }
             ]
           }
@@ -9580,8 +9793,8 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 7
+                "id": "companion_handbook_level",
+                "count": 1
               },
               {
                 "id": "premium_custom_pack",
@@ -9618,7 +9831,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 2
+                "count": 9
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -9662,6 +9875,10 @@
               {
                 "id": "breezy_mission_letter",
                 "count": 17
+              },
+              {
+                "id": "companion_handbook_level",
+                "count": 2
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -9710,10 +9927,6 @@
                 "count": 3
               },
               {
-                "id": "daily_supply_pack",
-                "count": 19
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 2,
                 "branches": [
@@ -9752,7 +9965,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 2
+                "count": 21
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -9802,10 +10015,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 7
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 2,
                 "branches": [
@@ -9840,7 +10049,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 5
+                "count": 12
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -9886,8 +10095,8 @@
                 "count": 252
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 24
+                "id": "companion_handbook_level",
+                "count": 3
               },
               {
                 "id": "premium_custom_pack",
@@ -9924,7 +10133,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 2
+                "count": 26
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -9973,10 +10182,6 @@
                 "count": 1
               },
               {
-                "id": "daily_supply_pack",
-                "count": 19
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -10006,7 +10211,7 @@
                         "count": 5
                       },
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -10019,7 +10224,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 2
+                "count": 21
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10073,10 +10278,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 6
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 6,
                 "branches": [
@@ -10111,7 +10312,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 13
+                "count": 19
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10129,8 +10330,8 @@
                 "count": 84
               },
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -10159,10 +10360,6 @@
               {
                 "id": "daily_supply_pack",
                 "count": 252
-              },
-              {
-                "id": "breezy_mission_letter",
-                "count": 23
               },
               {
                 "id": "premium_custom_pack",
@@ -10199,7 +10396,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 11
+                "count": 34
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10244,10 +10441,6 @@
                 "count": 3
               },
               {
-                "id": "daily_supply_pack",
-                "count": 17
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 12,
                 "branches": [
@@ -10290,7 +10483,7 @@
               },
               {
                 "id": "daily_supply_pack",
-                "count": 4
+                "count": 21
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10348,10 +10541,6 @@
                 "count": 84
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 7
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 12,
                 "branches": [
@@ -10381,7 +10570,7 @@
                         "count": 11
                       },
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -10390,7 +10579,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 25
+                "count": 32
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10444,10 +10633,6 @@
                 "count": 252
               },
               {
-                "id": "breezy_mission_letter",
-                "count": 25
-              },
-              {
                 "id": "premium_custom_pack",
                 "count": 10,
                 "branches": [
@@ -10482,7 +10667,7 @@
               },
               {
                 "id": "breezy_mission_letter",
-                "count": 21
+                "count": 46
               },
               {
                 "id": "irisalis_petal_stamps",
@@ -10597,7 +10782,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 1
                       }
                     ]
@@ -10746,7 +10931,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 2
                       }
                     ]
@@ -10911,7 +11096,7 @@
                     "block": 3,
                     "picks": [
                       {
-                        "index": 2,
+                        "index": 1,
                         "count": 6
                       }
                     ]
@@ -11019,8 +11204,8 @@
                 "count": 28
               },
               {
-                "id": "lumins_60",
-                "count": 5
+                "id": "lumins_300",
+                "count": 1
               },
               {
                 "id": "lumins_1980",
@@ -11136,14 +11321,14 @@
               },
               {
                 "id": "premium_custom_pack",
-                "count": 2,
+                "count": 3,
                 "branches": [
                   {
                     "block": 1,
                     "picks": [
                       {
                         "index": 1,
-                        "count": 2
+                        "count": 3
                       }
                     ]
                   },
@@ -11152,7 +11337,7 @@
                     "picks": [
                       {
                         "index": 1,
-                        "count": 2
+                        "count": 3
                       }
                     ]
                   },
@@ -11161,7 +11346,7 @@
                     "picks": [
                       {
                         "index": 1,
-                        "count": 2
+                        "count": 3
                       }
                     ]
                   }
@@ -11184,7 +11369,7 @@
         {
           "horizon": "day",
           "money_spent": 10.0,
-          "value": 12.363642496258985,
+          "value": 12.363642496258986,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11220,7 +11405,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 1
                     }
                   ]
@@ -11300,7 +11485,7 @@
         {
           "horizon": "month",
           "money_spent": 10.0,
-          "value": 34.606222337855435,
+          "value": 30.435043357757948,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11360,7 +11545,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 1
                     }
                   ]
@@ -11372,7 +11557,7 @@
         {
           "horizon": "season",
           "money_spent": 10.0,
-          "value": 136.83929413413918,
+          "value": 128.2307045121257,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11405,6 +11590,10 @@
             {
               "id": "daily_supply_pack",
               "count": 252
+            },
+            {
+              "id": "alpha_report",
+              "count": 3
             }
           ]
         }
@@ -11456,7 +11645,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 2
                     }
                   ]
@@ -11524,7 +11713,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 2
                     }
                   ]
@@ -11536,7 +11725,7 @@
         {
           "horizon": "month",
           "money_spent": 20.0,
-          "value": 47.90876200251956,
+          "value": 43.73758302242208,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11608,7 +11797,7 @@
         {
           "horizon": "season",
           "money_spent": 20.0,
-          "value": 177.25542314634404,
+          "value": 160.30447556413563,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11661,6 +11850,10 @@
             {
               "id": "daily_supply_pack",
               "count": 252
+            },
+            {
+              "id": "alpha_report",
+              "count": 3
             }
           ]
         }
@@ -11708,7 +11901,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 6
                     }
                   ]
@@ -11720,7 +11913,7 @@
         {
           "horizon": "week",
           "money_spent": 50.0,
-          "value": 70.63750243236491,
+          "value": 70.6375024323649,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11784,7 +11977,7 @@
         {
           "horizon": "month",
           "money_spent": 50.0,
-          "value": 89.90679944905489,
+          "value": 85.73562046895739,
           "trades": [
             {
               "id": "primegy_restore",
@@ -11860,15 +12053,15 @@
         {
           "horizon": "season",
           "money_spent": 50.0,
-          "value": 274.88437311088546,
+          "value": 226.34014927177677,
           "trades": [
             {
               "id": "primegy_restore",
               "count": 84
             },
             {
-              "id": "lumins_300",
-              "count": 2
+              "id": "lumins_60",
+              "count": 10
             },
             {
               "id": "lumins_980",
@@ -11925,6 +12118,10 @@
             {
               "id": "daily_supply_pack",
               "count": 252
+            },
+            {
+              "id": "alpha_report",
+              "count": 3
             }
           ]
         }
@@ -11972,7 +12169,7 @@
                   "block": 3,
                   "picks": [
                     {
-                      "index": 2,
+                      "index": 1,
                       "count": 12
                     }
                   ]
@@ -12048,7 +12245,7 @@
         {
           "horizon": "month",
           "money_spent": 100.0,
-          "value": 157.6008253158276,
+          "value": 153.42964633573007,
           "trades": [
             {
               "id": "primegy_restore",
@@ -12128,7 +12325,7 @@
         {
           "horizon": "season",
           "money_spent": 100.0,
-          "value": 418.5212708042823,
+          "value": 317.2278748457157,
           "trades": [
             {
               "id": "primegy_restore",
@@ -12175,16 +12372,16 @@
               "count": 175
             },
             {
+              "id": "butterfly_dream_invitation",
+              "count": 1
+            },
+            {
               "id": "butterfly_dream_first_encounter",
               "count": 1
             },
             {
               "id": "weekly_nurturing",
               "count": 2
-            },
-            {
-              "id": "champions_gift",
-              "count": 1
             },
             {
               "id": "first_encounter_in_light",
@@ -12196,14 +12393,14 @@
             },
             {
               "id": "premium_custom_pack",
-              "count": 2,
+              "count": 3,
               "branches": [
                 {
                   "block": 1,
                   "picks": [
                     {
                       "index": 1,
-                      "count": 2
+                      "count": 3
                     }
                   ]
                 },
@@ -12212,7 +12409,7 @@
                   "picks": [
                     {
                       "index": 1,
-                      "count": 2
+                      "count": 3
                     }
                   ]
                 },
@@ -12221,11 +12418,15 @@
                   "picks": [
                     {
                       "index": 1,
-                      "count": 2
+                      "count": 3
                     }
                   ]
                 }
               ]
+            },
+            {
+              "id": "alpha_report",
+              "count": 3
             }
           ]
         }

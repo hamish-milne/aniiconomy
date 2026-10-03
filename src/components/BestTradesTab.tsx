@@ -16,7 +16,12 @@ function pickHorizon(plans: BestValuePlan[], preferred?: string): string {
 }
 
 /** Shown only while `status` is "empty" - never read for real data, just keeps the prop type non-optional. */
-const EMPTY_BEST_VALUE_PLAN: BestValuePlan = { horizon: "day", money_spent: 0, value: 0, trades: [] };
+const EMPTY_BEST_VALUE_PLAN: BestValuePlan = {
+  horizon: "day",
+  money_spent: 0,
+  value: 0,
+  trades: [],
+};
 
 /** Scoped to the narrowed current plan so its selects aren't mixed into the tab's top-level state. */
 function ReadyBestTradesPlan({ plan }: { plan: Reactive<BestValuePlan> }) {

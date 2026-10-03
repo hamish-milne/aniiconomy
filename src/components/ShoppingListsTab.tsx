@@ -46,7 +46,12 @@ function ReadyShoppingPlan({ plan }: { plan: Reactive<ShoppingPlan> }) {
 }
 
 /** Shown only while `status` is "empty" - never read for real data, just keeps the prop type non-optional. */
-const EMPTY_SHOPPING_PLAN: ShoppingPlan = { horizon: "day", money_spent: 0, quantity: 0, trades: [] };
+const EMPTY_SHOPPING_PLAN: ShoppingPlan = {
+  horizon: "day",
+  money_spent: 0,
+  quantity: 0,
+  trades: [],
+};
 
 /** Shows the current plan, or a fallback message when the budget/horizon combination yields nothing. */
 function ShoppingPlanPanel({ plan }: { plan: Reactive<ShoppingPlan | undefined> }) {

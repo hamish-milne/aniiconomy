@@ -1,6 +1,6 @@
 import { reactive } from "pipis";
 
-export type TabId = "shopping" | "best" | "prices" | "items" | "trades";
+export type TabId = "shopping" | "best" | "prices" | "items" | "trades" | "about";
 export const activeTab = reactive<TabId>("shopping");
 
 export type HoverTarget = { kind: "item" | "trade"; id: string } | null;

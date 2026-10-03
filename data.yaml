@@ -81,12 +81,13 @@ items:
     icon: 🍬
     type: valuable
   mark_of_the_strong:
-    name: Mark of the Strong - Breezy Plains
+    name: Mark of the Strong
     icon: ♦️
     type: valuable
   companion_exp:
     name: Companion Handbook EXP
     icon: 📒
+    type: material
   season_stamp:
     name: Season Stamp
     icon: ❇️
@@ -119,6 +120,10 @@ items:
     name: Flux Crystal
     icon: 💠
     type: valuable
+  alpha_catch_chance:
+    name: Alpha Catch Chance
+    icon: 🎯
+    type: ephemeral
 trades:
   aniimo_catching:
     name: Aniimo Catching (x100)
@@ -148,6 +153,7 @@ trades:
       star_dust: 4
       star_sand: 2
       credits: 10000
+      alpha_catch_chance: 1
   omega_challenge_capability:
     name: Omega Challenge (Capability Awakening)
     in:
@@ -166,6 +172,7 @@ trades:
       season_stamp: 10
       dewdrop_crystal: 35
       credits: 10000
+      alpha_catch_chance: 1
   omega_challenge_resonance:
     name: Omega Challenge (Resonance)
     in:
@@ -175,6 +182,14 @@ trades:
       dewdrop_crystal: 100
       credits: 50000
     per_week: 3
+  alpha_report:
+    name: Alpha Catch Report
+    in:
+      alpha_catch_chance: 1
+      aniipod_ultra: 1
+    out:
+      mark_of_the_strong: 1
+      credits: 5000
   # Lumins item shop
   sparkling_cube_purchase:
     name: Sparkling Cube Purchase

@@ -5,6 +5,7 @@ import { BestTradesTab } from "./components/BestTradesTab";
 import { FairPricesTab } from "./components/FairPricesTab";
 import { ItemsTab } from "./components/ItemsTab";
 import { TradesTab } from "./components/TradesTab";
+import { AboutTab } from "./components/AboutTab";
 import { PreviewPanel } from "./components/Shared";
 
 const tabs: { id: TabId; label: string }[] = [
@@ -13,6 +14,7 @@ const tabs: { id: TabId; label: string }[] = [
   { id: "prices", label: "Fair Prices" },
   { id: "items", label: "Items" },
   { id: "trades", label: "Trades" },
+  { id: "about", label: "About" },
 ];
 
 export function App() {
@@ -52,6 +54,7 @@ export function App() {
               prices: <FairPricesTab />,
               items: <ItemsTab />,
               trades: <TradesTab />,
+              about: <AboutTab />,
             }}
           </OneOf>
         </main>

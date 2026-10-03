@@ -161,7 +161,9 @@ function ItemPreview({ id }: { id: Reactive<string> }) {
   const type = select(item, "type");
   const hasPrice = select(id, (i) => fairPrice(i) !== undefined);
   const price = select(id, (i) => fairPrice(i) ?? 0);
-  const limitText = select(item, (i) => (i.acquisition_limit ? `Limit: ${formatLimit(i.acquisition_limit)}` : ""));
+  const limitText = select(item, (i) =>
+    i.acquisition_limit ? `Limit: ${formatLimit(i.acquisition_limit)}` : "",
+  );
 
   return (
     <div className="card-glow rounded-2xl bg-slate-900/90 p-4 ring-1 ring-indigo-400/20 backdrop-blur-xl">
@@ -235,4 +237,3 @@ export function PreviewPanel() {
     </div>
   );
 }
-

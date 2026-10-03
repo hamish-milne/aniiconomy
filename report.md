@@ -19,8 +19,8 @@ Marginal cost, in real money, to obtain one more unit of each item (see Methodol
 | 🔷 Vein Essence | 0.0959 (1 money ≈ 10.4) |
 | ⚠️ Voxel Coin | N/A |
 | 🎨 Sparkling Pigment | 5.23 |
-| 🍬 Phenomena Crystal | N/A |
-| ♦️ Mark of the Strong - Breezy Plains | 4.05 |
+| 🍬 Phenomena Crystal | 10.00 |
+| ♦️ Mark of the Strong | 0.3074 (1 money ≈ 3.3) |
 | ❇️ Season Stamp | 0.0024 (1 money ≈ 411.4) |
 | 🔶 Starcryst Essence | 4.05 |
 | 🟣 Star Sand | 0.0084 (1 money ≈ 118.9) |
@@ -35,12 +35,11 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 |---|---|---|---|
 | Lightweave Ticket x5 Purchase (Glimmer) | 1/season | 1,197.3% | 🟢 |
 | Lightweave Ticket Purchase (Glimmer) | 20/season | 1,008.3% | 🟢 |
-| Advanced Companion Handbook | 1/season | 929.9% | 🟢 |
-| Champion's Gift | 1/season | 320.1% | 🟢 |
+| Advanced Companion Handbook | 1/season | 842.8% | 🟢 |
 | Butterfly Dream - First Encounter | 1/season | 316.7% | 🟢 |
-| Weekly Nurturing | 2/season | 314.1% | 🟢 |
-| Monthly Pass | 1/month | 272.9% | 🟢 |
 | First Encounter in Light | 1/season | 241.6% | 🟢 |
+| Weekly Nurturing | 2/season | 213.6% | 🟢 |
+| Monthly Pass | 1/month | 189.5% | 🟢 |
 | Omega Challenge (Resonance) | 3/week | 171.9% | 🟢 |
 | Omega Challenge (Capability Awakening) | 3/week | 168.1% | 🟢 |
 | Daily Supply Pack | 3/day | 153.6% | 🟢 |
@@ -49,14 +48,15 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 | Premium Custom Pack | — | 137.0% | 🟢 |
 | Butterfly Dream - Invitation | 1/season | 135.7% | 🟢 |
 | Alpha Challenge (Resonance) | — | 121.6% | 🟢 |
+| Alpha Catch Report | — | 112.5% | 🟡 |
 | Weekly Sparkling | 1/week | 106.3% | 🟡 |
-| Keepsakes Companion Handbook | 1/season | 106.1% | 🟡 |
 | Primegy Purchase | 6/day | 100.0% | 🟡 |
 | Lightweave Ticket Purchase (Lumins) | — | 100.0% | 🟡 |
 | Radiant Dreamshadow Purchase | — | 100.0% | 🟡 |
 | Sparkling Crystal Exchange | — | 100.0% | 🟡 |
 | Capaseed Exchange | — | 100.0% | 🟡 |
 | Star Dust Exchange | — | 100.0% | 🟡 |
+| Companion Handbook Level x5 from EXP (Advanced, Level 70+) | — | 100.0% | 🟡 |
 | Prismana Orb Purchase | — | 100.0% | 🟡 |
 | Aniipod Ultra Purchase (Glimmer) | — | 100.0% | 🟡 |
 | Psyche Fruit Purchase | — | 100.0% | 🟡 |
@@ -76,10 +76,11 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 | Vein Essence (Stamps) | 4/week | 78.9% | 🔴 |
 | Glimmering Driftshadow Purchase | — | 75.1% | 🔴 |
 | Weekly Value Supplies | 1/week | 43.0% | 🔴 |
+| Champion's Gift | 1/season | 42.8% | 🔴 |
+| Keepsakes Companion Handbook | 1/season | 36.6% | 🔴 |
 | Departure Gift | 1/season | 29.8% | 🔴 |
 | Adventure Pack | 1/season | 27.4% | 🔴 |
 | Star Dust (Stamps) | 10/week | 17.3% | 🔴 |
-| Companion Handbook Level x5 from EXP (Advanced, Level 70+) | — | 16.6% | 🔴 |
 | Dewdrop Crystal (Stamps) | 10/week | 13.5% | 🔴 |
 | Weekly Nurturing Delivery | 2/week | 10.2% | 🔴 |
 | Companion Handbook Level x5 from Lumins (Advanced, Level 70+) | — | 10.0% | 🔴 |
@@ -103,7 +104,7 @@ Yields **1x Sparkling Cube**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
@@ -111,11 +112,12 @@ Yields **3x Sparkling Cube**:
 
 - Lumins x300
 - Monthly Pass
-- Sparkling Crystal Purchase (x200)
+- Sparkling Crystal Purchase (x195)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Sparkling Crystal Exchange (x2)
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -123,7 +125,8 @@ Yields **3x Sparkling Cube**:
 Yields **5x Sparkling Cube**:
 
 - Monthly Pass (x2)
-- Sparkling Crystal Purchase (x400)
+- Sparkling Crystal Purchase (x390)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
@@ -150,7 +153,7 @@ Yields **3x Sparkling Cube**:
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1), Sparkling Crystal x300 (x1)
+  - Block 3: Starcryst Essence x2 (x1), Sparkling Crystal x300 (x1)
 - Sparkling Crystal Purchase (x70)
 - Sparkling Crystal Exchange
 
@@ -160,14 +163,13 @@ Yields **5x Sparkling Cube**:
 
 - Lumins x980
 - Monthly Pass
-- Sparkling Crystal Purchase (x200)
-- Weekly Value Supplies (x3)
-- Sparkling Crystal Purchase (x24)
+- Weekly Value Supplies (x2)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
-- Sparkling Crystal Purchase (x76)
+  - Block 3: Starcryst Essence x2 (x2)
+- Sparkling Crystal Purchase (x295)
 - Sparkling Crystal Exchange (x3)
 
 **Budget: 20 money (spent 20.00) — season horizon**
@@ -176,12 +178,13 @@ Yields **9x Sparkling Cube**:
 
 - Monthly Pass (x2)
 - Advanced Companion Handbook
-- Sparkling Crystal Purchase (x440)
+- Sparkling Crystal Purchase (x430)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Sparkling Crystal Exchange (x6)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -202,7 +205,7 @@ Yields **8x Sparkling Cube**:
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x4), Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2), Sparkling Crystal x300 (x4)
+  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x4)
 - Sparkling Crystal Purchase (x80)
 - Sparkling Crystal Exchange (x2)
 
@@ -213,12 +216,12 @@ Yields **11x Sparkling Cube**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Sparkling Crystal Purchase (x200)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x3), Capaseed x10 (x3)
   - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x4)
-- Sparkling Crystal Purchase (x180)
+- Sparkling Crystal Purchase (x375)
 - Sparkling Crystal Exchange (x5)
 
 **Budget: 50 money (spent 50.00) — season horizon**
@@ -229,16 +232,14 @@ Yields **17x Sparkling Cube**:
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Sparkling Crystal Purchase (x645)
-- Weekly Value Supplies (x6)
-- Sparkling Crystal Purchase (x48)
-- Sparkling Crystal Exchange (x8)
+- Weekly Value Supplies (x5)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack (x4)
   - Block 1: Glimmer x300 (x4)
   - Block 2: Glimmer x300 (x4)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1), Sparkling Crystal x300 (x3)
-- Sparkling Crystal Purchase (x157)
-- Sparkling Crystal Exchange (x3)
+  - Block 3: Starcryst Essence x2 (x1), Sparkling Crystal x300 (x3)
+- Sparkling Crystal Purchase (x835)
+- Sparkling Crystal Exchange (x11)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -267,15 +268,16 @@ Yields **16x Sparkling Cube**:
 
 Yields **19x Sparkling Cube**:
 
-- Lumins x60 (x5)
-- Lumins x1980 (x3)
+- Lumins x980
+- Lumins x1980
+- Lumins x3280
 - Monthly Pass
-- Sparkling Crystal Purchase (x200)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x10), Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x12)
   - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x10)
-- Sparkling Crystal Purchase (x200)
+- Sparkling Crystal Purchase (x395)
 - Sparkling Crystal Exchange (x7)
 
 **Budget: 100 money (spent 100.00) — season horizon**
@@ -286,16 +288,14 @@ Yields **27x Sparkling Cube**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Sparkling Crystal Purchase (x645)
-- Weekly Value Supplies (x8)
-- Sparkling Crystal Purchase (x64)
-- Sparkling Crystal Exchange (x8)
+- Weekly Value Supplies (x9)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Glimmer x300 (x10)
-  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x8)
-- Sparkling Crystal Purchase (x391)
-- Sparkling Crystal Exchange (x7)
+  - Block 3: Starcryst Essence x2 (x3), Sparkling Crystal x300 (x7)
+- Sparkling Crystal Purchase (x1115)
+- Sparkling Crystal Exchange (x15)
 
 ### 🎟️ Lightweave Ticket
 
@@ -439,21 +439,19 @@ Yields **20x Aniipod Ultra**:
 
 - Lumins x300
 - Monthly Pass
-- Aniipod Ultra Purchase (Glimmer) (x15)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Aniipod Ultra x2 (x1)
   - Block 3: Glimmer x300 (x1)
-- Aniipod Ultra Purchase (Glimmer) (x3)
+- Aniipod Ultra Purchase (Glimmer) (x18)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
 Yields **36x Aniipod Ultra**:
 
 - Monthly Pass (x2)
-- Aniipod Ultra Purchase (Glimmer) (x30)
 - Weekly Value Supplies (x10)
-- Aniipod Ultra Purchase (Glimmer) (x6)
+- Aniipod Ultra Purchase (Glimmer) (x36)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -474,14 +472,12 @@ Yields **26x Aniipod Ultra**:
 
 - Lumins x980
 - Monthly Pass
-- Aniipod Ultra Purchase (Glimmer) (x15)
 - Weekly Value Supplies (x2)
-- Aniipod Ultra Purchase (Glimmer)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Aniipod Ultra x2 (x2)
   - Block 3: Glimmer x300 (x2)
-- Aniipod Ultra Purchase (Glimmer) (x6)
+- Aniipod Ultra Purchase (Glimmer) (x22)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
@@ -489,14 +485,12 @@ Yields **57x Aniipod Ultra**:
 
 - Lumins x60 (x5)
 - Monthly Pass (x3)
-- Aniipod Ultra Purchase (Glimmer) (x45)
 - Weekly Value Supplies (x12)
-- Aniipod Ultra Purchase (Glimmer) (x7)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Aniipod Ultra x2 (x1)
   - Block 3: Glimmer x300 (x1)
-- Aniipod Ultra Purchase (Glimmer) (x3)
+- Aniipod Ultra Purchase (Glimmer) (x55)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -516,12 +510,11 @@ Yields **45x Aniipod Ultra**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Aniipod Ultra Purchase (Glimmer) (x15)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Aniipod Ultra x2 (x6)
   - Block 3: Glimmer x300 (x6)
-- Aniipod Ultra Purchase (Glimmer) (x18)
+- Aniipod Ultra Purchase (Glimmer) (x33)
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
@@ -531,14 +524,12 @@ Yields **75x Aniipod Ultra**:
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Aniipod Ultra Purchase (Glimmer) (x48)
 - Weekly Value Supplies (x6)
-- Aniipod Ultra Purchase (Glimmer) (x4)
 - Premium Custom Pack (x4)
   - Block 1: Glimmer x300 (x4)
   - Block 2: Aniipod Ultra x2 (x4)
   - Block 3: Glimmer x300 (x4)
-- Aniipod Ultra Purchase (Glimmer) (x12)
+- Aniipod Ultra Purchase (Glimmer) (x64)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -558,14 +549,12 @@ Yields **76x Aniipod Ultra**:
 - Lumins x60 (x5)
 - Lumins x1980 (x3)
 - Monthly Pass
-- Aniipod Ultra Purchase (Glimmer) (x15)
 - Weekly Value Supplies (x2)
-- Aniipod Ultra Purchase (Glimmer)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Aniipod Ultra x2 (x12)
   - Block 3: Glimmer x300 (x12)
-- Aniipod Ultra Purchase (Glimmer) (x36)
+- Aniipod Ultra Purchase (Glimmer) (x52)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
@@ -575,14 +564,12 @@ Yields **106x Aniipod Ultra**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Aniipod Ultra Purchase (Glimmer) (x48)
 - Weekly Value Supplies (x8)
-- Aniipod Ultra Purchase (Glimmer) (x5)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Aniipod Ultra x2 (x10)
   - Block 3: Glimmer x300 (x10)
-- Aniipod Ultra Purchase (Glimmer) (x30)
+- Aniipod Ultra Purchase (Glimmer) (x83)
 
 ### 🌌 Glimmering Driftshadow
 
@@ -626,12 +613,11 @@ Yields **30x Glimmering Driftshadow**:
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x7)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Breezy Mission Letter (x2)
+- Breezy Mission Letter (x9)
 - Irisalis Petal (Stamps) (x15)
 - Glimmering Driftshadow (Irisalis petal) (x30)
 
@@ -695,12 +681,11 @@ Yields **38x Glimmering Driftshadow**:
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x3)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x7)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
-- Breezy Mission Letter (x5)
+- Breezy Mission Letter (x12)
 - Irisalis Petal (Stamps) (x16)
 - Glimmering Driftshadow (Irisalis petal) (x38)
 
@@ -709,7 +694,7 @@ Yields **38x Glimmering Driftshadow**:
 Yields **90x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x5)
+- Lumins x300
 - Monthly Pass (x3)
 - Alpha Challenge (Capability Awakening) (x132)
 - Omega Challenge (Capability Awakening) (x36)
@@ -717,12 +702,11 @@ Yields **90x Glimmering Driftshadow**:
 - Glimmering Driftshadow Purchase
 - Weekly Value Supplies (x12)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x23)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Breezy Mission Letter (x3)
+- Breezy Mission Letter (x26)
 - Irisalis Petal (Stamps) (x48)
 - Glimmering Driftshadow (Irisalis petal) (x89)
 
@@ -746,14 +730,13 @@ Yields **33x Glimmering Driftshadow**:
 - Alpha Challenge (Capability Awakening) (x13)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
-- Daily Supply Pack (x19)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
-- Daily Supply Pack (x2)
+- Daily Supply Pack (x21)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
 - Glimmering Driftshadow (Irisalis petal) (x32)
@@ -772,12 +755,11 @@ Yields **56x Glimmering Driftshadow**:
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x6)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
-- Breezy Mission Letter (x13)
+- Breezy Mission Letter (x19)
 - Irisalis Petal (Stamps) (x15)
 - Glimmering Driftshadow (Irisalis petal) (x55)
 
@@ -786,7 +768,7 @@ Yields **56x Glimmering Driftshadow**:
 Yields **109x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980
 - Monthly Pass (x3)
 - Alpha Challenge (Capability Awakening) (x132)
@@ -794,12 +776,12 @@ Yields **109x Glimmering Driftshadow**:
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x23)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack (x5)
   - Block 1: Glimmer x300 (x5)
   - Block 2: Glimmer x300 (x5)
   - Block 3: Glimmer x300 (x5)
-- Breezy Mission Letter (x11)
+- Breezy Mission Letter (x34)
 - Irisalis Petal (Stamps) (x48)
 - Glimmering Driftshadow (Irisalis petal) (x109)
 
@@ -823,7 +805,6 @@ Yields **63x Glimmering Driftshadow**:
 - Alpha Challenge (Capability Awakening) (x13)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
-- Daily Supply Pack (x19)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
@@ -831,7 +812,7 @@ Yields **63x Glimmering Driftshadow**:
 - Glimmering Driftshadow x10 Purchase (x3)
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
-- Daily Supply Pack (x2)
+- Daily Supply Pack (x21)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
 - Glimmering Driftshadow (Irisalis petal) (x32)
@@ -841,9 +822,8 @@ Yields **63x Glimmering Driftshadow**:
 Yields **89x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x980
-- Lumins x1980
-- Lumins x3280
+- Lumins x60 (x5)
+- Lumins x1980 (x3)
 - Monthly Pass
 - Alpha Challenge (Capability Awakening) (x44)
 - Omega Challenge (Capability Awakening) (x12)
@@ -851,12 +831,11 @@ Yields **89x Glimmering Driftshadow**:
 - Glimmering Driftshadow Purchase
 - Weekly Value Supplies
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x6)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
   - Block 3: Glimmer x300 (x12)
-- Breezy Mission Letter (x26)
+- Breezy Mission Letter (x32)
 - Irisalis Petal (Stamps) (x16)
 - Glimmering Driftshadow (Irisalis petal) (x88)
 
@@ -865,7 +844,7 @@ Yields **89x Glimmering Driftshadow**:
 Yields **141x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass (x3)
@@ -875,12 +854,11 @@ Yields **141x Glimmering Driftshadow**:
 - Glimmering Driftshadow Purchase (x2)
 - Weekly Value Supplies (x10)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x22)
 - Premium Custom Pack (x11)
   - Block 1: Glimmer x300 (x11)
   - Block 2: Glimmer x300 (x11)
   - Block 3: Glimmer x300 (x11)
-- Breezy Mission Letter (x24)
+- Breezy Mission Letter (x46)
 - Irisalis Petal (Stamps) (x48)
 - Glimmering Driftshadow (Irisalis petal) (x139)
 
@@ -961,7 +939,7 @@ Yields **1x Capafruit**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Capaseed Exchange
 
 **Budget: 10 money (spent 10.00) — month horizon**
@@ -974,7 +952,7 @@ Yields **4x Capafruit**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Capaseed Exchange
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -986,7 +964,7 @@ Yields **7x Capafruit**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Capaseed Exchange
 
 **Budget: 20 money (spent 20.00) — day horizon**
@@ -1011,14 +989,14 @@ Yields **5x Capafruit**:
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Starcryst Essence x2 (x2)
 - Capaseed Exchange (x2)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
 Yields **11x Capafruit**:
 
-- Lumins x60 (x5)
+- Lumins x300
 - Monthly Pass (x3)
 - Capafruit Purchase (x9)
 - Weekly Value Supplies
@@ -1047,30 +1025,27 @@ Yields **10x Capafruit**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Capafruit Purchase (x3)
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
   - Block 3: Glimmer x300 (x4), Starcryst Essence x2 (x2)
-- Capafruit Purchase
+- Capafruit Purchase (x4)
 - Capaseed Exchange (x6)
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
 Yields **16x Capafruit**:
 
-- Lumins x60 (x10)
+- Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Capafruit Purchase (x9)
 - Weekly Value Supplies (x6)
-- Capafruit Purchase
 - Premium Custom Pack (x4)
   - Block 1: Capaseed x10 (x4)
   - Block 2: Capaseed x10 (x4)
-  - Block 3: Glimmer x300 (x2), Mark of the Strong - Breezy Plains x2 (x2)
-- Capafruit Purchase
+  - Block 3: Glimmer x300 (x2), Starcryst Essence x2 (x2)
+- Capafruit Purchase (x11)
 - Capaseed Exchange (x4)
 
 **Budget: 100 money (spent 100.00) — day horizon**
@@ -1089,15 +1064,14 @@ Yields **15x Capafruit**:
 
 Yields **18x Capafruit**:
 
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980 (x3)
 - Monthly Pass
-- Capafruit Purchase (x3)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
   - Block 3: Glimmer x300 (x10), Starcryst Essence x2 (x2)
-- Capafruit Purchase (x3)
+- Capafruit Purchase (x6)
 - Capaseed Exchange (x12)
 
 **Budget: 100 money (spent 100.00) — season horizon**
@@ -1108,14 +1082,12 @@ Yields **24x Capafruit**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Capafruit Purchase (x9)
 - Weekly Value Supplies (x8)
-- Capafruit Purchase
 - Premium Custom Pack (x10)
   - Block 1: Capaseed x10 (x10)
   - Block 2: Capaseed x10 (x10)
   - Block 3: Glimmer x300 (x8), Starcryst Essence x2 (x2)
-- Capafruit Purchase (x3)
+- Capafruit Purchase (x13)
 - Capaseed Exchange (x10)
 
 ### 🍎 Psyche Fruit
@@ -1149,23 +1121,20 @@ Yields **40x Psyche Fruit**:
 
 - Lumins x60 (x5)
 - Monthly Pass
-- Psyche Fruit Purchase (x30)
 - Weekly Value Supplies
-- Psyche Fruit Purchase
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Psyche Fruit Purchase (x9)
+- Psyche Fruit Purchase (x40)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
 Yields **73x Psyche Fruit**:
 
 - Monthly Pass (x2)
-- Psyche Fruit Purchase (x60)
 - Weekly Value Supplies (x11)
-- Psyche Fruit Purchase (x13)
+- Psyche Fruit Purchase (x73)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -1198,14 +1167,12 @@ Yields **51x Psyche Fruit**:
 
 - Lumins x980
 - Monthly Pass
-- Psyche Fruit Purchase (x30)
 - Weekly Value Supplies (x3)
-- Psyche Fruit Purchase (x3)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
-- Psyche Fruit Purchase (x18)
+- Psyche Fruit Purchase (x51)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
@@ -1213,14 +1180,12 @@ Yields **113x Psyche Fruit**:
 
 - Lumins x60 (x5)
 - Monthly Pass (x3)
-- Psyche Fruit Purchase (x90)
 - Weekly Value Supplies (x12)
-- Psyche Fruit Purchase (x14)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Psyche Fruit Purchase (x9)
+- Psyche Fruit Purchase (x113)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -1252,12 +1217,11 @@ Yields **84x Psyche Fruit**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Psyche Fruit Purchase (x30)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
-- Psyche Fruit Purchase (x54)
+- Psyche Fruit Purchase (x84)
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
@@ -1267,14 +1231,12 @@ Yields **148x Psyche Fruit**:
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Psyche Fruit Purchase (x96)
 - Weekly Value Supplies (x6)
-- Psyche Fruit Purchase (x8)
 - Premium Custom Pack (x4)
   - Block 1: Glimmer x300 (x4)
   - Block 2: Glimmer x300 (x4)
   - Block 3: Glimmer x300 (x4)
-- Psyche Fruit Purchase (x36)
+- Psyche Fruit Purchase (x140)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -1303,17 +1265,15 @@ Yields **109x Psyche Fruit**:
 
 Yields **140x Psyche Fruit**:
 
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980 (x3)
 - Monthly Pass
-- Psyche Fruit Purchase (x30)
 - Weekly Value Supplies (x2)
-- Psyche Fruit Purchase (x2)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
   - Block 3: Glimmer x300 (x12)
-- Psyche Fruit Purchase (x108)
+- Psyche Fruit Purchase (x140)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
@@ -1323,14 +1283,12 @@ Yields **205x Psyche Fruit**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Psyche Fruit Purchase (x96)
 - Weekly Value Supplies (x9)
-- Psyche Fruit Purchase (x11)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Glimmer x300 (x10)
   - Block 3: Glimmer x300 (x10)
-- Psyche Fruit Purchase (x90)
+- Psyche Fruit Purchase (x197)
 
 ### 🔷 Vein Essence
 
@@ -1354,13 +1312,12 @@ Yields **9x Vein Essence**:
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Value Supplies
-- Daily Supply Pack (x18)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Vein Essence x3 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x3)
+- Daily Supply Pack (x21)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 10 money (spent 10.00) — month horizon**
@@ -1373,9 +1330,8 @@ Yields **24x Vein Essence**:
 - Alpha Challenge (Capability Awakening) (x182)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
-- Primegy Purchase (x60)
 - Weekly Value Supplies (x4)
-- Primegy Purchase (x9)
+- Primegy Purchase (x69)
 - Daily Supply Pack (x84)
 - Vein Essence (Stamps) (x16)
 
@@ -1388,9 +1344,8 @@ Yields **70x Vein Essence**:
 - Alpha Challenge (Capability Awakening) (x388)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x120)
 - Weekly Value Supplies (x11)
-- Primegy Purchase (x8)
+- Primegy Purchase (x128)
 - Daily Supply Pack (x252)
 - Vein Essence (Stamps) (x48)
 
@@ -1444,9 +1399,8 @@ Yields **85x Vein Essence**:
 - Alpha Challenge (Capability Awakening) (x524)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x180)
 - Weekly Value Supplies (x12)
-- Primegy Purchase (x16)
+- Primegy Purchase (x196)
 - Departure Gift
 - First Encounter in Light
 - Daily Supply Pack (x252)
@@ -1473,13 +1427,12 @@ Yields **35x Vein Essence**:
 - Omega Challenge (Resonance) (x3)
 - Weekly Nurturing Delivery (x2)
 - Weekly Value Supplies
-- Daily Supply Pack (x18)
 - Premium Custom Pack (x3)
   - Block 1: Capaseed x10 (x3)
   - Block 2: Vein Essence x3 (x3)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x3)
+  - Block 3: Starcryst Essence x2 (x3)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x3)
+- Daily Supply Pack (x21)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 50 money (spent 50.00) — month horizon**
@@ -1493,10 +1446,9 @@ Yields **72x Vein Essence**:
 - Alpha Challenge (Capability Awakening) (x178)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
-- Primegy Purchase (x60)
 - Weekly Nurturing Delivery (x5)
 - Weekly Value Supplies (x3)
-- Primegy Purchase (x7)
+- Primegy Purchase (x67)
 - Daily Supply Pack (x84)
 - Vein Essence (Stamps) (x16)
 
@@ -1512,9 +1464,8 @@ Yields **116x Vein Essence**:
 - Weekly Nurturing Delivery (x4)
 - Weekly Value Supplies (x10)
 - Departure Gift
-- Daily Supply Pack (x238)
 - Primegy Purchase (x11)
-- Daily Supply Pack (x14)
+- Daily Supply Pack (x252)
 - Vein Essence (Stamps) (x48)
 
 **Budget: 100 money (spent 100.00) — day horizon**
@@ -1538,13 +1489,12 @@ Yields **53x Vein Essence**:
 - Omega Challenge (Resonance) (x3)
 - Weekly Nurturing Delivery (x2)
 - Weekly Value Supplies
-- Daily Supply Pack (x18)
 - Premium Custom Pack (x9)
   - Block 1: Capaseed x10 (x9)
   - Block 2: Vein Essence x3 (x9)
   - Block 3: Starcryst Essence x2 (x9)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x3)
+- Daily Supply Pack (x21)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 100 money (spent 100.00) — month horizon**
@@ -1552,16 +1502,15 @@ Yields **53x Vein Essence**:
 Yields **110x Vein Essence**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980 (x3)
 - Monthly Pass
 - Alpha Challenge (Capability Awakening) (x182)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
-- Primegy Purchase (x60)
 - Weekly Nurturing Delivery (x8)
 - Weekly Value Supplies (x4)
-- Primegy Purchase (x9)
+- Primegy Purchase (x69)
 - Daily Supply Pack (x84)
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
@@ -1579,10 +1528,9 @@ Yields **171x Vein Essence**:
 - Alpha Challenge (Capability Awakening) (x394)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x120)
 - Weekly Nurturing Delivery (x9)
 - Weekly Value Supplies (x10)
-- Primegy Purchase (x11)
+- Primegy Purchase (x131)
 - Departure Gift
 - First Encounter in Light
 - Daily Supply Pack (x252)
@@ -1645,7 +1593,7 @@ Yields **4x Sparkling Pigment**:
 
 Yields **9x Sparkling Pigment**:
 
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980
 - Monthly Pass (x3)
 - Weekly Sparkling (x9)
@@ -1665,9 +1613,8 @@ Yields **1x Sparkling Pigment**:
 
 Yields **4x Sparkling Pigment**:
 
-- Lumins x980
-- Lumins x1980
-- Lumins x3280
+- Lumins x300
+- Lumins x1980 (x3)
 - Monthly Pass
 - Weekly Sparkling (x4)
 
@@ -1710,7 +1657,7 @@ _Not affordable at this budget._
 
 Yields **2x Phenomena Crystal**:
 
-- Lumins x60 (x10)
+- Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
@@ -1730,91 +1677,234 @@ Yields **3x Phenomena Crystal**:
 - Advanced Companion Handbook
 - Weekly Nurturing (x2)
 
-### ♦️ Mark of the Strong - Breezy Plains
+### ♦️ Mark of the Strong
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
-Yields **2x Mark of the Strong - Breezy Plains**:
+Yields **2x Mark of the Strong**:
 
 - Lumins x300 (x2)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Mark of the Strong x2 (x1)
+
+**Budget: 10 money (spent 10.00) — week horizon**
+
+Yields **6x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x7)
+- Lumins x60 (x10)
+- Alpha Challenge (Capability Awakening) (x11)
+- Weekly Value Supplies
+- Premium Custom Pack
+  - Block 1: Glimmer x300 (x1)
+  - Block 2: Aniipod Ultra x2 (x1)
+  - Block 3: Mark of the Strong x2 (x1)
+- Aniipod Ultra Purchase (Glimmer) (x2)
+- Alpha Catch Report (x4)
+
+**Budget: 10 money (spent 10.00) — month horizon**
+
+Yields **21x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x28)
+- Lumins x60 (x5)
+- Monthly Pass
+- Alpha Challenge (Capability Awakening) (x44)
+- Weekly Value Supplies
+- Premium Custom Pack
+  - Block 1: Glimmer x300 (x1)
+  - Block 2: Aniipod Ultra x2 (x1)
+  - Block 3: Mark of the Strong x2 (x1)
+- Aniipod Ultra Purchase (Glimmer) (x17)
+- Alpha Catch Report (x19)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Yields **5x Mark of the Strong - Breezy Plains**:
+Yields **36x Mark of the Strong**:
 
-- Advanced Companion Handbook
+- Primegy Restore (AFK) (x84)
+- Monthly Pass (x2)
+- Alpha Challenge (Capability Awakening) (x132)
+- Weekly Value Supplies (x10)
+- Aniipod Ultra Purchase (Glimmer) (x36)
+- Alpha Catch Report (x36)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
-Yields **4x Mark of the Strong - Breezy Plains**:
+Yields **4x Mark of the Strong**:
 
 - Lumins x300
 - Lumins x980
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Mark of the Strong x2 (x2)
+
+**Budget: 20 money (spent 20.00) — week horizon**
+
+Yields **12x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x7)
+- Lumins x300
+- Lumins x980
+- Alpha Challenge (Capability Awakening) (x11)
+- Aniipod Ultra Purchase (Lumins)
+- Premium Custom Pack (x2)
+  - Block 1: Glimmer x300 (x2)
+  - Block 2: Aniipod Ultra x2 (x2)
+  - Block 3: Mark of the Strong x2 (x2)
+- Aniipod Ultra Purchase (Glimmer) (x3)
+- Alpha Catch Report (x8)
+
+**Budget: 20 money (spent 20.00) — month horizon**
+
+Yields **27x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x28)
+- Lumins x980
+- Monthly Pass
+- Alpha Challenge (Capability Awakening) (x44)
+- Weekly Value Supplies (x2)
+- Premium Custom Pack (x2)
+  - Block 1: Glimmer x300 (x2)
+  - Block 2: Aniipod Ultra x2 (x2)
+  - Block 3: Mark of the Strong x2 (x2)
+- Aniipod Ultra Purchase (Glimmer) (x19)
+- Alpha Catch Report (x23)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **10x Mark of the Strong - Breezy Plains**:
+Yields **58x Mark of the Strong**:
 
-- Lumins x60 (x5)
+- Primegy Restore (AFK) (x84)
+- Lumins x300
 - Monthly Pass (x3)
+- Alpha Challenge (Capability Awakening) (x132)
+- Weekly Value Supplies (x5)
+- Aniipod Ultra Purchase (Glimmer) (x48)
 - Champion's Gift
+- Alpha Catch Report (x48)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
-Yields **12x Mark of the Strong - Breezy Plains**:
+Yields **12x Mark of the Strong**:
 
 - Lumins x3280
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x6)
+  - Block 3: Mark of the Strong x2 (x6)
 
-**Budget: 50 money (spent 50.00) — season horizon**
+**Budget: 50 money (spent 50.00) — week horizon**
 
-Yields **22x Mark of the Strong - Breezy Plains**:
+Yields **33x Mark of the Strong**:
 
+- Primegy Restore (AFK) (x7)
+- Lumins x3280
+- Alpha Challenge (Capability Awakening) (x21)
+- Premium Custom Pack (x6)
+  - Block 1: Glimmer x300 (x6)
+  - Block 2: Aniipod Ultra x2 (x6)
+  - Block 3: Mark of the Strong x2 (x6)
+- Aniipod Ultra Purchase (Glimmer) (x9)
+- Alpha Catch Report (x21)
+
+**Budget: 50 money (spent 50.00) — month horizon**
+
+Yields **48x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Weekly Nurturing
+- Alpha Challenge (Capability Awakening) (x44)
+- Premium Custom Pack (x6)
+  - Block 1: Glimmer x300 (x6)
+  - Block 2: Aniipod Ultra x2 (x6)
+  - Block 3: Mark of the Strong x2 (x6)
+- Aniipod Ultra Purchase (Glimmer) (x24)
+- Alpha Catch Report (x36)
+
+**Budget: 50 money (spent 50.00) — season horizon**
+
+Yields **82x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x84)
+- Lumins x60 (x10)
+- Lumins x980
+- Monthly Pass (x3)
+- Advanced Companion Handbook
+- Alpha Challenge (Capability Awakening) (x132)
+- Weekly Value Supplies (x8)
 - Champion's Gift
-- Premium Custom Pack
-  - Block 1: Capaseed x10 (x1)
-  - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+- Premium Custom Pack (x2)
+  - Block 1: Glimmer x300 (x2)
+  - Block 2: Aniipod Ultra x2 (x2)
+  - Block 3: Mark of the Strong x2 (x2)
+- Aniipod Ultra Purchase (Glimmer) (x56)
+- Alpha Catch Report (x63)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
-Yields **24x Mark of the Strong - Breezy Plains**:
+Yields **24x Mark of the Strong**:
 
 - Lumins x3280 (x2)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x12)
+  - Block 3: Mark of the Strong x2 (x12)
+
+**Budget: 100 money (spent 100.00) — week horizon**
+
+Yields **66x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x7)
+- Lumins x3280 (x2)
+- Alpha Challenge (Capability Awakening) (x42)
+- Premium Custom Pack (x12)
+  - Block 1: Glimmer x300 (x12)
+  - Block 2: Aniipod Ultra x2 (x12)
+  - Block 3: Mark of the Strong x2 (x12)
+- Aniipod Ultra Purchase (Glimmer) (x18)
+- Alpha Catch Report (x42)
+
+**Budget: 100 money (spent 100.00) — month horizon**
+
+Yields **82x Mark of the Strong**:
+
+- Primegy Restore (AFK) (x28)
+- Lumins x300
+- Lumins x1980 (x3)
+- Monthly Pass
+- Alpha Challenge (Capability Awakening) (x59)
+- Weekly Value Supplies (x2)
+- Premium Custom Pack (x12)
+  - Block 1: Glimmer x300 (x12)
+  - Block 2: Aniipod Ultra x2 (x12)
+  - Block 3: Mark of the Strong x2 (x12)
+- Aniipod Ultra Purchase (Glimmer) (x34)
+- Alpha Catch Report (x58)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **39x Mark of the Strong - Breezy Plains**:
+Yields **117x Mark of the Strong**:
 
+- Primegy Restore (AFK) (x84)
 - Lumins x980
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Weekly Nurturing (x2)
+- Alpha Challenge (Capability Awakening) (x132)
+- Weekly Value Supplies (x11)
 - Champion's Gift
-- Premium Custom Pack (x2)
-  - Block 1: Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+- Premium Custom Pack (x8)
+  - Block 1: Glimmer x300 (x8)
+  - Block 2: Aniipod Ultra x2 (x8)
+  - Block 3: Mark of the Strong x2 (x8)
+- Aniipod Ultra Purchase (Glimmer) (x67)
+- Alpha Catch Report (x86)
 
 ### 🔶 Starcryst Essence
 
@@ -1870,7 +1960,7 @@ Yields **12x Starcryst Essence**:
 
 Yields **22x Starcryst Essence**:
 
-- Lumins x60 (x10)
+- Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
@@ -1912,18 +2002,16 @@ Yields **281x Star Sand**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x60 (x10)
-- Alpha Challenge (Capability Awakening) (x56)
 - Weekly Value Supplies
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
 - Primegy Purchase (x20)
-- Alpha Challenge (Capability Awakening) (x35)
+- Alpha Challenge (Capability Awakening) (x91)
 - Omega Challenge (Capability Awakening) (x3)
-- Star Dust Exchange (x77)
 - Star Dust (Stamps) (x10)
-- Star Dust Exchange (x10)
+- Star Dust Exchange (x87)
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
@@ -1932,22 +2020,16 @@ Yields **1,126x Star Sand**:
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x224)
-- Primegy Purchase (x60)
-- Alpha Challenge (Capability Awakening) (x120)
 - Weekly Value Supplies
-- Primegy Purchase (x2)
-- Alpha Challenge (Capability Awakening) (x4)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Primegy Purchase (x18)
-- Alpha Challenge (Capability Awakening) (x16)
+- Primegy Purchase (x80)
+- Alpha Challenge (Capability Awakening) (x364)
 - Omega Challenge (Capability Awakening) (x12)
-- Star Dust Exchange (x310)
 - Star Dust (Stamps) (x40)
-- Star Dust Exchange (x40)
+- Star Dust Exchange (x350)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
@@ -1955,16 +2037,12 @@ Yields **2,852x Star Sand**:
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x672)
-- Primegy Purchase (x120)
-- Alpha Challenge (Capability Awakening) (x232)
-- Omega Challenge (Capability Awakening) (x4)
+- Alpha Challenge (Capability Awakening) (x904)
 - Weekly Value Supplies (x11)
-- Primegy Purchase (x26)
-- Omega Challenge (Capability Awakening) (x32)
-- Star Dust Exchange (x780)
+- Primegy Purchase (x146)
+- Omega Challenge (Capability Awakening) (x36)
 - Star Dust (Stamps) (x120)
-- Star Dust Exchange (x120)
+- Star Dust Exchange (x900)
 
 **Budget: 20 money (spent 0.00) — day horizon**
 
@@ -1977,18 +2055,16 @@ Yields **294x Star Sand**:
 - Primegy Restore (AFK) (x7)
 - Lumins x300
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x56)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
 - Primegy Purchase (x34)
-- Alpha Challenge (Capability Awakening) (x28)
+- Alpha Challenge (Capability Awakening) (x84)
 - Omega Challenge (Capability Awakening) (x3)
 - Daily Supply Pack (x20)
-- Star Dust Exchange (x84)
 - Star Dust (Stamps) (x10)
-- Star Dust Exchange (x10)
+- Star Dust Exchange (x94)
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
@@ -1997,23 +2073,17 @@ Yields **1,165x Star Sand**:
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x224)
-- Primegy Purchase (x60)
-- Alpha Challenge (Capability Awakening) (x120)
 - Weekly Value Supplies (x3)
-- Primegy Purchase (x7)
-- Alpha Challenge (Capability Awakening) (x14)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
-- Primegy Purchase (x36)
-- Alpha Challenge (Capability Awakening) (x4)
+- Primegy Purchase (x103)
+- Alpha Challenge (Capability Awakening) (x362)
 - Omega Challenge (Capability Awakening) (x12)
 - Daily Supply Pack (x28)
-- Star Dust Exchange (x325)
 - Star Dust (Stamps) (x40)
-- Star Dust Exchange (x40)
+- Star Dust Exchange (x365)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
@@ -2022,22 +2092,16 @@ Yields **3,300x Star Sand**:
 - Primegy Restore (AFK) (x84)
 - Lumins x60 (x5)
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x672)
-- Primegy Purchase (x180)
-- Alpha Challenge (Capability Awakening) (x360)
 - Weekly Value Supplies (x12)
-- Primegy Purchase (x28)
-- Alpha Challenge (Capability Awakening) (x32)
-- Omega Challenge (Capability Awakening) (x14)
+- Alpha Challenge (Capability Awakening) (x1064)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Primegy Purchase (x18)
-- Omega Challenge (Capability Awakening) (x22)
-- Star Dust Exchange (x908)
+- Primegy Purchase (x226)
+- Omega Challenge (Capability Awakening) (x36)
 - Star Dust (Stamps) (x120)
-- Star Dust Exchange (x120)
+- Star Dust Exchange (x1028)
 
 **Budget: 50 money (spent 0.00) — day horizon**
 
@@ -2049,18 +2113,16 @@ Yields **294x Star Sand**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x56)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Capaseed x10 (x6)
   - Block 3: Starcryst Essence x2 (x6)
 - Primegy Purchase (x34)
-- Alpha Challenge (Capability Awakening) (x28)
+- Alpha Challenge (Capability Awakening) (x84)
 - Omega Challenge (Capability Awakening) (x3)
 - Daily Supply Pack (x20)
-- Star Dust Exchange (x84)
 - Star Dust (Stamps) (x10)
-- Star Dust Exchange (x10)
+- Star Dust Exchange (x94)
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
@@ -2070,46 +2132,36 @@ Yields **1,176x Star Sand**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x224)
-- Primegy Purchase (x60)
-- Alpha Challenge (Capability Awakening) (x110)
-- Omega Challenge (Capability Awakening) (x6)
+- Alpha Challenge (Capability Awakening) (x334)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
-  - Block 3: Glimmer x300 (x1), Mark of the Strong - Breezy Plains x2 (x5)
-- Primegy Purchase (x75)
-- Omega Challenge (Capability Awakening) (x6)
+  - Block 3: Glimmer x300 (x1), Starcryst Essence x2 (x5)
+- Primegy Purchase (x135)
+- Omega Challenge (Capability Awakening) (x12)
 - Daily Supply Pack (x84)
-- Star Dust Exchange (x336)
 - Star Dust (Stamps) (x40)
-- Star Dust Exchange (x40)
+- Star Dust Exchange (x376)
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
 Yields **3,491x Star Sand**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x672)
-- Primegy Purchase (x180)
-- Alpha Challenge (Capability Awakening) (x360)
 - Weekly Value Supplies (x9)
-- Primegy Purchase (x21)
-- Alpha Challenge (Capability Awakening) (x42)
 - Premium Custom Pack (x5)
   - Block 1: Glimmer x300 (x5)
   - Block 2: Glimmer x300 (x5)
   - Block 3: Glimmer x300 (x5)
-- Primegy Purchase (x90)
-- Alpha Challenge (Capability Awakening) (x26)
+- Primegy Purchase (x291)
+- Alpha Challenge (Capability Awakening) (x1100)
 - Omega Challenge (Capability Awakening) (x36)
 - Daily Supply Pack (x56)
-- Star Dust Exchange (x971)
 - Star Dust (Stamps) (x120)
-- Star Dust Exchange (x120)
+- Star Dust Exchange (x1091)
 
 **Budget: 100 money (spent 0.00) — day horizon**
 
@@ -2121,41 +2173,35 @@ Yields **294x Star Sand**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x56)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x6), Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x12)
   - Block 3: Starcryst Essence x2 (x12)
 - Primegy Purchase (x34)
-- Alpha Challenge (Capability Awakening) (x28)
+- Alpha Challenge (Capability Awakening) (x84)
 - Omega Challenge (Capability Awakening) (x3)
 - Daily Supply Pack (x20)
-- Star Dust Exchange (x84)
 - Star Dust (Stamps) (x10)
-- Star Dust Exchange (x10)
+- Star Dust Exchange (x94)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
 Yields **1,176x Star Sand**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980 (x3)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x224)
-- Primegy Purchase (x60)
-- Alpha Challenge (Capability Awakening) (x110)
-- Omega Challenge (Capability Awakening) (x6)
+- Alpha Challenge (Capability Awakening) (x334)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x1), Capaseed x10 (x11)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x12)
-- Primegy Purchase (x75)
-- Omega Challenge (Capability Awakening) (x6)
+  - Block 3: Starcryst Essence x2 (x12)
+- Primegy Purchase (x135)
+- Omega Challenge (Capability Awakening) (x12)
 - Daily Supply Pack (x84)
-- Star Dust Exchange (x336)
 - Star Dust (Stamps) (x40)
-- Star Dust Exchange (x40)
+- Star Dust Exchange (x376)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
@@ -2166,23 +2212,17 @@ Yields **3,529x Star Sand**:
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x672)
-- Primegy Purchase (x180)
-- Alpha Challenge (Capability Awakening) (x333)
-- Omega Challenge (Capability Awakening) (x16)
+- Alpha Challenge (Capability Awakening) (x1005)
 - Weekly Value Supplies (x10)
-- Primegy Purchase (x24)
-- Omega Challenge (Capability Awakening) (x20)
-- Daily Supply Pack (x9)
+- Omega Challenge (Capability Awakening) (x36)
 - Premium Custom Pack (x11)
   - Block 1: Glimmer x300 (x11)
   - Block 2: Glimmer x300 (x11)
   - Block 3: Glimmer x300 (x11)
-- Primegy Purchase (x198)
-- Daily Supply Pack (x237)
-- Star Dust Exchange (x1009)
+- Primegy Purchase (x402)
+- Daily Supply Pack (x246)
 - Star Dust (Stamps) (x120)
-- Star Dust Exchange (x120)
+- Star Dust Exchange (x1129)
 
 ### 🌸 Irisalis Petal
 
@@ -2218,12 +2258,12 @@ Yields **61x Irisalis Petal**:
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x7)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Breezy Mission Letter (x2)
+- Breezy Mission Letter (x9)
 - Irisalis Petal (Stamps) (x16)
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -2238,6 +2278,7 @@ Yields **133x Irisalis Petal**:
 - Weekly Value Supplies (x11)
 - Daily Supply Pack (x252)
 - Breezy Mission Letter (x17)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Irisalis Petal (Stamps) (x48)
 
 **Budget: 20 money (spent 0.00) — day horizon**
@@ -2254,13 +2295,12 @@ Yields **24x Irisalis Petal**:
 - Alpha Challenge (Capability Awakening) (x13)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
-- Daily Supply Pack (x19)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
 - Primegy Purchase
-- Daily Supply Pack (x2)
+- Daily Supply Pack (x21)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x4)
 
@@ -2276,12 +2316,11 @@ Yields **76x Irisalis Petal**:
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x3)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x7)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
-- Breezy Mission Letter (x5)
+- Breezy Mission Letter (x12)
 - Irisalis Petal (Stamps) (x16)
 
 **Budget: 20 money (spent 20.00) — season horizon**
@@ -2296,12 +2335,12 @@ Yields **178x Irisalis Petal**:
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x11)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x24)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
-- Breezy Mission Letter (x2)
+- Breezy Mission Letter (x26)
 - Irisalis Petal (Stamps) (x48)
 
 **Budget: 50 money (spent 0.00) — day horizon**
@@ -2318,13 +2357,12 @@ Yields **64x Irisalis Petal**:
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Value Supplies
-- Daily Supply Pack (x19)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
-  - Block 3: Glimmer x300 (x5), Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Glimmer x300 (x5), Starcryst Essence x2 (x1)
 - Primegy Purchase
-- Daily Supply Pack (x2)
+- Daily Supply Pack (x21)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
 
@@ -2341,12 +2379,11 @@ Yields **111x Irisalis Petal**:
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x5)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x6)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
-- Breezy Mission Letter (x13)
+- Breezy Mission Letter (x19)
 - Irisalis Petal (Stamps) (x16)
 
 **Budget: 50 money (spent 50.00) — season horizon**
@@ -2354,7 +2391,7 @@ Yields **111x Irisalis Petal**:
 Yields **218x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980
 - Monthly Pass (x3)
 - Alpha Challenge (Capability Awakening) (x132)
@@ -2362,12 +2399,11 @@ Yields **218x Irisalis Petal**:
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x23)
 - Premium Custom Pack (x5)
   - Block 1: Glimmer x300 (x5)
   - Block 2: Glimmer x300 (x5)
   - Block 3: Glimmer x300 (x5)
-- Breezy Mission Letter (x11)
+- Breezy Mission Letter (x34)
 - Irisalis Petal (Stamps) (x48)
 
 **Budget: 100 money (spent 0.00) — day horizon**
@@ -2383,13 +2419,12 @@ Yields **79x Irisalis Petal**:
 - Alpha Challenge (Capability Awakening) (x17)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
-- Daily Supply Pack (x17)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x10), Capaseed x10 (x2)
   - Block 3: Starcryst Essence x2 (x12)
 - Primegy Purchase (x3)
-- Daily Supply Pack (x4)
+- Daily Supply Pack (x21)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x15)
 
@@ -2407,12 +2442,11 @@ Yields **176x Irisalis Petal**:
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x2)
 - Daily Supply Pack (x84)
-- Breezy Mission Letter (x7)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
-  - Block 3: Glimmer x300 (x11), Mark of the Strong - Breezy Plains x2 (x1)
-- Breezy Mission Letter (x25)
+  - Block 3: Glimmer x300 (x11), Starcryst Essence x2 (x1)
+- Breezy Mission Letter (x32)
 - Irisalis Petal (Stamps) (x16)
 
 **Budget: 100 money (spent 100.00) — season horizon**
@@ -2429,12 +2463,11 @@ Yields **278x Irisalis Petal**:
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
-- Breezy Mission Letter (x25)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Glimmer x300 (x10)
   - Block 3: Glimmer x300 (x10)
-- Breezy Mission Letter (x21)
+- Breezy Mission Letter (x46)
 - Irisalis Petal (Stamps) (x48)
 
 ### 💠 Flux Crystal
@@ -2469,7 +2502,7 @@ Yields **20x Flux Crystal**:
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Flux Crystal (Stamps) (x20)
 
 **Budget: 10 money (spent 0.00) — season horizon**
@@ -2513,7 +2546,7 @@ Yields **20x Flux Crystal**:
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Starcryst Essence x2 (x2)
 - Flux Crystal (Stamps) (x20)
 
 **Budget: 20 money (spent 20.00) — season horizon**
@@ -2561,7 +2594,7 @@ Yields **20x Flux Crystal**:
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x6)
+  - Block 3: Starcryst Essence x2 (x6)
 - Flux Crystal (Stamps) (x20)
 
 **Budget: 50 money (spent 25.00) — season horizon**
@@ -2598,7 +2631,7 @@ Yields **5x Flux Crystal**:
 Yields **20x Flux Crystal**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980 (x3)
 - Monthly Pass
 - Alpha Challenge (Capability Awakening) (x164)
@@ -2626,10 +2659,10 @@ Yields **60x Flux Crystal**:
 - Omega Challenge (Resonance) (x36)
 - Primegy Purchase (x175)
 - Daily Supply Pack (x252)
-- Premium Custom Pack (x2)
-  - Block 1: Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x2)
-  - Block 3: Starcryst Essence x2 (x2)
+- Premium Custom Pack (x3)
+  - Block 1: Capaseed x10 (x3)
+  - Block 2: Capaseed x10 (x3)
+  - Block 3: Starcryst Essence x2 (x3)
 - Flux Crystal (Stamps) (x60)
 
 ## Overall Best Trades
@@ -2645,7 +2678,7 @@ Total basket value: **12.36 money**
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 
 **Budget: 10 money (spent 10.00) — week horizon**
 
@@ -2665,7 +2698,7 @@ Total basket value: **15.03 money**
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
-Total basket value: **34.61 money**
+Total basket value: **30.44 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
@@ -2678,11 +2711,11 @@ Total basket value: **34.61 money**
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Total basket value: **136.84 money**
+Total basket value: **128.23 money**
 
 - Primegy Restore (AFK) (x84)
 - Advanced Companion Handbook
@@ -2692,6 +2725,7 @@ Total basket value: **136.84 money**
 - Lightweave Ticket Purchase (Glimmer) (x13)
 - Lightweave Ticket x5 Purchase (Glimmer)
 - Daily Supply Pack (x252)
+- Alpha Catch Report (x3)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -2703,7 +2737,7 @@ Total basket value: **25.67 money**
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Starcryst Essence x2 (x2)
 
 **Budget: 20 money (spent 20.00) — week horizon**
 
@@ -2719,11 +2753,11 @@ Total basket value: **28.34 money**
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x2)
+  - Block 3: Starcryst Essence x2 (x2)
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
-Total basket value: **47.91 money**
+Total basket value: **43.74 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
@@ -2740,7 +2774,7 @@ Total basket value: **47.91 money**
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Total basket value: **177.26 money**
+Total basket value: **160.30 money**
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
@@ -2755,6 +2789,7 @@ Total basket value: **177.26 money**
 - Butterfly Dream - First Encounter
 - First Encounter in Light
 - Daily Supply Pack (x252)
+- Alpha Catch Report (x3)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -2765,7 +2800,7 @@ Total basket value: **67.97 money**
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x6)
+  - Block 3: Starcryst Essence x2 (x6)
 
 **Budget: 50 money (spent 50.00) — week horizon**
 
@@ -2784,7 +2819,7 @@ Total basket value: **70.64 money**
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
-Total basket value: **89.91 money**
+Total basket value: **85.74 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
@@ -2802,10 +2837,10 @@ Total basket value: **89.91 money**
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Total basket value: **274.88 money**
+Total basket value: **226.34 money**
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300 (x2)
+- Lumins x60 (x10)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
@@ -2820,6 +2855,7 @@ Total basket value: **274.88 money**
 - Weekly Nurturing
 - First Encounter in Light
 - Daily Supply Pack (x252)
+- Alpha Catch Report (x3)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -2830,7 +2866,7 @@ Total basket value: **135.66 money**
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Mark of the Strong - Breezy Plains x2 (x12)
+  - Block 3: Starcryst Essence x2 (x12)
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
@@ -2849,7 +2885,7 @@ Total basket value: **138.33 money**
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Total basket value: **157.60 money**
+Total basket value: **153.43 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
@@ -2868,7 +2904,7 @@ Total basket value: **157.60 money**
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Total basket value: **418.52 money**
+Total basket value: **317.23 money**
 
 - Primegy Restore (AFK) (x84)
 - Lumins x980
@@ -2881,15 +2917,16 @@ Total basket value: **418.52 money**
 - Lightweave Ticket Purchase (Glimmer) (x20)
 - Lightweave Ticket x5 Purchase (Glimmer)
 - Primegy Purchase (x175)
+- Butterfly Dream - Invitation
 - Butterfly Dream - First Encounter
 - Weekly Nurturing (x2)
-- Champion's Gift
 - First Encounter in Light
 - Daily Supply Pack (x252)
-- Premium Custom Pack (x2)
-  - Block 1: Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x2)
-  - Block 3: Starcryst Essence x2 (x2)
+- Premium Custom Pack (x3)
+  - Block 1: Capaseed x10 (x3)
+  - Block 2: Capaseed x10 (x3)
+  - Block 3: Starcryst Essence x2 (x3)
+- Alpha Catch Report (x3)
 
 ## Methodology
 
