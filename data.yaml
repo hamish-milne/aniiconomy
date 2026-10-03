@@ -189,7 +189,7 @@ trades:
       aniipod_ultra: 1
     out:
       mark_of_the_strong: 1
-      credits: 5000
+      credits: 8000
   # Lumins item shop
   sparkling_cube_purchase:
     name: Sparkling Cube Purchase
@@ -228,12 +228,14 @@ trades:
       glimmer: 200
     out:
       aniipod_ultra: 1
+    per_week: 10
   capafruit_purchase:
     name: Capafruit Purchase
     in:
       glimmer: 1000
     out:
       capafruit: 1
+    per_week: 1
   psyche_fruit_purchase:
     name: Psyche Fruit Purchase
     in:
@@ -511,6 +513,15 @@ trades:
     out:
       glimmering_driftshadow: 1
   # Misc
+  memory_faded_rainbow:
+    name: Memory - The Faded Rainbow
+    in:
+      primegy: 50
+    out:
+      season_stamp: 20
+      irisalis_petal: 3
+      credits: 50000
+    per_week: 2
   monthly_pass:
     name: Monthly Pass
     in:
