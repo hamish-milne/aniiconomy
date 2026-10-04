@@ -8,11 +8,11 @@ Marginal cost, in real money, to obtain one more unit of each item (see Methodol
 |---|---|
 | ⭐ Lumins | 0.0138 (1 money ≈ 72.6) |
 | 💎 Glimmer | 0.0014 (1 money ≈ 732.0) |
-| 🎇 Sparkling Cube | 1.66 |
+| 🎇 Sparkling Cube | 1.08 |
 | 🎟️ Lightweave Ticket | 0.5234 (1 money ≈ 1.9) |
 | 🔮 Prismana Orb | 45.18 |
 | 🟥 Aniipod Ultra | 0.2732 (1 money ≈ 3.7) |
-| 🌌 Glimmering Driftshadow | 0.2051 (1 money ≈ 4.9) |
+| 🌌 Glimmering Driftshadow | 0.0328 (1 money ≈ 30.5) |
 | 🌠 Radiant Dreamshadow | 2.75 |
 | 🍏 Capafruit | 1.34 |
 | 🍎 Psyche Fruit | 0.1366 (1 money ≈ 7.3) |
@@ -24,7 +24,7 @@ Marginal cost, in real money, to obtain one more unit of each item (see Methodol
 | ❇️ Season Stamp | 0.0024 (1 money ≈ 411.4) |
 | 🔶 Starcryst Essence | 4.05 |
 | 🟣 Star Sand | 0.0084 (1 money ≈ 118.9) |
-| 🌸 Irisalis Petal | 0.1025 (1 money ≈ 9.8) |
+| 🌸 Irisalis Petal | 0.0164 (1 money ≈ 60.9) |
 | 💠 Flux Crystal | 0.0729 (1 money ≈ 13.7) |
 
 ## Exchange Value Index
@@ -35,57 +35,59 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 |---|---|---|---|
 | Lightweave Ticket x5 Purchase (Glimmer) | 1/season | 1,197.3% | 🟢 |
 | Lightweave Ticket Purchase (Glimmer) | 20/season | 1,008.3% | 🟢 |
-| Advanced Companion Handbook | 1/season | 842.8% | 🟢 |
+| Advanced Companion Handbook | 1/season | 822.0% | 🟢 |
 | Butterfly Dream - First Encounter | 1/season | 316.7% | 🟢 |
-| First Encounter in Light | 1/season | 241.6% | 🟢 |
+| First Encounter in Light | 10/season | 232.1% | 🟢 |
 | Weekly Nurturing | 2/season | 213.6% | 🟢 |
-| Monthly Pass | 1/month | 189.5% | 🟢 |
+| Monthly Pass | 1/month | 188.8% | 🟢 |
 | Omega Challenge (Resonance) | 3/week | 171.9% | 🟢 |
+| Memory - The Faded Rainbow | 2/week | 171.9% | 🟢 |
 | Omega Challenge (Capability Awakening) | 3/week | 168.1% | 🟢 |
 | Daily Supply Pack | 3/day | 153.6% | 🟢 |
-| Season Keepsakes | 1/season | 146.9% | 🟢 |
+| Season Keepsakes | 1/season | 144.1% | 🟢 |
 | Alpha Challenge (Capability Awakening) | — | 140.1% | 🟢 |
-| Premium Custom Pack | — | 137.0% | 🟢 |
 | Butterfly Dream - Invitation | 1/season | 135.7% | 🟢 |
+| Legendary Aniipod Crafting | — | 131.9% | 🟢 |
+| Premium Custom Pack | — | 129.9% | 🟢 |
 | Alpha Challenge (Resonance) | — | 121.6% | 🟢 |
 | Alpha Catch Report | — | 112.5% | 🟡 |
-| Weekly Sparkling | 1/week | 106.3% | 🟡 |
+| Weekly Sparkling | 1/week | 104.1% | 🟡 |
 | Primegy Purchase | 6/day | 100.0% | 🟡 |
 | Lightweave Ticket Purchase (Lumins) | — | 100.0% | 🟡 |
+| Glimmering Driftshadow (Irisalis petal) | — | 100.0% | 🟡 |
 | Radiant Dreamshadow Purchase | — | 100.0% | 🟡 |
 | Sparkling Crystal Exchange | — | 100.0% | 🟡 |
 | Capaseed Exchange | — | 100.0% | 🟡 |
 | Star Dust Exchange | — | 100.0% | 🟡 |
 | Companion Handbook Level x5 from EXP (Advanced, Level 70+) | — | 100.0% | 🟡 |
 | Prismana Orb Purchase | — | 100.0% | 🟡 |
-| Aniipod Ultra Purchase (Glimmer) | — | 100.0% | 🟡 |
+| Aniipod Ultra Purchase (Glimmer) | 10/week | 100.0% | 🟡 |
 | Psyche Fruit Purchase | — | 100.0% | 🟡 |
 | Lumins x1980 | — | 100.0% | 🟡 |
 | Flux Crystal (Stamps) | 5/week | 100.0% | 🟡 |
-| Glimmering Driftshadow (Irisalis petal) | — | 100.0% | 🟡 |
 | Lumins x3280 | — | 99.4% | 🟡 |
 | Lumins x980 | — | 99.0% | 🟡 |
 | Lumins x6480 | — | 98.2% | 🟡 |
-| Capafruit Purchase | — | 98.1% | 🟡 |
+| Capafruit Purchase | 1/week | 98.1% | 🟡 |
 | Lumins x60 | — | 90.9% | 🟡 |
 | Lumins x300 | — | 90.9% | 🟡 |
-| Breezy Mission Letter | 15/week | 87.7% | 🔴 |
-| Irisalis Petal (Stamps) | 4/week | 84.4% | 🔴 |
-| Glimmering Driftshadow x10 Purchase | — | 83.4% | 🔴 |
-| Sparkling Crystal Purchase | 100/week | 81.0% | 🔴 |
 | Vein Essence (Stamps) | 4/week | 78.9% | 🔴 |
-| Glimmering Driftshadow Purchase | — | 75.1% | 🔴 |
+| Sparkling Crystal Purchase | 100/week | 52.8% | 🔴 |
 | Weekly Value Supplies | 1/week | 43.0% | 🔴 |
 | Champion's Gift | 1/season | 42.8% | 🔴 |
-| Keepsakes Companion Handbook | 1/season | 36.6% | 🔴 |
+| Keepsakes Companion Handbook | 1/season | 30.2% | 🔴 |
 | Departure Gift | 1/season | 29.8% | 🔴 |
-| Adventure Pack | 1/season | 27.4% | 🔴 |
+| Adventure Pack | 1/season | 19.9% | 🔴 |
 | Star Dust (Stamps) | 10/week | 17.3% | 🔴 |
+| Breezy Mission Letter | 15/week | 14.0% | 🔴 |
 | Dewdrop Crystal (Stamps) | 10/week | 13.5% | 🔴 |
+| Irisalis Petal (Stamps) | 4/week | 13.5% | 🔴 |
+| Glimmering Driftshadow x10 Purchase | — | 13.3% | 🔴 |
+| Glimmering Driftshadow Purchase | — | 12.0% | 🔴 |
 | Weekly Nurturing Delivery | 2/week | 10.2% | 🔴 |
-| Companion Handbook Level x5 from Lumins (Advanced, Level 70+) | — | 10.0% | 🔴 |
 | Aniipod Ultra Purchase (Lumins) | — | 9.9% | 🔴 |
-| Sparkling Cube Purchase | — | 8.0% | 🔴 |
+| Companion Handbook Level x5 from Lumins (Advanced, Level 70+) | — | 9.6% | 🔴 |
+| Sparkling Cube Purchase | — | 5.2% | 🔴 |
 | Credits (Stamps) | — | 0.0% | 🔴 |
 | Aniimo Catching (x100) | 10/week | N/A | ⚪ |
 | Aniimo Catching (x100) (no Voxel Coin) | — | N/A | ⚪ |
@@ -95,6 +97,23 @@ Output value ÷ input value for each exchange, both priced in money. Above 100% 
 ## Shopping Lists
 
 ### 🎇 Sparkling Cube
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **2x Sparkling Cube**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Irisalis Petal (Stamps) (x28)
+- Legendary Aniipod Crafting (x2)
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -108,30 +127,48 @@ Yields **1x Sparkling Cube**:
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
-Yields **3x Sparkling Cube**:
+Yields **4x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x28)
 - Lumins x300
 - Monthly Pass
-- Sparkling Crystal Purchase (x195)
+- Alpha Challenge (Capability Awakening) (x40)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Sparkling Crystal Purchase (x165)
+- Primegy Purchase (x5)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack
-  - Block 1: Capaseed x10 (x1)
-  - Block 2: Capaseed x10 (x1)
-  - Block 3: Starcryst Essence x2 (x1)
+  - Block 1: Glimmer x300 (x1)
+  - Block 2: Glimmer x300 (x1)
+  - Block 3: Sparkling Crystal x300 (x1)
+- Breezy Mission Letter (x2)
 - Sparkling Crystal Exchange (x2)
+- Irisalis Petal (Stamps) (x16)
+- Legendary Aniipod Crafting
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Yields **5x Sparkling Cube**:
+Yields **7x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
 - Sparkling Crystal Purchase (x390)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Starcryst Essence x2 (x1)
 - Sparkling Crystal Exchange (x4)
+- Irisalis Petal (Stamps) (x28)
+- Legendary Aniipod Crafting (x2)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -148,7 +185,7 @@ Yields **2x Sparkling Cube**:
 
 Yields **3x Sparkling Cube**:
 
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x980
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
@@ -159,32 +196,50 @@ Yields **3x Sparkling Cube**:
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
-Yields **5x Sparkling Cube**:
+Yields **6x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
+- Alpha Challenge (Capability Awakening) (x32)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x2)
+- Daily Supply Pack (x84)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
-  - Block 3: Starcryst Essence x2 (x2)
-- Sparkling Crystal Purchase (x295)
+  - Block 3: Sparkling Crystal x300 (x2)
+- Sparkling Crystal Purchase (x235)
+- Primegy Purchase
+- Breezy Mission Letter (x2)
+- Memory - The Faded Rainbow (x8)
 - Sparkling Crystal Exchange (x3)
+- Irisalis Petal (Stamps) (x16)
+- Legendary Aniipod Crafting
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **9x Sparkling Cube**:
+Yields **11x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
 - Advanced Companion Handbook
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
 - Sparkling Crystal Purchase (x430)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Sparkling Crystal Exchange (x6)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Starcryst Essence x2 (x1)
+- Irisalis Petal (Stamps) (x28)
+- Legendary Aniipod Crafting (x2)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -201,45 +256,72 @@ Yields **7x Sparkling Cube**:
 
 Yields **8x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x7)
 - Lumins x3280
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack (x6)
-  - Block 1: Glimmer x300 (x4), Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x6)
-  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x4)
-- Sparkling Crystal Purchase (x80)
-- Sparkling Crystal Exchange (x2)
+  - Block 1: Glimmer x300 (x6)
+  - Block 2: Glimmer x300 (x6)
+  - Block 3: Starcryst Essence x2 (x3), Sparkling Crystal x300 (x3)
+- Sparkling Crystal Purchase (x10)
+- Sparkling Crystal Exchange
+- Irisalis Petal (Stamps) (x4)
+- Breezy Mission Letter (x8)
+- Legendary Aniipod Crafting
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
-Yields **11x Sparkling Cube**:
+Yields **12x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
+- Alpha Challenge (Capability Awakening) (x34)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
-  - Block 2: Glimmer x300 (x3), Capaseed x10 (x3)
+  - Block 2: Glimmer x300 (x6)
   - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x4)
 - Sparkling Crystal Purchase (x375)
+- Primegy Purchase (x2)
+- Breezy Mission Letter (x2)
+- Memory - The Faded Rainbow (x8)
 - Sparkling Crystal Exchange (x5)
+- Irisalis Petal (Stamps) (x16)
+- Legendary Aniipod Crafting
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Yields **17x Sparkling Cube**:
+Yields **19x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x84)
 - Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Weekly Value Supplies (x5)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- First Encounter in Light (x2)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack (x4)
   - Block 1: Glimmer x300 (x4)
   - Block 2: Glimmer x300 (x4)
-  - Block 3: Starcryst Essence x2 (x1), Sparkling Crystal x300 (x3)
-- Sparkling Crystal Purchase (x835)
+  - Block 3: Sparkling Crystal x300 (x4)
+- Sparkling Crystal Purchase (x805)
 - Sparkling Crystal Exchange (x11)
+- Irisalis Petal (Stamps) (x28)
+- Legendary Aniipod Crafting (x2)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -254,50 +336,81 @@ Yields **15x Sparkling Cube**:
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
-Yields **16x Sparkling Cube**:
+Yields **17x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
+- Alpha Challenge (Capability Awakening) (x13)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
 - Premium Custom Pack (x12)
-  - Block 1: Glimmer x300 (x5), Capaseed x10 (x7)
-  - Block 2: Capaseed x10 (x12)
+  - Block 1: Glimmer x300 (x12)
+  - Block 2: Glimmer x300 (x5), Capaseed x10 (x7)
   - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x10)
 - Sparkling Crystal Purchase (x100)
+- Primegy Purchase (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Sparkling Crystal Exchange (x4)
+- Irisalis Petal (Stamps) (x4)
+- Breezy Mission Letter (x8)
+- Legendary Aniipod Crafting
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Yields **19x Sparkling Cube**:
+Yields **21x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+)
 - Premium Custom Pack (x12)
-  - Block 1: Glimmer x300 (x10), Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x12)
-  - Block 3: Starcryst Essence x2 (x2), Sparkling Crystal x300 (x10)
-- Sparkling Crystal Purchase (x395)
+  - Block 1: Glimmer x300 (x12)
+  - Block 2: Glimmer x300 (x12)
+  - Block 3: Sparkling Crystal x300 (x12)
+- Sparkling Crystal Purchase (x335)
+- Breezy Mission Letter (x12)
 - Sparkling Crystal Exchange (x7)
+- Irisalis Petal (Stamps) (x16)
+- Legendary Aniipod Crafting (x2)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **27x Sparkling Cube**:
+Yields **29x Sparkling Cube**:
 
+- Primegy Restore (AFK) (x84)
 - Lumins x980
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Weekly Value Supplies (x9)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- First Encounter in Light (x3)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Glimmer x300 (x10)
-  - Block 3: Starcryst Essence x2 (x3), Sparkling Crystal x300 (x7)
-- Sparkling Crystal Purchase (x1115)
+  - Block 3: Starcryst Essence x2 (x1), Sparkling Crystal x300 (x9)
+- Sparkling Crystal Purchase (x1055)
 - Sparkling Crystal Exchange (x15)
+- Irisalis Petal (Stamps) (x28)
+- Legendary Aniipod Crafting (x2)
 
 ### 🎟️ Lightweave Ticket
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -378,6 +491,10 @@ Yields **220x Lightweave Ticket**:
 
 ### 🔮 Prismana Orb
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
 **Budget: 10 money (spent 0.00) — day horizon**
 
 _Not affordable at this budget._
@@ -397,7 +514,7 @@ Yields **1x Prismana Orb**:
 
 Yields **1x Prismana Orb**:
 
-- Lumins x300 (x2)
+- Lumins x60 (x10)
 - Lumins x980
 - Monthly Pass (x3)
 - Weekly Nurturing
@@ -422,7 +539,18 @@ Yields **3x Prismana Orb**:
 
 ### 🟥 Aniipod Ultra
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
 **Budget: 10 money (spent 10.00) — day horizon**
+
+Yields **3x Aniipod Ultra**:
+
+- Lumins x60 (x10)
+- Aniipod Ultra Purchase (Lumins) (x3)
+
+**Budget: 10 money (spent 10.00) — week horizon**
 
 Yields **5x Aniipod Ultra**:
 
@@ -454,6 +582,14 @@ Yields **36x Aniipod Ultra**:
 - Aniipod Ultra Purchase (Glimmer) (x36)
 
 **Budget: 20 money (spent 20.00) — day horizon**
+
+Yields **7x Aniipod Ultra**:
+
+- Lumins x300
+- Lumins x980
+- Aniipod Ultra Purchase (Lumins) (x7)
+
+**Budget: 20 money (spent 20.00) — week horizon**
 
 Yields **11x Aniipod Ultra**:
 
@@ -494,14 +630,22 @@ Yields **57x Aniipod Ultra**:
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
-Yields **30x Aniipod Ultra**:
+Yields **18x Aniipod Ultra**:
 
 - Lumins x3280
-- Premium Custom Pack (x6)
-  - Block 1: Glimmer x300 (x6)
-  - Block 2: Aniipod Ultra x2 (x6)
-  - Block 3: Glimmer x300 (x6)
-- Aniipod Ultra Purchase (Glimmer) (x18)
+- Aniipod Ultra Purchase (Lumins) (x18)
+
+**Budget: 50 money (spent 50.00) — week horizon**
+
+Yields **24x Aniipod Ultra**:
+
+- Lumins x3280
+- Aniipod Ultra Purchase (Lumins) (x6)
+- Premium Custom Pack (x4)
+  - Block 1: Glimmer x300 (x4)
+  - Block 2: Aniipod Ultra x2 (x4)
+  - Block 3: Glimmer x300 (x3), Starcryst Essence x2 (x1)
+- Aniipod Ultra Purchase (Glimmer) (x10)
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
@@ -520,7 +664,7 @@ Yields **45x Aniipod Ultra**:
 
 Yields **75x Aniipod Ultra**:
 
-- Lumins x60 (x10)
+- Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
@@ -533,28 +677,36 @@ Yields **75x Aniipod Ultra**:
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
-Yields **60x Aniipod Ultra**:
+Yields **36x Aniipod Ultra**:
 
 - Lumins x3280 (x2)
-- Premium Custom Pack (x12)
-  - Block 1: Glimmer x300 (x12)
-  - Block 2: Aniipod Ultra x2 (x12)
-  - Block 3: Glimmer x300 (x12)
-- Aniipod Ultra Purchase (Glimmer) (x36)
+- Aniipod Ultra Purchase (Lumins) (x36)
+
+**Budget: 100 money (spent 100.00) — week horizon**
+
+Yields **42x Aniipod Ultra**:
+
+- Lumins x3280 (x2)
+- Aniipod Ultra Purchase (Lumins) (x24)
+- Premium Custom Pack (x4)
+  - Block 1: Glimmer x300 (x4)
+  - Block 2: Aniipod Ultra x2 (x4)
+  - Block 3: Glimmer x300 (x3), Starcryst Essence x2 (x1)
+- Aniipod Ultra Purchase (Glimmer) (x10)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Yields **76x Aniipod Ultra**:
+Yields **67x Aniipod Ultra**:
 
 - Lumins x60 (x5)
 - Lumins x1980 (x3)
 - Monthly Pass
-- Weekly Value Supplies (x2)
-- Premium Custom Pack (x12)
-  - Block 1: Glimmer x300 (x12)
-  - Block 2: Aniipod Ultra x2 (x12)
-  - Block 3: Glimmer x300 (x12)
-- Aniipod Ultra Purchase (Glimmer) (x52)
+- Aniipod Ultra Purchase (Lumins) (x9)
+- Premium Custom Pack (x9)
+  - Block 1: Glimmer x300 (x9)
+  - Block 2: Aniipod Ultra x2 (x9)
+  - Block 3: Glimmer x300 (x8), Starcryst Essence x2 (x1)
+- Aniipod Ultra Purchase (Glimmer) (x40)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
@@ -573,6 +725,49 @@ Yields **106x Aniipod Ultra**:
 
 ### 🌌 Glimmering Driftshadow
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Yields **5x Glimmering Driftshadow**:
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
+- Irisalis Petal (Stamps) (x4)
+- Glimmering Driftshadow (Irisalis petal) (x5)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Yields **20x Glimmering Driftshadow**:
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
+- Irisalis Petal (Stamps) (x16)
+- Glimmering Driftshadow (Irisalis petal) (x20)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **60x Glimmering Driftshadow**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Irisalis Petal (Stamps) (x48)
+- Glimmering Driftshadow (Irisalis petal) (x60)
+
 **Budget: 10 money (spent 10.00) — day horizon**
 
 Yields **4x Glimmering Driftshadow**:
@@ -586,55 +781,58 @@ Yields **4x Glimmering Driftshadow**:
 
 **Budget: 10 money (spent 10.00) — week horizon**
 
-Yields **7x Glimmering Driftshadow**:
+Yields **10x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x300 (x2)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x2)
-- Glimmering Driftshadow (Irisalis petal) (x7)
+- Glimmering Driftshadow (Irisalis petal) (x10)
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
-Yields **30x Glimmering Driftshadow**:
+Yields **42x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x300
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
 - Breezy Mission Letter (x9)
 - Irisalis Petal (Stamps) (x15)
-- Glimmering Driftshadow (Irisalis petal) (x30)
+- Glimmering Driftshadow (Irisalis petal) (x42)
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Yields **66x Glimmering Driftshadow**:
+Yields **102x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x11)
 - Daily Supply Pack (x252)
 - Breezy Mission Letter (x17)
+- Memory - The Faded Rainbow (x24)
 - Irisalis Petal (Stamps) (x47)
-- Glimmering Driftshadow (Irisalis petal) (x66)
+- Glimmering Driftshadow (Irisalis petal) (x102)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -650,16 +848,17 @@ Yields **10x Glimmering Driftshadow**:
 
 **Budget: 20 money (spent 20.00) — week horizon**
 
-Yields **13x Glimmering Driftshadow**:
+Yields **16x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x300
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Value Supplies
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
@@ -667,48 +866,50 @@ Yields **13x Glimmering Driftshadow**:
 - Glimmering Driftshadow Purchase
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x4)
-- Glimmering Driftshadow (Irisalis petal) (x12)
+- Glimmering Driftshadow (Irisalis petal) (x15)
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
-Yields **38x Glimmering Driftshadow**:
+Yields **50x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x3)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
 - Breezy Mission Letter (x12)
 - Irisalis Petal (Stamps) (x16)
-- Glimmering Driftshadow (Irisalis petal) (x38)
+- Glimmering Driftshadow (Irisalis petal) (x50)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **90x Glimmering Driftshadow**:
+Yields **126x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Glimmering Driftshadow Purchase
 - Weekly Value Supplies (x12)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
   - Block 3: Glimmer x300 (x1)
 - Breezy Mission Letter (x26)
 - Irisalis Petal (Stamps) (x48)
-- Glimmering Driftshadow (Irisalis petal) (x89)
+- Glimmering Driftshadow (Irisalis petal) (x125)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -723,67 +924,69 @@ Yields **30x Glimmering Driftshadow**:
 
 **Budget: 50 money (spent 50.00) — week horizon**
 
-Yields **33x Glimmering Driftshadow**:
+Yields **36x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x13)
+- Alpha Challenge (Capability Awakening) (x9)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
-- Glimmering Driftshadow (Irisalis petal) (x32)
+- Glimmering Driftshadow (Irisalis petal) (x35)
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
-Yields **56x Glimmering Driftshadow**:
+Yields **68x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x46)
+- Alpha Challenge (Capability Awakening) (x32)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x6)
 - Breezy Mission Letter (x19)
 - Irisalis Petal (Stamps) (x15)
-- Glimmering Driftshadow (Irisalis petal) (x55)
+- Glimmering Driftshadow (Irisalis petal) (x67)
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Yields **109x Glimmering Driftshadow**:
+Yields **145x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
-- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
+- Memory - The Faded Rainbow (x24)
 - Premium Custom Pack (x5)
   - Block 1: Glimmer x300 (x5)
   - Block 2: Glimmer x300 (x5)
   - Block 3: Glimmer x300 (x5)
 - Breezy Mission Letter (x34)
 - Irisalis Petal (Stamps) (x48)
-- Glimmering Driftshadow (Irisalis petal) (x109)
+- Glimmering Driftshadow (Irisalis petal) (x145)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -798,13 +1001,14 @@ Yields **60x Glimmering Driftshadow**:
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
-Yields **63x Glimmering Driftshadow**:
+Yields **66x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x13)
+- Alpha Challenge (Capability Awakening) (x9)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
@@ -812,57 +1016,63 @@ Yields **63x Glimmering Driftshadow**:
 - Glimmering Driftshadow x10 Purchase (x3)
 - Glimmering Driftshadow Purchase
 - Primegy Purchase
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
-- Glimmering Driftshadow (Irisalis petal) (x32)
+- Glimmering Driftshadow (Irisalis petal) (x35)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Yields **89x Glimmering Driftshadow**:
+Yields **101x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980 (x3)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Glimmering Driftshadow Purchase
 - Weekly Value Supplies
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
   - Block 3: Glimmer x300 (x12)
 - Breezy Mission Letter (x32)
 - Irisalis Petal (Stamps) (x16)
-- Glimmering Driftshadow (Irisalis petal) (x88)
+- Glimmering Driftshadow (Irisalis petal) (x100)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **141x Glimmering Driftshadow**:
+Yields **177x Glimmering Driftshadow**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Glimmering Driftshadow Purchase (x2)
 - Weekly Value Supplies (x10)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Premium Custom Pack (x11)
   - Block 1: Glimmer x300 (x11)
   - Block 2: Glimmer x300 (x11)
   - Block 3: Glimmer x300 (x11)
 - Breezy Mission Letter (x46)
 - Irisalis Petal (Stamps) (x48)
-- Glimmering Driftshadow (Irisalis petal) (x139)
+- Glimmering Driftshadow (Irisalis petal) (x175)
 
 ### 🌠 Radiant Dreamshadow
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -873,11 +1083,10 @@ Yields **3x Radiant Dreamshadow**:
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Yields **4x Radiant Dreamshadow**:
+Yields **6x Radiant Dreamshadow**:
 
 - Monthly Pass (x2)
-- Radiant Dreamshadow Purchase (x2)
-- First Encounter in Light
+- First Encounter in Light (x3)
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
@@ -889,12 +1098,11 @@ Yields **7x Radiant Dreamshadow**:
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **8x Radiant Dreamshadow**:
+Yields **14x Radiant Dreamshadow**:
 
-- Lumins x980
-- Monthly Pass
-- Radiant Dreamshadow Purchase (x6)
-- First Encounter in Light
+- Lumins x300
+- Monthly Pass (x3)
+- First Encounter in Light (x7)
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
@@ -905,13 +1113,11 @@ Yields **18x Radiant Dreamshadow**:
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Yields **19x Radiant Dreamshadow**:
+Yields **29x Radiant Dreamshadow**:
 
-- Lumins x980
-- Lumins x1980
-- Monthly Pass
-- Radiant Dreamshadow Purchase (x17)
-- First Encounter in Light
+- Lumins x3280
+- Radiant Dreamshadow Purchase (x9)
+- First Encounter in Light (x10)
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
@@ -922,14 +1128,17 @@ Yields **36x Radiant Dreamshadow**:
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **37x Radiant Dreamshadow**:
+Yields **47x Radiant Dreamshadow**:
 
-- Lumins x1980 (x3)
-- Monthly Pass (x2)
-- Radiant Dreamshadow Purchase (x35)
-- First Encounter in Light
+- Lumins x3280 (x2)
+- Radiant Dreamshadow Purchase (x27)
+- First Encounter in Light (x10)
 
 ### 🍏 Capafruit
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -998,23 +1207,35 @@ Yields **11x Capafruit**:
 
 - Lumins x300
 - Monthly Pass (x3)
-- Capafruit Purchase (x9)
-- Weekly Value Supplies
-- Premium Custom Pack (x2)
-  - Block 1: Capaseed x10 (x2)
-  - Block 2: Capaseed x10 (x2)
-  - Block 3: Starcryst Essence x2 (x2)
-- Capaseed Exchange (x2)
+- First Encounter in Light (x4)
+- Premium Custom Pack
+  - Block 1: Capaseed x10 (x1)
+  - Block 2: Capaseed x10 (x1)
+  - Block 3: Glimmer x300 (x1)
+- Capafruit Purchase (x10)
+- Capaseed Exchange
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
-Yields **7x Capafruit**:
+Yields **6x Capafruit**:
 
 - Lumins x3280
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
-  - Block 3: Glimmer x300 (x4), Starcryst Essence x2 (x2)
+  - Block 3: Starcryst Essence x2 (x6)
+- Capaseed Exchange (x6)
+
+**Budget: 50 money (spent 50.00) — week horizon**
+
+Yields **7x Capafruit**:
+
+- Lumins x3280
+- Weekly Value Supplies
+- Premium Custom Pack (x6)
+  - Block 1: Capaseed x10 (x6)
+  - Block 2: Capaseed x10 (x6)
+  - Block 3: Glimmer x300 (x3), Starcryst Essence x2 (x3)
 - Capafruit Purchase
 - Capaseed Exchange (x6)
 
@@ -1050,47 +1271,64 @@ Yields **16x Capafruit**:
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
-Yields **15x Capafruit**:
+Yields **12x Capafruit**:
 
 - Lumins x3280 (x2)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Glimmer x300 (x10), Starcryst Essence x2 (x2)
-- Capafruit Purchase (x3)
+  - Block 3: Starcryst Essence x2 (x12)
+- Capaseed Exchange (x12)
+
+**Budget: 100 money (spent 100.00) — week horizon**
+
+Yields **13x Capafruit**:
+
+- Lumins x3280 (x2)
+- Weekly Value Supplies
+- Premium Custom Pack (x12)
+  - Block 1: Capaseed x10 (x12)
+  - Block 2: Capaseed x10 (x12)
+  - Block 3: Glimmer x300 (x3), Starcryst Essence x2 (x9)
+- Capafruit Purchase
 - Capaseed Exchange (x12)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Yields **18x Capafruit**:
+Yields **16x Capafruit**:
 
-- Lumins x300
-- Lumins x1980 (x3)
+- Lumins x980
+- Lumins x1980
+- Lumins x3280
 - Monthly Pass
+- Weekly Value Supplies
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
-  - Block 3: Glimmer x300 (x10), Starcryst Essence x2 (x2)
-- Capafruit Purchase (x6)
+  - Block 3: Glimmer x300 (x3), Starcryst Essence x2 (x9)
+- Capafruit Purchase (x4)
 - Capaseed Exchange (x12)
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
 Yields **24x Capafruit**:
 
-- Lumins x980
-- Lumins x1980 (x2)
+- Lumins x300
+- Lumins x1980
+- Lumins x3280
 - Monthly Pass (x3)
-- Advanced Companion Handbook
-- Weekly Value Supplies (x8)
-- Premium Custom Pack (x10)
-  - Block 1: Capaseed x10 (x10)
-  - Block 2: Capaseed x10 (x10)
-  - Block 3: Glimmer x300 (x8), Starcryst Essence x2 (x2)
-- Capafruit Purchase (x13)
-- Capaseed Exchange (x10)
+- Premium Custom Pack (x12)
+  - Block 1: Capaseed x10 (x12)
+  - Block 2: Capaseed x10 (x12)
+  - Block 3: Glimmer x300 (x10), Starcryst Essence x2 (x2)
+- Capafruit Purchase (x12)
+- Capaseed Exchange (x12)
 
 ### 🍎 Psyche Fruit
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -1227,15 +1465,16 @@ Yields **84x Psyche Fruit**:
 
 Yields **148x Psyche Fruit**:
 
-- Lumins x300 (x2)
+- Lumins x60 (x10)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Weekly Value Supplies (x6)
-- Premium Custom Pack (x4)
-  - Block 1: Glimmer x300 (x4)
-  - Block 2: Glimmer x300 (x4)
-  - Block 3: Glimmer x300 (x4)
+- Weekly Value Supplies (x12)
+- First Encounter in Light
+- Premium Custom Pack (x3)
+  - Block 1: Glimmer x300 (x3)
+  - Block 2: Glimmer x300 (x3)
+  - Block 3: Glimmer x300 (x3)
 - Psyche Fruit Purchase (x140)
 
 **Budget: 100 money (spent 100.00) — day horizon**
@@ -1265,7 +1504,7 @@ Yields **109x Psyche Fruit**:
 
 Yields **140x Psyche Fruit**:
 
-- Lumins x60 (x5)
+- Lumins x300
 - Lumins x1980 (x3)
 - Monthly Pass
 - Weekly Value Supplies (x2)
@@ -1292,6 +1531,46 @@ Yields **205x Psyche Fruit**:
 
 ### 🔷 Vein Essence
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Yields **4x Vein Essence**:
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
+- Vein Essence (Stamps) (x4)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Yields **16x Vein Essence**:
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
+- Vein Essence (Stamps) (x16)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **48x Vein Essence**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Vein Essence (Stamps) (x48)
+
 **Budget: 10 money (spent 10.00) — day horizon**
 
 Yields **3x Vein Essence**:
@@ -1308,16 +1587,17 @@ Yields **9x Vein Essence**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x60 (x10)
-- Alpha Challenge (Capability Awakening) (x15)
+- Alpha Challenge (Capability Awakening) (x11)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Value Supplies
+- Daily Supply Pack (x21)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Vein Essence x3 (x1)
   - Block 3: Starcryst Essence x2 (x1)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 10 money (spent 10.00) — month horizon**
@@ -1327,12 +1607,13 @@ Yields **24x Vein Essence**:
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x182)
+- Alpha Challenge (Capability Awakening) (x168)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x4)
 - Primegy Purchase (x69)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Vein Essence (Stamps) (x16)
 
 **Budget: 10 money (spent 10.00) — season horizon**
@@ -1341,12 +1622,13 @@ Yields **70x Vein Essence**:
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x388)
+- Alpha Challenge (Capability Awakening) (x348)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x11)
 - Primegy Purchase (x128)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Vein Essence (Stamps) (x48)
 
 **Budget: 20 money (spent 20.00) — day horizon**
@@ -1365,13 +1647,14 @@ Yields **6x Vein Essence**:
 Yields **24x Vein Essence**:
 
 - Primegy Restore (AFK) (x7)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Nurturing Delivery (x2)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 20 money (spent 20.00) — month horizon**
@@ -1381,29 +1664,30 @@ Yields **36x Vein Essence**:
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Weekly Nurturing Delivery (x2)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Vein Essence (Stamps) (x16)
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **85x Vein Essence**:
+Yields **82x Vein Essence**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
-- Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x524)
+- Lumins x980
+- Monthly Pass
+- Alpha Challenge (Capability Awakening) (x232)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
+- Weekly Nurturing Delivery
 - Weekly Value Supplies (x12)
-- Primegy Purchase (x196)
-- Departure Gift
-- First Encounter in Light
+- Primegy Purchase (x70)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Vein Essence (Stamps) (x48)
 
 **Budget: 50 money (spent 50.00) — day horizon**
@@ -1422,17 +1706,18 @@ Yields **35x Vein Essence**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x15)
+- Alpha Challenge (Capability Awakening) (x11)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Nurturing Delivery (x2)
 - Weekly Value Supplies
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x3)
   - Block 1: Capaseed x10 (x3)
   - Block 2: Vein Essence x3 (x3)
   - Block 3: Starcryst Essence x2 (x3)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 50 money (spent 50.00) — month horizon**
@@ -1443,13 +1728,14 @@ Yields **72x Vein Essence**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x178)
+- Alpha Challenge (Capability Awakening) (x164)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Nurturing Delivery (x5)
 - Weekly Value Supplies (x3)
 - Primegy Purchase (x67)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Vein Essence (Stamps) (x16)
 
 **Budget: 50 money (spent 50.00) — season horizon**
@@ -1458,14 +1744,15 @@ Yields **116x Vein Essence**:
 
 - Primegy Restore (AFK) (x84)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x154)
+- Alpha Challenge (Capability Awakening) (x114)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Nurturing Delivery (x4)
 - Weekly Value Supplies (x10)
 - Departure Gift
-- Primegy Purchase (x11)
 - Daily Supply Pack (x252)
+- Primegy Purchase (x11)
+- Memory - The Faded Rainbow (x24)
 - Vein Essence (Stamps) (x48)
 
 **Budget: 100 money (spent 100.00) — day horizon**
@@ -1484,17 +1771,18 @@ Yields **53x Vein Essence**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x15)
+- Alpha Challenge (Capability Awakening) (x11)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Nurturing Delivery (x2)
 - Weekly Value Supplies
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x9)
   - Block 1: Capaseed x10 (x9)
   - Block 2: Vein Essence x3 (x9)
   - Block 3: Starcryst Essence x2 (x9)
 - Primegy Purchase (x2)
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Vein Essence (Stamps) (x4)
 
 **Budget: 100 money (spent 100.00) — month horizon**
@@ -1502,16 +1790,18 @@ Yields **53x Vein Essence**:
 Yields **110x Vein Essence**:
 
 - Primegy Restore (AFK) (x28)
-- Lumins x60 (x5)
-- Lumins x1980 (x3)
+- Lumins x980
+- Lumins x1980
+- Lumins x3280
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x182)
+- Alpha Challenge (Capability Awakening) (x168)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Nurturing Delivery (x8)
 - Weekly Value Supplies (x4)
 - Primegy Purchase (x69)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Vein Essence x3 (x2)
@@ -1520,23 +1810,28 @@ Yields **110x Vein Essence**:
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **171x Vein Essence**:
+Yields **170x Vein Essence**:
 
 - Primegy Restore (AFK) (x84)
 - Lumins x1980 (x3)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x394)
+- Alpha Challenge (Capability Awakening) (x364)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Nurturing Delivery (x9)
-- Weekly Value Supplies (x10)
-- Primegy Purchase (x131)
+- Weekly Value Supplies (x12)
+- Primegy Purchase (x136)
 - Departure Gift
-- First Encounter in Light
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Vein Essence (Stamps) (x48)
 
 ### 🎨 Sparkling Pigment
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 0.00) — day horizon**
 
@@ -1629,6 +1924,10 @@ Yields **13x Sparkling Pigment**:
 
 ### 🍬 Phenomena Crystal
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
 **Budget: 10 money (spent 0.00) — day horizon**
 
 _Not affordable at this budget._
@@ -1679,6 +1978,10 @@ Yields **3x Phenomena Crystal**:
 
 ### ♦️ Mark of the Strong
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
 **Budget: 10 money (spent 10.00) — day horizon**
 
 Yields **2x Mark of the Strong**:
@@ -1695,7 +1998,7 @@ Yields **6x Mark of the Strong**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x60 (x10)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Weekly Value Supplies
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
@@ -1711,7 +2014,7 @@ Yields **21x Mark of the Strong**:
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Weekly Value Supplies
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
@@ -1726,7 +2029,7 @@ Yields **36x Mark of the Strong**:
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Weekly Value Supplies (x10)
 - Aniipod Ultra Purchase (Glimmer) (x36)
 - Alpha Catch Report (x36)
@@ -1749,7 +2052,7 @@ Yields **12x Mark of the Strong**:
 - Primegy Restore (AFK) (x7)
 - Lumins x300
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x9)
 - Aniipod Ultra Purchase (Lumins)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
@@ -1765,7 +2068,7 @@ Yields **27x Mark of the Strong**:
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Weekly Value Supplies (x2)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
@@ -1781,7 +2084,7 @@ Yields **58x Mark of the Strong**:
 - Primegy Restore (AFK) (x84)
 - Lumins x300
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Weekly Value Supplies (x5)
 - Aniipod Ultra Purchase (Glimmer) (x48)
 - Champion's Gift
@@ -1819,7 +2122,7 @@ Yields **48x Mark of the Strong**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x37)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Aniipod Ultra x2 (x6)
@@ -1832,11 +2135,11 @@ Yields **48x Mark of the Strong**:
 Yields **82x Mark of the Strong**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x60 (x10)
+- Lumins x300 (x2)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Weekly Value Supplies (x8)
 - Champion's Gift
 - Premium Custom Pack (x2)
@@ -1858,17 +2161,18 @@ Yields **24x Mark of the Strong**:
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
-Yields **66x Mark of the Strong**:
+Yields **58x Mark of the Strong**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x42)
+- Alpha Challenge (Capability Awakening) (x35)
 - Premium Custom Pack (x12)
-  - Block 1: Glimmer x300 (x12)
+  - Block 1: Glimmer x300 (x7), Capaseed x10 (x5)
   - Block 2: Aniipod Ultra x2 (x12)
   - Block 3: Mark of the Strong x2 (x12)
-- Aniipod Ultra Purchase (Glimmer) (x18)
-- Alpha Catch Report (x42)
+- Aniipod Ultra Purchase (Glimmer) (x10)
+- Alpha Catch Report (x34)
+- Primegy Purchase (x2)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
@@ -1896,7 +2200,7 @@ Yields **117x Mark of the Strong**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Weekly Value Supplies (x11)
 - Champion's Gift
 - Premium Custom Pack (x8)
@@ -1907,6 +2211,10 @@ Yields **117x Mark of the Strong**:
 - Alpha Catch Report (x86)
 
 ### 🔶 Starcryst Essence
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — day horizon**
 
@@ -1992,6 +2300,40 @@ Yields **36x Starcryst Essence**:
 
 ### 🟣 Star Sand
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Yields **169x Star Sand**:
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x51)
+- Omega Challenge (Capability Awakening) (x3)
+- Star Dust (Stamps) (x10)
+- Star Dust Exchange (x55)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Yields **678x Star Sand**:
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x204)
+- Omega Challenge (Capability Awakening) (x12)
+- Star Dust (Stamps) (x40)
+- Star Dust Exchange (x222)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **2,035x Star Sand**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x612)
+- Omega Challenge (Capability Awakening) (x36)
+- Star Dust (Stamps) (x120)
+- Star Dust Exchange (x667)
+
 **Budget: 10 money (spent 0.00) — day horizon**
 
 _Not affordable at this budget._
@@ -2053,7 +2395,7 @@ _Not affordable at this budget._
 Yields **294x Star Sand**:
 
 - Primegy Restore (AFK) (x7)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x980
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
@@ -2148,7 +2490,7 @@ Yields **1,176x Star Sand**:
 Yields **3,491x Star Sand**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980
 - Monthly Pass (x3)
 - Weekly Value Supplies (x9)
@@ -2226,20 +2568,61 @@ Yields **3,529x Star Sand**:
 
 ### 🌸 Irisalis Petal
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Yields **10x Irisalis Petal**:
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
+- Irisalis Petal (Stamps) (x4)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Yields **40x Irisalis Petal**:
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
+- Irisalis Petal (Stamps) (x16)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **120x Irisalis Petal**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Irisalis Petal (Stamps) (x48)
+
 **Budget: 10 money (spent 0.00) — day horizon**
 
 _Not affordable at this budget._
 
 **Budget: 10 money (spent 10.00) — week horizon**
 
-Yields **14x Irisalis Petal**:
+Yields **20x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x300 (x2)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
@@ -2249,16 +2632,16 @@ Yields **14x Irisalis Petal**:
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
-Yields **61x Irisalis Petal**:
+Yields **85x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Daily Supply Pack (x84)
-- Companion Handbook Level x5 from EXP (Advanced, Level 70+)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
   - Block 2: Glimmer x300 (x1)
@@ -2268,16 +2651,17 @@ Yields **61x Irisalis Petal**:
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Yields **133x Irisalis Petal**:
+Yields **205x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x11)
 - Daily Supply Pack (x252)
 - Breezy Mission Letter (x17)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x2)
 - Irisalis Petal (Stamps) (x48)
 
@@ -2287,35 +2671,37 @@ _Not affordable at this budget._
 
 **Budget: 20 money (spent 20.00) — week horizon**
 
-Yields **24x Irisalis Petal**:
+Yields **30x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x300
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x13)
+- Alpha Challenge (Capability Awakening) (x9)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
   - Block 3: Glimmer x300 (x2)
 - Primegy Purchase
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x4)
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
-Yields **76x Irisalis Petal**:
+Yields **100x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x3)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x2)
   - Block 1: Glimmer x300 (x2)
   - Block 2: Glimmer x300 (x2)
@@ -2325,16 +2711,18 @@ Yields **76x Irisalis Petal**:
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Yields **178x Irisalis Petal**:
+Yields **250x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Weekly Value Supplies (x11)
+- Weekly Value Supplies (x9)
+- First Encounter in Light
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Companion Handbook Level x5 from EXP (Advanced, Level 70+) (x3)
 - Premium Custom Pack
   - Block 1: Glimmer x300 (x1)
@@ -2349,36 +2737,38 @@ _Not affordable at this budget._
 
 **Budget: 50 money (spent 50.00) — week horizon**
 
-Yields **64x Irisalis Petal**:
+Yields **70x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x13)
+- Alpha Challenge (Capability Awakening) (x9)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Weekly Value Supplies
+- Daily Supply Pack (x21)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
   - Block 3: Glimmer x300 (x5), Starcryst Essence x2 (x1)
 - Primegy Purchase
-- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x12)
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
-Yields **111x Irisalis Petal**:
+Yields **135x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x54)
+- Alpha Challenge (Capability Awakening) (x40)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x5)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x6)
   - Block 1: Glimmer x300 (x6)
   - Block 2: Glimmer x300 (x6)
@@ -2388,17 +2778,18 @@ Yields **111x Irisalis Petal**:
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Yields **218x Irisalis Petal**:
+Yields **290x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x84)
-- Lumins x300
+- Lumins x60 (x5)
 - Lumins x1980
 - Monthly Pass (x3)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Premium Custom Pack (x5)
   - Block 1: Glimmer x300 (x5)
   - Block 2: Glimmer x300 (x5)
@@ -2412,11 +2803,11 @@ _Not affordable at this budget._
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
-Yields **79x Irisalis Petal**:
+Yields **85x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x17)
+- Alpha Challenge (Capability Awakening) (x13)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Premium Custom Pack (x12)
@@ -2425,23 +2816,25 @@ Yields **79x Irisalis Petal**:
   - Block 3: Starcryst Essence x2 (x12)
 - Primegy Purchase (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Irisalis Petal (Stamps) (x4)
 - Breezy Mission Letter (x15)
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Yields **176x Irisalis Petal**:
+Yields **200x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x44)
+- Alpha Challenge (Capability Awakening) (x30)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Weekly Value Supplies (x2)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x12)
   - Block 1: Glimmer x300 (x12)
   - Block 2: Glimmer x300 (x12)
@@ -2451,18 +2844,19 @@ Yields **176x Irisalis Petal**:
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Yields **278x Irisalis Petal**:
+Yields **350x Irisalis Petal**:
 
 - Primegy Restore (AFK) (x84)
 - Lumins x980
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Weekly Value Supplies (x9)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Premium Custom Pack (x10)
   - Block 1: Glimmer x300 (x10)
   - Block 2: Glimmer x300 (x10)
@@ -2471,6 +2865,46 @@ Yields **278x Irisalis Petal**:
 - Irisalis Petal (Stamps) (x48)
 
 ### 💠 Flux Crystal
+
+**Budget: 0 money (spent 0.00) — day horizon**
+
+_Not affordable at this budget._
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Yields **5x Flux Crystal**:
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
+- Flux Crystal (Stamps) (x5)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Yields **20x Flux Crystal**:
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
+- Flux Crystal (Stamps) (x20)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Yields **60x Flux Crystal**:
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Flux Crystal (Stamps) (x60)
 
 **Budget: 10 money (spent 0.00) — day horizon**
 
@@ -2481,10 +2915,11 @@ _Not affordable at this budget._
 Yields **5x Flux Crystal**:
 
 - Primegy Restore (AFK) (x7)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Flux Crystal (Stamps) (x5)
 
 **Budget: 10 money (spent 10.00) — month horizon**
@@ -2494,11 +2929,12 @@ Yields **20x Flux Crystal**:
 - Primegy Restore (AFK) (x28)
 - Lumins x300
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
@@ -2510,10 +2946,11 @@ Yields **20x Flux Crystal**:
 Yields **60x Flux Crystal**:
 
 - Primegy Restore (AFK) (x84)
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Flux Crystal (Stamps) (x60)
 
 **Budget: 20 money (spent 0.00) — day horizon**
@@ -2525,10 +2962,11 @@ _Not affordable at this budget._
 Yields **5x Flux Crystal**:
 
 - Primegy Restore (AFK) (x7)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Flux Crystal (Stamps) (x5)
 
 **Budget: 20 money (spent 20.00) — month horizon**
@@ -2538,11 +2976,12 @@ Yields **20x Flux Crystal**:
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
@@ -2556,11 +2995,13 @@ Yields **60x Flux Crystal**:
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x362)
+- Alpha Challenge (Capability Awakening) (x344)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x115)
+- Primegy Purchase (x126)
+- First Encounter in Light (x3)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Flux Crystal (Stamps) (x60)
 
 **Budget: 50 money (spent 0.00) — day horizon**
@@ -2572,10 +3013,11 @@ _Not affordable at this budget._
 Yields **5x Flux Crystal**:
 
 - Primegy Restore (AFK) (x7)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Flux Crystal (Stamps) (x5)
 
 **Budget: 50 money (spent 50.00) — month horizon**
@@ -2586,29 +3028,34 @@ Yields **20x Flux Crystal**:
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
   - Block 3: Starcryst Essence x2 (x6)
 - Flux Crystal (Stamps) (x20)
 
-**Budget: 50 money (spent 25.00) — season horizon**
+**Budget: 50 money (spent 50.00) — season horizon**
 
 Yields **60x Flux Crystal**:
 
 - Primegy Restore (AFK) (x84)
+- Lumins x300 (x2)
+- Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x482)
+- Alpha Challenge (Capability Awakening) (x470)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x175)
+- Primegy Purchase (x189)
+- First Encounter in Light (x4)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Flux Crystal (Stamps) (x60)
 
 **Budget: 100 money (spent 0.00) — day horizon**
@@ -2620,10 +3067,11 @@ _Not affordable at this budget._
 Yields **5x Flux Crystal**:
 
 - Primegy Restore (AFK) (x7)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Flux Crystal (Stamps) (x5)
 
 **Budget: 100 money (spent 100.00) — month horizon**
@@ -2634,11 +3082,12 @@ Yields **20x Flux Crystal**:
 - Lumins x300
 - Lumins x1980 (x3)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
@@ -2654,24 +3103,66 @@ Yields **60x Flux Crystal**:
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x482)
+- Alpha Challenge (Capability Awakening) (x514)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
-- Primegy Purchase (x175)
+- First Encounter in Light (x10)
+- Primegy Purchase (x211)
 - Daily Supply Pack (x252)
-- Premium Custom Pack (x3)
-  - Block 1: Capaseed x10 (x3)
-  - Block 2: Capaseed x10 (x3)
-  - Block 3: Starcryst Essence x2 (x3)
+- Memory - The Faded Rainbow (x24)
+- Premium Custom Pack
+  - Block 1: Capaseed x10 (x1)
+  - Block 2: Capaseed x10 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Flux Crystal (Stamps) (x60)
 
 ## Overall Best Trades
 
 The highest total fair-priced basket value achievable for each budget, regardless of which items it's made up of.
 
+**Budget: 0 money (spent 0.00) — day horizon**
+
+Total basket value: **0.27 money**
+
+- Primegy Restore (AFK)
+
+**Budget: 0 money (spent 0.00) — week horizon**
+
+Total basket value: **2.97 money**
+
+- Primegy Restore (AFK) (x7)
+- Alpha Challenge (Capability Awakening) (x7)
+- Omega Challenge (Capability Awakening) (x3)
+- Omega Challenge (Resonance) (x3)
+- Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
+
+**Budget: 0 money (spent 0.00) — month horizon**
+
+Total basket value: **11.91 money**
+
+- Primegy Restore (AFK) (x28)
+- Alpha Challenge (Capability Awakening) (x30)
+- Omega Challenge (Capability Awakening) (x12)
+- Omega Challenge (Resonance) (x12)
+- Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
+
+**Budget: 0 money (spent 0.00) — season horizon**
+
+Total basket value: **36.02 money**
+
+- Primegy Restore (AFK) (x84)
+- Alpha Challenge (Capability Awakening) (x92)
+- Omega Challenge (Capability Awakening) (x36)
+- Omega Challenge (Resonance) (x36)
+- Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
+- Legendary Aniipod Crafting
+
 **Budget: 10 money (spent 10.00) — day horizon**
 
-Total basket value: **12.36 money**
+Total basket value: **11.79 money**
 
 - Primegy Restore (AFK)
 - Lumins x60 (x10)
@@ -2682,15 +3173,16 @@ Total basket value: **12.36 money**
 
 **Budget: 10 money (spent 10.00) — week horizon**
 
-Total basket value: **15.03 money**
+Total basket value: **14.48 money**
 
 - Primegy Restore (AFK) (x7)
 - Lumins x60 (x5)
 - Lumins x300
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
@@ -2698,16 +3190,17 @@ Total basket value: **15.03 money**
 
 **Budget: 10 money (spent 10.00) — month horizon**
 
-Total basket value: **30.44 money**
+Total basket value: **29.96 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x60 (x5)
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack
   - Block 1: Capaseed x10 (x1)
   - Block 2: Capaseed x10 (x1)
@@ -2715,21 +3208,23 @@ Total basket value: **30.44 money**
 
 **Budget: 10 money (spent 10.00) — season horizon**
 
-Total basket value: **128.23 money**
+Total basket value: **126.85 money**
 
 - Primegy Restore (AFK) (x84)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x132)
+- Alpha Challenge (Capability Awakening) (x92)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Lightweave Ticket Purchase (Glimmer) (x13)
 - Lightweave Ticket x5 Purchase (Glimmer)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Alpha Catch Report (x3)
+- Legendary Aniipod Crafting
 
 **Budget: 20 money (spent 20.00) — day horizon**
 
-Total basket value: **25.67 money**
+Total basket value: **24.51 money**
 
 - Primegy Restore (AFK)
 - Lumins x60 (x5)
@@ -2741,15 +3236,16 @@ Total basket value: **25.67 money**
 
 **Budget: 20 money (spent 20.00) — week horizon**
 
-Total basket value: **28.34 money**
+Total basket value: **27.21 money**
 
 - Primegy Restore (AFK) (x7)
 - Lumins x60 (x5)
 - Lumins x980
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
@@ -2757,16 +3253,17 @@ Total basket value: **28.34 money**
 
 **Budget: 20 money (spent 20.00) — month horizon**
 
-Total basket value: **43.74 money**
+Total basket value: **42.68 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x2)
   - Block 1: Capaseed x10 (x2)
   - Block 2: Capaseed x10 (x2)
@@ -2774,26 +3271,27 @@ Total basket value: **43.74 money**
 
 **Budget: 20 money (spent 20.00) — season horizon**
 
-Total basket value: **160.30 money**
+Total basket value: **164.10 money**
 
 - Primegy Restore (AFK) (x84)
 - Monthly Pass (x2)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x362)
+- Alpha Challenge (Capability Awakening) (x344)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Lightweave Ticket Purchase (Glimmer) (x20)
 - Lightweave Ticket x5 Purchase (Glimmer)
-- Primegy Purchase (x115)
-- Butterfly Dream - Invitation
 - Butterfly Dream - First Encounter
-- First Encounter in Light
+- First Encounter in Light (x3)
+- Primegy Purchase (x126)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Alpha Catch Report (x3)
+- Legendary Aniipod Crafting
 
 **Budget: 50 money (spent 50.00) — day horizon**
 
-Total basket value: **67.97 money**
+Total basket value: **64.51 money**
 
 - Primegy Restore (AFK)
 - Lumins x3280
@@ -2804,14 +3302,15 @@ Total basket value: **67.97 money**
 
 **Budget: 50 money (spent 50.00) — week horizon**
 
-Total basket value: **70.64 money**
+Total basket value: **67.20 money**
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
@@ -2819,17 +3318,18 @@ Total basket value: **70.64 money**
 
 **Budget: 50 money (spent 50.00) — month horizon**
 
-Total basket value: **85.74 money**
+Total basket value: **82.38 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x6)
   - Block 1: Capaseed x10 (x6)
   - Block 2: Capaseed x10 (x6)
@@ -2837,29 +3337,29 @@ Total basket value: **85.74 money**
 
 **Budget: 50 money (spent 50.00) — season horizon**
 
-Total basket value: **226.34 money**
+Total basket value: **231.67 money**
 
 - Primegy Restore (AFK) (x84)
 - Lumins x60 (x10)
 - Lumins x980
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x482)
+- Alpha Challenge (Capability Awakening) (x470)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Lightweave Ticket Purchase (Glimmer) (x20)
 - Lightweave Ticket x5 Purchase (Glimmer)
-- Primegy Purchase (x175)
-- Butterfly Dream - Invitation
-- Butterfly Dream - First Encounter
 - Weekly Nurturing
-- First Encounter in Light
+- First Encounter in Light (x4)
+- Primegy Purchase (x189)
 - Daily Supply Pack (x252)
+- Memory - The Faded Rainbow (x24)
 - Alpha Catch Report (x3)
+- Legendary Aniipod Crafting
 
 **Budget: 100 money (spent 100.00) — day horizon**
 
-Total basket value: **135.66 money**
+Total basket value: **128.74 money**
 
 - Primegy Restore (AFK)
 - Lumins x3280 (x2)
@@ -2870,14 +3370,15 @@ Total basket value: **135.66 money**
 
 **Budget: 100 money (spent 100.00) — week horizon**
 
-Total basket value: **138.33 money**
+Total basket value: **131.44 money**
 
 - Primegy Restore (AFK) (x7)
 - Lumins x3280 (x2)
-- Alpha Challenge (Capability Awakening) (x11)
+- Alpha Challenge (Capability Awakening) (x7)
 - Omega Challenge (Capability Awakening) (x3)
 - Omega Challenge (Resonance) (x3)
 - Daily Supply Pack (x21)
+- Memory - The Faded Rainbow (x2)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
@@ -2885,18 +3386,19 @@ Total basket value: **138.33 money**
 
 **Budget: 100 money (spent 100.00) — month horizon**
 
-Total basket value: **153.43 money**
+Total basket value: **146.61 money**
 
 - Primegy Restore (AFK) (x28)
 - Lumins x980
 - Lumins x1980
 - Lumins x3280
 - Monthly Pass
-- Alpha Challenge (Capability Awakening) (x164)
+- Alpha Challenge (Capability Awakening) (x150)
 - Omega Challenge (Capability Awakening) (x12)
 - Omega Challenge (Resonance) (x12)
 - Primegy Purchase (x60)
 - Daily Supply Pack (x84)
+- Memory - The Faded Rainbow (x8)
 - Premium Custom Pack (x12)
   - Block 1: Capaseed x10 (x12)
   - Block 2: Capaseed x10 (x12)
@@ -2904,29 +3406,30 @@ Total basket value: **153.43 money**
 
 **Budget: 100 money (spent 100.00) — season horizon**
 
-Total basket value: **317.23 money**
+Total basket value: **338.03 money**
 
 - Primegy Restore (AFK) (x84)
 - Lumins x980
 - Lumins x1980 (x2)
 - Monthly Pass (x3)
 - Advanced Companion Handbook
-- Alpha Challenge (Capability Awakening) (x482)
+- Alpha Challenge (Capability Awakening) (x514)
 - Omega Challenge (Capability Awakening) (x36)
 - Omega Challenge (Resonance) (x36)
 - Lightweave Ticket Purchase (Glimmer) (x20)
 - Lightweave Ticket x5 Purchase (Glimmer)
-- Primegy Purchase (x175)
-- Butterfly Dream - Invitation
 - Butterfly Dream - First Encounter
 - Weekly Nurturing (x2)
-- First Encounter in Light
+- First Encounter in Light (x10)
+- Primegy Purchase (x211)
 - Daily Supply Pack (x252)
-- Premium Custom Pack (x3)
-  - Block 1: Capaseed x10 (x3)
-  - Block 2: Capaseed x10 (x3)
-  - Block 3: Starcryst Essence x2 (x3)
+- Memory - The Faded Rainbow (x24)
+- Premium Custom Pack
+  - Block 1: Capaseed x10 (x1)
+  - Block 2: Capaseed x10 (x1)
+  - Block 3: Starcryst Essence x2 (x1)
 - Alpha Catch Report (x3)
+- Legendary Aniipod Crafting
 
 ## Methodology
 

@@ -379,9 +379,9 @@ trades:
       lumins: 180
     out:
       radiant_dreamshadow: 2
-      vein_essence: 5
+      glimmer: 180
       credits: 100000
-    per_season: 1
+    per_season: 10
   # Outpost exchange
   daily_supply_pack:
     name: Daily Supply Pack
@@ -512,6 +512,12 @@ trades:
       irisalis_petal: 2
     out:
       glimmering_driftshadow: 1
+  legendary_aniipod_crafting:
+    name: Legendary Aniipod Crafting
+    in:
+      irisalis_petal: 50
+    out:
+      sparkling_cube: 1
   # Misc
   memory_faded_rainbow:
     name: Memory - The Faded Rainbow

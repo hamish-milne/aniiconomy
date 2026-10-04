@@ -581,7 +581,7 @@ def _build_trade_entries(recipe: dict[str, float], trades: dict[str, dict]) -> l
     return entries
 
 
-def generate_report_data(yaml_data: dict, time_horizon="month", budgets=(10, 20, 50, 100)) -> dict:
+def generate_report_data(yaml_data: dict, time_horizon="month", budgets=(0, 10, 20, 50, 100)) -> dict:
     """Runs every solve and returns a plain-data structure, independent of markdown/any other output format."""
     items = yaml_data['items']
     trades = yaml_data['trades']
